@@ -55,7 +55,7 @@
 		.append("svg")
 			.attr("id", "points_container");   // The id of the svg is points_container
 
-	d3.json("../Datasets-20211101/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
 
 		console.log(data);   // Always check if the data was correctly loaded!
 
