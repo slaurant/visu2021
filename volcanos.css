@@ -1,3 +1,14 @@
+.Element {
+    width: 500px;
+    height: 200px;
+    border:solid;
+    border-color: gray;
+    border-radius: 5%;
+    border-width: 2px;
+    padding: 50px;
+    display: block;
+}
+
 
 #map { 
     width: 1000px;   /* Dimensions of the map element */
