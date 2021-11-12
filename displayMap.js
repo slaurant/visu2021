@@ -15,7 +15,7 @@
 								coordinates : [points[i].longitude, points[i].latitude]   // The longitude and latitude must be specified longitude first, which is a little confusing as latitude usually comes first
 							},
 							properties : { // The properties contain any other information on the point
-								name : points[i]["name"]
+								country : points[i]["country"]
 								   // In this case, I have specified the name but you can add any property you wish
 							}
 						}
@@ -56,8 +56,11 @@
 			.attr("id", "points_container");   // The id of the svg is points_container
 
 	d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		
+		var dataFiltered = data.filter(x => x.deaths > 0)
 
-		console.log(data);   // Always check if the data was correctly loaded!
+		data
+		console.log(dataFiltered);   // Always check if the data was correctly loaded!
 
 		// Wait before map is loaded before adding the layer to it
 
@@ -66,19 +69,19 @@
 			// The points in data are transformed in features using the function defined earlier
 			// The features are wrapped inside a feature collection
 
-			let featurecollection = {type : "FeatureCollection", features : getGeoJSON(data)};
-			console.log(featurecollection)
+			let earthquakes_events = {type : "FeatureCollection", features : getGeoJSON(dataFiltered)};
+			console.log(earthquakes_events)
 			// A layer holding the visual elements is added to the map
 			
-			map.addSource('volcanos', {   // Data
+			map.addSource('earthquakes', {   // Data
 					type: "geojson",   // Type of data
-					data: featurecollection   // letiable holding the feature collection
+					data: earthquakes_events   // letiable holding the feature collection
 				})
 
 			map.addLayer({
-				id: "volcanos",   // Layer id
+				id: "earthquakes",   // Layer id
 				type: "circle",   // Type of the visual elements representing the museums
-				source: 'volcanos',
+				source: 'earthquakes',
 				paint: {   // Style of the visual elements (circles)
 					"circle-radius": 5,   // Radius
 					"circle-color": "#0082a3",   // Fill color
@@ -88,11 +91,11 @@
 				}
 			});
 		
-			map.on('click', 'volcanos', (e)=>{
-				console.log("you clicked on " + e.features[0].properties.name)
+			map.on('click', 'earthquakes', (e)=>{
+				console.log("you clicked on an earthquake in " + e.features[0].properties.country)
 			})
 
-			map.on('mouseenter', 'volcanos', () => {
+			map.on('mouseenter', 'earthquakes', () => {
 				map.getCanvas().style.cursor = 'pointer';
 		});
 
