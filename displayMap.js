@@ -63,9 +63,6 @@ d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the
 	
 	var dataFiltered = data.filter(x => x.deaths > 0)
 
-	data
-	console.log(dataFiltered);   // Always check if the data was correctly loaded!
-
 	// Wait before map is loaded before adding the layer to it
 
 	map.on("load", function(){
@@ -74,7 +71,6 @@ d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the
 		// The features are wrapped inside a feature collection
 
 		let earthquakes_events = {type : "FeatureCollection", features : getGeoJSON(dataFiltered)};
-		console.log(earthquakes_events)
 		// A layer holding the visual elements is added to the map
 		
 		map.addSource('earthquakes', {   // Data
@@ -124,7 +120,6 @@ d3.json("Datasets/tsunamis_events.json", function(data){   // The code in the fu
 	var dataFiltered = data.filter(x => x.deaths > 0)
 
 	
-	console.log(dataFiltered);   // Always check if the data was correctly loaded!
 
 	// Wait before map is loaded before adding the layer to it
 
@@ -134,7 +129,6 @@ d3.json("Datasets/tsunamis_events.json", function(data){   // The code in the fu
 		// The features are wrapped inside a feature collection
 
 		let tsunamis_events = {type : "FeatureCollection", features : getGeoJSON(dataFiltered)};
-		console.log(tsunamis_events)
 		// A layer holding the visual elements is added to the map
 		
 		map.addSource('tsunamis', {   // Data

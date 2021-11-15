@@ -5,21 +5,31 @@
 		<title>Almanach</title>   <!-- Set the title of the page here -->
 		<link rel='stylesheet' href='Almanach.css'> <!-- Link to stylesheet-->
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet'></link>   <!-- Import of the styles from Mapbox -->
+
 	</head>
 
 	<body>
 
 		<h1>Almanach</h1>
-		<div id="map"></div>   <!-- Working example - Map with points -->
-		<div id="filters" class="Element">Filters</div>
+		<div id="mapbox" class="Element" >
+			<div id="map"></div>
+			<div id="legend">
+				<h1>legend</h1>
+			</div>
+		</div> 
+		<div id="filters" class="Element">
+			<h1>Filters</h1>
+		</div>
+		<div id='eventCard' class="Element">Event cart content!</div>
+	 
 		<div id='Tops'class="Element">Tops</div>
-		
+	
 		
 		<!-- scripts-->
 		<script src="https://d3js.org/d3.v3.min.js"></script>   <!-- d3.js import -->
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
-
+		<script src="eventCard.js"></script>
 
 	</body>
 </html>

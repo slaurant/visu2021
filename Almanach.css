@@ -1,20 +1,31 @@
+
+h1 {
+    text-align: center;
+}
+
 .Element {
-    width: 500px;
-    height: 200px;
-    border:solid;
-    border-color: gray;
+    height: 500px;
+    margin: 5px;
+    float: left;
+    border: 2px solid darkgray;
     border-radius: 5%;
-    border-width: 2px;
-    padding: 50px;
-    display: block;
+    width: 60%;
+    padding: 10px;
 }
 
-
-#map { 
-    width: 1000px;   /* Dimensions of the map element */
-    height: 600px;
+#filters {
+    width: 30%;
 }
 
+#map {
+    height:80%;
+}
+
+#legend {
+    height: 20%;
+    text-align: center;
+    padding: 20px;
+}
 /* CSS code for the elements that have the class dot */
 
 .dot {
@@ -27,8 +38,4 @@
 
 /* CSS code for the element that has the id points_container */
 
-#points_container {
-    width: 100%;   /* Width of the element is 100% of the width of its parent */
-    height: 100%;   /* Height of the element is 100% of the width of its parent */
-}
 
