@@ -26,6 +26,10 @@ h1 {
     text-align: center;
     padding: 20px;
 }
+
+.checkBox {
+    background-color:darkgray;
+}
 /* CSS code for the elements that have the class dot */
 
 .dot {

@@ -17,7 +17,7 @@ function getGeoJSON(points){
 						properties : { // The properties contain any other information on the point
 							country : points[i]["country"],
 								// In this case, I have specified the name but you can add any property you wish
-							deaths : points[i]["deaths"]
+							deathOrder : points[i]["deathsAmountOrder"]
 						}
 					}
 
@@ -59,40 +59,31 @@ const svg = d3.select(container)
 
 // 1. EARTHQUAKES
 
-d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+function addLayers(data, eventType, dotColor){
 	
-	var dataFiltered = data.filter(x => x.deaths > 0)
-
-	// Wait before map is loaded before adding the layer to it
-
 	map.on("load", function(){
 
 		// The points in data are transformed in features using the function defined earlier
 		// The features are wrapped inside a feature collection
 
-		let earthquakes_events = {type : "FeatureCollection", features : getGeoJSON(dataFiltered)};
+		let events = {type : "FeatureCollection", features : getGeoJSON(data)};
 		// A layer holding the visual elements is added to the map
 		
-		map.addSource('earthquakes', {   // Data
+		map.addSource(eventType, {   // Data
 				type: "geojson",   // Type of data
-				data: earthquakes_events   // letiable holding the feature collection
+				data: events   // letiable holding the feature collection
 			})
 
 		map.addLayer({
-			id: "earthquakes",   // Layer id
+			id: eventType,   // Layer id
 			type: "circle",   // Type of the visual elements representing the museums
-			source: 'earthquakes',
+			source: eventType,
 			paint: {   // Style of the visual elements (circles)
 				"circle-radius": {
-					property : 'deaths', 
-					stops: [
-						[900,1], 
-						[1000,3],
-						[4000,6], 
-						[10000,10]
-					]
+					property: "deathOrder",
+					stops: [[1,1],[2,4],[3,10],[4,15]]
 				},   // Radius
-				"circle-color": "#52BE80",   // Fill color
+				"circle-color": dotColor,   // Fill color
 				"circle-opacity": 0.6,   // Opacity (0 is transparent, 1 is opaque)
 				"circle-stroke-width": 1,   // Width of the circles border
 				"circle-stroke-color": "#004d60"   // Color of the circles border
@@ -109,62 +100,13 @@ d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the
 
 	});
 
+};
+
+d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "earthquakes", dotColor = "#52BE80")
 });
-
-
-
-// 2. TSUNAMIS
 
 d3.json("Datasets/tsunamis_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	
-	var dataFiltered = data.filter(x => x.deaths > 0)
-
-	
-
-	// Wait before map is loaded before adding the layer to it
-
-	map.on("load", function(){
-
-		// The points in data are transformed in features using the function defined earlier
-		// The features are wrapped inside a feature collection
-
-		let tsunamis_events = {type : "FeatureCollection", features : getGeoJSON(dataFiltered)};
-		// A layer holding the visual elements is added to the map
-		
-		map.addSource('tsunamis', {   // Data
-				type: "geojson",   // Type of data
-				data: tsunamis_events   // letiable holding the feature collection
-			})
-
-		map.addLayer({
-			id: "tsunamis",   // Layer id
-			type: "circle",   // Type of the visual elements representing the museums
-			source: 'tsunamis',
-			paint: {   // Style of the visual elements (circles)
-				"circle-radius": {
-					property : 'deaths', 
-					stops: [
-						[900,1], 
-						[1000,3],
-						[4000,6], 
-						[10000,10]
-					]
-				},   // Radius
-				"circle-color": "#3498DB",   // Fill color
-				"circle-opacity": 0.6,   // Opacity (0 is transparent, 1 is opaque)
-				"circle-stroke-width": 1,   // Width of the circles border
-				"circle-stroke-color": "#004d60"   // Color of the circles border
-			}
-		});
-	
-		map.on('click', 'tsunamis', (e)=>{
-			console.log("you clicked on an tsunami in " + e.features[0].properties.country + " - # deaths = " + e.features[0].properties.deaths)
-		})
-
-		map.on('mouseenter', 'tsunamis', () => {
-			map.getCanvas().style.cursor = 'pointer';
-	});
-
-	});
-
+	addLayers(data, "tsunamis", dotColor = "#2471A3")
 });
+
