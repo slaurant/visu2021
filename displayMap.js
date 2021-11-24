@@ -25,7 +25,7 @@ function getGeoJSON(points){
 	}
 
 	return features;
-}
+};
 
 // An API access token is required to use the API. Replace with your own. You can request your own on the Mapbox website
 
@@ -57,8 +57,7 @@ const svg = d3.select(container)
 		.attr("id", "points_container");   // The id of the svg is points_container
 
 
-// 1. EARTHQUAKES
-
+/// function to add layer to the map
 function addLayers(data, eventType, dotColor){
 	
 	map.on("load", function(){
@@ -74,7 +73,7 @@ function addLayers(data, eventType, dotColor){
 				data: events   // letiable holding the feature collection
 			})
 
-		map.addLayer({
+		map.addLayer({  
 			id: eventType,   // Layer id
 			type: "circle",   // Type of the visual elements representing the museums
 			source: eventType,
@@ -102,11 +101,20 @@ function addLayers(data, eventType, dotColor){
 
 };
 
-d3.json("Datasets/earthquakes_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+
+
+d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
 	addLayers(data, "earthquakes", dotColor = "#52BE80")
 });
 
-d3.json("Datasets/tsunamis_events.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "tsunamis", dotColor = "#2471A3")
+d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "tsunamis", dotColor = "#2E86C1")
 });
+
+ d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "volcanos", dotColor = "#A93226")
+});
+
+
+
 
