@@ -47,3 +47,10 @@ h1 {
 /* CSS code for the element that has the id points_container */
 
 
+li {
+    text-align: center;
+    display: inline;
+    padding: 10px;
+  }
+  
+
