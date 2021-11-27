@@ -20,13 +20,29 @@
 		<!-- filter box-->
 		<div id="filters" class="Element">
 			<h1>Filters</h1>
-			<ul>
+			<ul id="CheckBoxes">
 				<li><input id="tsunamisCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Tsunamis</li>
 				<li><input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Earthquakes</li>
 				<li><input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Eruptions</li>
 			</ul>
 		<!-- Double range slider (flat design)  -->
-			<p>minimum # deaths : <input id="minDeaths" type="number" value=1 min=1 max =4 step=1></p>
+			<p>minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1></p>
+			<p>Cause of Tsunami : 
+				<select id = "tsunamisSourceFilter">  
+					<option value=''>All</option>  
+					<option value="0"> Unkown</option>  
+					<option value="1">Earthquake</option>
+					<option value="2"> Questionable Earthquake </option>  
+					<option value="3"> Earthquake and Landslide </option>  
+					<option value="4"> Volcano and Earthquake </option>  
+					<option value="6">Volcano</option> 
+					<option value="7">Volcano and Landslide</option>
+					<option value="8">Landslide</option>
+					<option value="9">Meteorological</option>
+					<option value="10">Explosion</option>
+					<option value="11">Astronomical Tide</option>
+				</select>  
+			</p>
 		</div>
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
@@ -41,7 +57,7 @@
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
 		<!--<script src="eventCard.js"></script>-->
-
+		
 	</body>
 </html>
 

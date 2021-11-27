@@ -22,7 +22,8 @@ function getGeoJSON(points){
 						properties : { // The properties contain any other information on the point
 							country : points[i]["country"],
 								// In this case, I have specified the name but you can add any property you wish
-							deathOrder : points[i]["deathsAmountOrder"]
+							deathOrder : points[i]["deathsAmountOrder"],
+							cause: points[i]["causeCode"]
 						}
 					}
 
@@ -112,7 +113,7 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 			});
 
 		
-		var minDeaths = document.getElementById("minDeaths")
+		var minDeaths = document.getElementById("minDeathsFilter")
 
 		minDeaths.addEventListener("change", function(event){
 			const minDeath = parseInt(event.target.value);
@@ -139,6 +140,24 @@ d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   //
 	addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
 });
 
+function changeFilter(layer, property, value){
+	
+}
 
+
+/// Add tsunamis source filter
+var tsunamisSource = document.getElementById("tsunamisSourceFilter")
+
+
+tsunamisSource.addEventListener("change", function(){
+
+	var minDeathsFilter = document.getElementById("minDeathsFilter")
+	var tsunamisSource = document.getElementById("tsunamisSourceFilter")
+	const sourceValue = parseInt(tsunamisSource.value);
+	const minDeaths = parseInt(minDeathsFilter.value)
+	sourcefilter = ['==', ['number', ['get', "cause"]], sourceValue];
+	minDeathsFilter = ['>=', ['number', ['get', 'deathOrder']], minDeaths];
+	map.setFilter("tsunamis", ["all", sourcefilter, minDeathsFilter])
+})
 
 
