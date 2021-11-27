@@ -112,38 +112,33 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 			});
 
 		
-		
+		var minDeaths = document.getElementById("minDeaths")
+
+		minDeaths.addEventListener("change", function(event){
+			const minDeath = parseInt(event.target.value);
+			filterDeaths = ['>=', ['number', ['get', 'deathOrder']], minDeath];
+			map.setFilter(eventType, filterDeaths)
+			
+		});
 			
 	});
 
 };
 
-function displayMap(){
 
 
-
-	d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
-	});
-
-	d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
-	});
-
-	d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
-	});
-
-}
-displayMap()
-
-var minDeaths = document.getElementById("minDeaths")
-
-minDeaths.addEventListener("change", function(event){
-	const minDeath = parseInt(event.target.value);
-	filterDeaths = ['>=', ['number', ['get', 'deathOrder']], minDeath];
-	for(const eventType of ["tsunamis", "earthquakes", "eruptions"]){
-		map.setFilter(eventType, filterDeaths)
-	}
+d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
 });
+
+d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
+});
+
+d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+	addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
+});
+
+
+
 
