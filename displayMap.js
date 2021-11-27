@@ -22,7 +22,9 @@ function getGeoJSON(points){
 						properties : { // The properties contain any other information on the point
 							country : points[i]["country"],
 								// In this case, I have specified the name but you can add any property you wish
-							deathOrder : points[i]["deathsAmountOrder"]
+							deathOrder : points[i]["deathsAmountOrder"], 
+							year : points[i]["year"]
+
 						}
 					}
 
