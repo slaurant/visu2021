@@ -25,11 +25,31 @@
 				<li><input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Earthquakes</li>
 				<li><input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Eruptions</li>
 			</ul>
-		<!-- Double range slider (flat design)  -->
-			<p>minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1></p>
-			<p>Cause of Tsunami : 
+	
+			<div class="filter">minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1>
+			</div>
+			
+			<div class="filter">Minimum amount of damage ($): <br>
+				<select id = "damageFilter">  
+					<option value='0'>None</option>
+					<option value='1'>Limited (<$1 million)</option> 
+					<option value='2'>Moderate (~$1 to $5 million)</option>						
+					<option value='3'>Severe (~>$5 to $24 million)</option>
+					<option value='4'> Extreme (~$25 million or more)</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiValidityDiv'>Tsunami minimum validity : <br>
+				<select id = "tsunamisValidityFilter">  
+					<option value='0'>Any</option>
+					<option value='1'>Very Doubtful Tsunami</option> 
+					<option value='2'> Questionable Tsunami</option>
+					<option value='3'>Probable Tsunami</option>						
+					<option value='4'> Definite Tsunami</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiCauseDiv'>Cause of Tsunami : <br>
 				<select id = "tsunamisSourceFilter">  
-					<option value=''>All</option>  
+					<option value='-1'>All</option>  
 					<option value="0"> Unkown</option>  
 					<option value="1">Earthquake</option>
 					<option value="2"> Questionable Earthquake </option>  
@@ -42,8 +62,9 @@
 					<option value="10">Explosion</option>
 					<option value="11">Astronomical Tide</option>
 				</select>  
-			</p>
+			</div>
 		</div>
+		
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
 			<h1>Tops</h1>
