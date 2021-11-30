@@ -2,8 +2,7 @@ function filterBy(year1, year2) {
 	const filterYears1 = ['>=', ['number', ['get', 'year']], year1];
 	const filterYears2 = ['<=', ['number', ['get', 'year']], year2];
 	for(const eventType of ["tsunamis", "earthquakes", "eruptions"]){
-		map.setFilter(eventType, filterYears1)
-		map.setFilter(eventType, filterYears2)
+		map.setFilter(eventType, ["all", filterYears1, filterYears2])
 	}}
   
 
@@ -19,8 +18,8 @@ $(document).ready(function(){
         }
       });
       $( "#amount" ).text( "" + $( "#slider-range" ).slider( "values", 0 ) +
-        " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+        " - " + $( "#slider-range" ).slider( "values", 1 ) );
 });
 
-
+//https://jqueryui.com/slider/#range
 
