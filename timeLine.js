@@ -1,10 +1,4 @@
-function filterBy(year1, year2) {
-	const filterYears1 = ['>=', ['number', ['get', 'year']], year1];
-	const filterYears2 = ['<=', ['number', ['get', 'year']], year2];
-	for(const eventType of ["tsunamis", "earthquakes", "eruptions"]){
-		map.setFilter(eventType, ["all", filterYears1, filterYears2])
-	}
-}
+
 
 function setTimelinePeriod(min, max) {
   // update slider
@@ -12,16 +6,16 @@ function setTimelinePeriod(min, max) {
   sliderElement.slider( "option", "min", min );
   sliderElement.slider( "option", "max", max );
   sliderElement.slider( "option", "values", [min, max] );
-
+  console.log(sliderElement.slider( "option", "values"))
   // update text
   $( "#amount" ).text(min + " ➞ " + max );
   // update map
-  filterBy(min, max);
+  filterMap();
 }
-  
+
 
 $(document).ready(function(){
-  const sliderElement = $( "#slider-range" )
+  sliderElement = $( "#slider-range" )
   sliderElement.slider({
       range: true,
       min: -2000,
@@ -29,7 +23,8 @@ $(document).ready(function(){
       values: [ -2000, 2021 ],
       slide: function( event, ui ) {
         $( "#amount" ).text( "" + ui.values[ 0 ] + " ➞ " + ui.values[ 1 ] );
-        filterBy(ui.values[ 0 ],ui.values[ 1 ]  );
+        filterMap(  );
+        
       }
     });
     $( "#amount" ).text("-2000 ➞ 2021");
@@ -54,4 +49,3 @@ $(document).ready(function(){
 });
 
 //https://jqueryui.com/slider/#range
-

@@ -4,7 +4,7 @@ h1 {
 }
 
 .Element {
-    height: 900px;
+    height: 600px;
     margin: 5px;
     float: left;
     border: 2px solid darkgray;
@@ -25,9 +25,38 @@ h1 {
     width: 30%;
 }
 
+#timeline {
+    margin: 50px;
+    width:80%;
+    height:150px;
+    padding:5px;
+    text-align: center;
+}
+
+#slider-range {
+    background-color:rgba(0, 0, 0, 0.562);
+    margin:20px;
+    height: 30px;
+    padding:5px;
+    left:200px;
+}
+#slider-range .ui-slider-handle {
+    width:1em;
+    height: 3em;
+    left:-.6em;
+    text-decoration:none;
+    text-align:center;
+}
+
+#slider-range .ui-slider-range {
+
+    background: #ccc;
+  }
+
 #map {
     height:80%;
 }
+
 
 #legend {
     height: 20%;
