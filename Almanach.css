@@ -44,6 +44,41 @@ h1 {
     stroke-width: 1;   /* Border width in pixels */
 }
 
-/* CSS code for the element that has the id points_container */
+.bar {
+    fill: royalblue;   /* Colors the bars of the bar chart in steelblue */
+}
+
+/* CSS code for the text elements inside an element that has the axis class */
+
+.axis text {
+    font: 10px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */
+}
+
+/* CSS code for the path elements inside an element that has the axis class */
+
+.axis path {
+    fill: none;   /* Otherwise, the axis would look like a thick line */
+    stroke: #000000;   /* Sets the color of the axis to black */
+}
+
+/* CSS code for the element that has the id barchart */
+
+#barchart {
+    width: 750px;   /* Dimensions of the barchart element */
+    height: 450px;   /* Note : barchart is an svg, thus it is important to set its size, otherwise the elements inside it won't appear */
+}
+.button {
+    background-color: royalblue;   /* The buttons are colored in steelblue */
+    border: none;   /* The buttons have no border */
+    color: white;   /* The text inside the buttons is white */
+    padding: 15px 32px;   /* Defines the space in pixels between the text inside the buttons and their edges */
+    text-align: center;   /* The text inside the buttons is centered */
+    font-size: 16px;   /* Font size of the text inside the buttons */
+}
+
+#buttons_container{
+    width: 1000px;   /* Dimensions of the buttons_container element */
+    text-align: center;   /* Centers the contents of the buttons_container element */
+}
 
 
