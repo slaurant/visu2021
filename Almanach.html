@@ -33,6 +33,7 @@
 		<!-- filter box-->
 		<div id="filters" class="Element">
 			<h1>Filters</h1>
+
 			<ul>
 				<li>
 					<label for="tsunamisCheck">Tsunami</label>
@@ -46,10 +47,48 @@
 					<label for="eruptionsCheck">Eruptions</label>
 					<input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
 				</li>
+
 			</ul>
-		<!-- Double range slider (flat design)  -->
-			<p>minimum # deaths : <input id="minDeaths" type="number" value=1 min=1 max =4 step=1></p>
+	
+			<div class="filter">minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1>
+			</div>
+			
+			<div class="filter">Minimum amount of damage ($): <br>
+				<select id = "damageFilter">  
+					<option value='0'>None</option>
+					<option value='1'>Limited (<$1 million)</option> 
+					<option value='2'>Moderate (~$1 to $5 million)</option>						
+					<option value='3'>Severe (~>$5 to $24 million)</option>
+					<option value='4'> Extreme (~$25 million or more)</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiValidityDiv'>Tsunami minimum validity : <br>
+				<select id = "tsunamisValidityFilter">  
+					<option value='0'>Any</option>
+					<option value='1'>Very Doubtful Tsunami</option> 
+					<option value='2'> Questionable Tsunami</option>
+					<option value='3'>Probable Tsunami</option>						
+					<option value='4'> Definite Tsunami</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiCauseDiv'>Cause of Tsunami : <br>
+				<select id = "tsunamisSourceFilter">  
+					<option value='-1'>All</option>  
+					<option value="0"> Unkown</option>  
+					<option value="1">Earthquake</option>
+					<option value="2"> Questionable Earthquake </option>  
+					<option value="3"> Earthquake and Landslide </option>  
+					<option value="4"> Volcano and Earthquake </option>  
+					<option value="6">Volcano</option> 
+					<option value="7">Volcano and Landslide</option>
+					<option value="8">Landslide</option>
+					<option value="9">Meteorological</option>
+					<option value="10">Explosion</option>
+					<option value="11">Astronomical Tide</option>
+				</select>  
+			</div>
 		</div>
+		
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
 			<h1>Tops</h1>
@@ -63,7 +102,9 @@
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
 		<!--<script src="eventCard.js"></script>-->
+
 		<script src="timeLine.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
+
 
 	</body>
 </html>
