@@ -94,13 +94,22 @@
 			<h1>Tops</h1>
 		</div>
 		<div id='Histogram' class="Element">
-			<h1>Histogram</h1>
+			<h1>Bar chart</h1>
+
+			<svg id="barchart"></svg>
+			
+			<div id="buttons_container">
+				<button id="volcano" class="button">Volcano</button>
+				<button id="tsunamis" class="button">Tsunami</button>
+				<button id="earthquakes" class="button">Earthquake</button>
+			</div>
 		</div>
 		
 		<!-- scripts-->
 		<script src="https://d3js.org/d3.v3.min.js"></script>   <!-- d3.js import -->
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
+		<script src="barChart.js"></script>
 		<!--<script src="eventCard.js"></script>-->
 
 		<script src="timeLine.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
@@ -108,5 +117,3 @@
 
 	</body>
 </html>
-
-
