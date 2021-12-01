@@ -45,7 +45,7 @@ h1 {
 }
 
 .bar {
-    fill: royalblue;   /* Colors the bars of the bar chart in steelblue */
+    fill: silver;   /* Colors the bars of the bar chart in steelblue */
 }
 
 /* CSS code for the text elements inside an element that has the axis class */
@@ -68,17 +68,39 @@ h1 {
     height: 450px;   /* Note : barchart is an svg, thus it is important to set its size, otherwise the elements inside it won't appear */
 }
 .button {
-    background-color: royalblue;   /* The buttons are colored in steelblue */
-    border: none;   /* The buttons have no border */
+    background-color: rgb(50, 63, 73);   /* The buttons are colored in steelblue */
+    border: 1px solid darkslategray;   /* The buttons have no border */
     color: white;   /* The text inside the buttons is white */
     padding: 15px 32px;   /* Defines the space in pixels between the text inside the buttons and their edges */
     text-align: center;   /* The text inside the buttons is centered */
     font-size: 16px;   /* Font size of the text inside the buttons */
+    cursor: pointer;
 }
 
-#buttons_container{
-    width: 1000px;   /* Dimensions of the buttons_container element */
-    text-align: center;   /* Centers the contents of the buttons_container element */
+#top_buttons_container{
+    position: relative;
+    left:75px;
+    top:75px
 }
 
+.top{
+    top:500px;
+    left:30px;
+    font-size: xx-large;
+}
 
+#Gold{
+    color:gold;
+}
+
+#Silver{
+    top:550px;
+    left:30px;
+    color: silver;
+}
+
+#Bronze{
+    top:600px;
+    left:30px;
+    color:brown
+}

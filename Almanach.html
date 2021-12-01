@@ -27,17 +27,30 @@
 		</div>
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
-			<h1>Tops</h1>
+			<center><h1>Top deadly events</h1></center>  <!--je centre le titre -->
+
+        <div id = "Top">
+            <div id="Gold" class="top" >Gold :</div>  <!-- je crée les classes top -->
+            <div id="Silver" class="top">Silver :</div>
+            <div id="Bronze" class="top">Bronze :</div>
+        </div>
+
+		<div id="top_buttons_container">
+			<button style="width: 33.3%" id="volcanos_top" class="button">Volcanos</button> <!-- je fais les boutons -->
+			<button style="width: 33.3%" id="tsunamis_top" class="button">Tsunamis</button>
+			<button style="width: 33.3%" id="earthquakes_top" class="button">Earthquakes</button>
 		</div>
-		<div id='Histogram' class="Element">
+
+		</div>
+		<div id='Histogram' class="Element"> 
 			<h1>Bar chart</h1>
 
 			<svg id="barchart"></svg>
-			
+
 			<div id="buttons_container">
-				<button id="volcano" class="button">Volcano</button>
-				<button id="tsunamis" class="button">Tsunami</button>
-				<button id="earthquakes" class="button">Earthquake</button>
+				<button style="width: 33.3%" id="volcanos_chart" class="button">Volcanos</button>
+				<button style="width: 33.3%" id="tsunamis_chart" class="button">Tsunamis</button>
+				<button style="width: 33.3%" id="earthquakes_chart" class="button">Earthquake</button>
 			</div>
 		</div>
 		
@@ -45,7 +58,8 @@
 		<script src="https://d3js.org/d3.v3.min.js"></script>   <!-- d3.js import -->
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
-		<script src="barChart.js"></script>
+		<script src="barChart.js"></script> <!--Adapted from the file given by Jérôme Maquoi-->
+		<script src="deadliestEvents.js"></script>
 		<!--<script src="eventCard.js"></script>-->
 
 	</body>
