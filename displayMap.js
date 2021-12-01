@@ -61,13 +61,11 @@ const container = map.getCanvasContainer();
 
 const svg = d3.select(container)
 	.append("svg")
-		.attr("id", "points_container");   // The id of the svg is points_container
+	.attr("id", "points_container");   // The id of the svg is points_container
 
 
 /// function to add layer to the map
 function addLayers(data, eventType, dotColor, checkBoxId){
-	
-	map.on("load", function(){
 
 		// The points in data are transformed in features using the function defined earlier
 		// The features are wrapped inside a feature collection
@@ -76,13 +74,10 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 		// A layer holding the visual elements is added to the map
 	
 		map.addSource(eventType, {   // Data
-				type: "geojson",   // Type of data
-				data: events   // letiable holding the feature collection
-			})
+			type: "geojson",   // Type of data
+			data: events   // letiable holding the feature collection
+		})
 
-
-		
-			
 		map.addLayer({  
 			id: eventType,   // Layer id
 			type: "circle",   // Type of the visual elements representing the museums
@@ -97,49 +92,44 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 				"circle-stroke-width": 1,   // Width of the circles border
 				"circle-stroke-color": "#004d60"   // Color of the circles border
 			}, 
-
-			
-
 		});
-		
 
 		var input = document.getElementById(checkBoxId)
 
 		input.addEventListener('change', (e) => {
 			map.setLayoutProperty(
-			eventType,
-			'visibility',
-			e.target.checked ? 'visible' : 'none'
+				eventType,
+				'visibility',
+				e.target.checked ? 'visible' : 'none'
 			);
-			});
-
-		
-		var minDeaths = document.getElementById("minDeaths")
-
-		minDeaths.addEventListener("change", function(event){
-			const minDeath = parseInt(event.target.value);
-			filterDeaths = ['>=', ['number', ['get', 'deathOrder']], minDeath];
-			map.setFilter(eventType, filterDeaths)
-			
 		});
-			
+	
+	var minDeaths = document.getElementById("minDeaths")
+
+	minDeaths.addEventListener("change", function(event){
+		const minDeath = parseInt(event.target.value);
+		filterDeaths = ['>=', ['number', ['get', 'deathOrder']], minDeath];
+		map.setFilter(eventType, filterDeaths)
+		
 	});
 
 };
 
+map.on("load", function(){
+	d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
+	});
+	
+	d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
+	});
+	
+	d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
+	});
+})
 
 
-d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
-});
-
-d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
-});
-
-d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
-});
 
 
 
