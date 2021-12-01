@@ -5,6 +5,9 @@
 		<title>Almanach</title>   <!-- Set the title of the page here -->
 		<link rel='stylesheet' href='Almanach.css'> <!-- Link to stylesheet-->
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet'></link>   <!-- Import of the styles from Mapbox -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 	</head>
 
 	<body>
@@ -14,16 +17,37 @@
 		<div id="mapbox" class="Element" > <!-- Note: "Element" classes = boxes-->
 			<div id="map"></div>
 			<div id="legend">
-				<h1>legend</h1>
+				<h1>Legend</h1>
+				<p>
+					<label for="amount">Years range:</label>
+					<strong id = "amount"></strong>
+				  </p>
+				  <button id="antiquity">Antiquity</button>
+				  <button id="middleAge">Middle Age</button>
+				  <button id="modernTimes">Modern Time</button>
+				  <button id="contemporaryEra">Contemporary Era</button>
+				  <button id="all">All</button>
+				  <div id="slider-range"></div>
 			</div>
 		</div> 
 		<!-- filter box-->
 		<div id="filters" class="Element">
 			<h1>Filters</h1>
-			<ul id="CheckBoxes">
-				<li><input id="tsunamisCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Tsunamis</li>
-				<li><input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Earthquakes</li>
-				<li><input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked > Eruptions</li>
+
+			<ul>
+				<li>
+					<label for="tsunamisCheck">Tsunami</label>
+					<input id="tsunamisCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+				<li>
+					<label for="earthquakesCheck">Earthquakes</label>
+					<input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+				<li>
+					<label for="eruptionsCheck">Eruptions</label>
+					<input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+
 			</ul>
 	
 			<div class="filter">minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1>
@@ -78,7 +102,10 @@
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>   <!-- Mapbox library import -->
 		<script src="displayMap.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
 		<!--<script src="eventCard.js"></script>-->
-		
+
+		<script src="timeLine.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
+
+
 	</body>
 </html>
 

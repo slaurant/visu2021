@@ -4,7 +4,7 @@ h1 {
 }
 
 .Element {
-    height: 500px;
+    height: 900px;
     margin: 5px;
     float: left;
     border: 2px solid darkgray;
@@ -56,4 +56,4 @@ li {
     display: inline;
     padding: 10px;
   }
-  
+
