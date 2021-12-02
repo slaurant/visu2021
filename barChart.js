@@ -3,15 +3,20 @@
 function change(btn , col) {
     document.getElementById(btn).style.backgroundColor=col;
 }
-function changeBars(bar, col){
-    document.getElementsByClassName(bar).style.fill=col;
-}
 
-drawBarChart("volcano");
+function changeBars(col) {
+    var x = document.getElementsByClassName("bar");
+    for (var i = 0; i < x.length; i++) {
+        x.transition()
+            x[i].style("fill", col);
+    }
+  }
+
+drawBarChart("volcano", "firebrick");
 
 d3.select("#volcanos_chart")   // Selection of the button that has the id volcano_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("volcano");   // When the button is clicked, draw bar chart for eruptions
+        drawBarChart("volcano", "firebrick");   // When the button is clicked, draw bar chart for eruptions
         change("volcanos_chart" , "firebrick");
         change("tsunamis_chart" , "rgb(50, 63, 73)");
         change("earthquakes_chart" , "rgb(50, 63, 73)");
@@ -19,21 +24,23 @@ d3.select("#volcanos_chart")   // Selection of the button that has the id volcan
 
 d3.select("#tsunamis_chart")   // Selection of the button that has the id tsunamis_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("tsunamis");   // When the button is clicked, draw bar chart for tsunamies
-        change("tsunamis_chart" , "dodgerblue");
+        drawBarChart("tsunamis", "royalblue");   // When the button is clicked, draw bar chart for tsunamies
+        change("tsunamis_chart" , "royalblue");
         change("volcanos_chart" , "rgb(50, 63, 73)");
         change("earthquakes_chart" , "rgb(50, 63, 73)");
+        changeBars("dodgerblue")
     });
 
 d3.select("#earthquakes_chart")   // Selection of the button that has the id earthquakes_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("earthquakes");   // When the button is clicked, draw bar chart for earthquakes
+        drawBarChart("earthquakes", "seagreen");   // When the button is clicked, draw bar chart for earthquakes
         change("earthquakes_chart" , "seagreen");
         change("tsunamis_chart" , "rgb(50, 63, 73)");
         change("volcanos_chart" , "rgb(50, 63, 73)")
+        changeBars("seagreen")
     });
 
-function drawBarChart(typeEvent){
+function drawBarChart(typeEvent, col){
 
     d3.json("Datasets_formatted/"+typeEvent+"_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
         
@@ -156,6 +163,7 @@ function drawBarChart(typeEvent){
             .data(deathRepartition)   // The dataset data is assigned. Elements with the class bar will be created accordingly
             .enter().append("rect")   // .enter() defines new data elements for which a visual element counterpart (in the present case, a rectangle) needs to be created. The code after .enter() will be executed on each of these visual elements (hence, once per entry in the dataset)
                 .attr("class", "bar")   // The rectangles have the class bar
+                .attr("fill", col)
                 .attr("x", function(d){   // The x position of the rectangle is determined by the agent to which the rectangle corresponds
                     return x(d.category);
                 })
@@ -166,7 +174,7 @@ function drawBarChart(typeEvent){
                     return height - y(d.evenementCount);
                 })
                 .attr("width", x.rangeBand());   // The width of a bar depends on the space allocated to the bars on the x axis
-                
+        
 
         // A text element is appended to the chart. It contains the label of the x axis
 
