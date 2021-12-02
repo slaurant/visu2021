@@ -50,13 +50,13 @@ function drawBarChart(typeEvent, col){
         let deathCat4 = 0; // Initialize the counter for the events which made [51,100] deaths
 
         for (var i=0; i < data.length; i++){
-            if (data[i].deathsAmountOrder == 1){
+            if (data[i].deathsAmountOrder === 1){
                 deathCat1 += 1;
-            } else if (data[i].deathsAmountOrder == 2){
+            } else if (data[i].deathsAmountOrder === 2){
                 deathCat2 += 1
-            } else if (data[i].deathsAmountOrder == 3){
+            } else if (data[i].deathsAmountOrder === 3){
                 deathCat3 += 1
-            } else if (data[i].deathsAmountOrder == 4){
+            } else if (data[i].deathsAmountOrder === 4){
                 deathCat4 += 1 
             }
         }
@@ -192,7 +192,5 @@ function drawBarChart(typeEvent, col){
             .attr("dy", "1em")   
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
             .text("Occurences");   // Label
-
-
     })
 }

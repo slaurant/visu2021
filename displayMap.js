@@ -34,26 +34,28 @@ const container = map.getCanvasContainer();
 
 const svg = d3.select(container)
 	.append("svg")
-		.attr("id", "points_container");   // The id of the svg is points_container
+	.attr("id", "points_container");   // The id of the svg is points_container
 
-
+map.on("load", function(){
+	d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
+	});
+	
+	d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
+	});
+	
+	d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
+		addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
+		console.log(data)
+	});
+});
 /// LOAD DATA AND ADD LAYERS TO THE MAP
-d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
-});
-
-d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
-});
-
-d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-	addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
-});
 
 /// Add event listeners for each filter
 document.getElementById('tsunamisSourceFilter').addEventListener('change', (e) => {
 	filterMap();
-	});
+});
 
 document.getElementById('minDeathsFilter').addEventListener('change', (e) => {
 	filterMap();
@@ -65,7 +67,7 @@ document.getElementById('damageFilter').addEventListener('change', (e) =>{
 
 document.getElementById('tsunamisValidityFilter').addEventListener('change', (e) =>{
 	filterMap();
-  });
+});
 
 // This function converts points as found in the dataset into features following the GeoJSON standard
 function getGeoJSON(points){
@@ -75,8 +77,8 @@ function getGeoJSON(points){
 	for(let i = 0; i < points.length; i++){
 
 		// For every point, a feature is created and added to the array features
-
-		let point = {type : "Feature", 
+		let point = {
+						type : "Feature", 
 						geometry : {   // The geometry for a point contains the type (which is Point) and the coordinates
 							type : "Point",
 							coordinates : [points[i].longitude, points[i].latitude]   // The longitude and latitude must be specified longitude first, which is a little confusing as latitude usually comes first
@@ -86,7 +88,7 @@ function getGeoJSON(points){
 								// In this case, I have specified the name but you can add any property you wish
 							deathOrder : points[i]["deathsAmountOrder"],
 							cause: points[i]["causeCode"],
-							damageAmount: points[i]["damageAmountOrder"], 
+							damageAmount: points[i]["damageAmountOrder"] || 0, 
 							validity: points[i]["eventValidity"], 
 							year: points[i]["year"]
 						}
@@ -99,11 +101,11 @@ function getGeoJSON(points){
 };
 
 
+
+
 /// FUNCTION:  add layer to the map
 function addLayers(data, eventType, dotColor, checkBoxId){
 	
-	map.on("load", function(){
-
 		// The points in data are transformed in features using the function defined earlier
 		// The features are wrapped inside a feature collection
 
@@ -111,9 +113,9 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 		// A layer holding the visual elements is added to the map
 	
 		map.addSource(eventType, {   // Data
-				type: "geojson",   // Type of data
-				data: events   // letiable holding the feature collection
-			})
+			type: "geojson",   // Type of data
+			data: events   // letiable holding the feature collection
+		})
 
 
 		
@@ -148,21 +150,24 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 			);
 			});
 
-	});
-
 };
 
 
 
 /// FUNCTION: fetch all filter values and filter the map by all those filters
-function filterMap() {
+function filterMap(min, max) {
 
 	///Fetch filter values
-	const sliderElement = $( "#slider-range" )
-	const datesSelected = sliderElement.slider( "option", "values")
-	const filterDateMin = ['>=', ['number', ['get', 'year']], datesSelected[0]];
-	const filterDateMax = ['<=', ['number', ['get', 'year']], datesSelected[1]];
-		
+	if (min === undefined || max === undefined) {
+		const sliderElement = $( "#slider-range" )
+		const datesSelected = sliderElement.slider( "option", "values")
+		min = datesSelected[0]
+		max = datesSelected[1]
+	}
+	const filterDateMin = ['>=', ['number', ['get', 'year']], min];
+	const filterDateMax = ['<=', ['number', ['get', 'year']], max];
+
+
 	/// minimum deaths
 	const minDeathsValue = parseInt(document.getElementById('minDeathsFilter').value, 10)
 	const minDeathsFilter = ['>=', ['number', ['get', 'deathOrder']], minDeathsValue];
@@ -175,7 +180,7 @@ function filterMap() {
 
 	/// Tsunami cause
 	const causeValue = parseInt(document.getElementById('tsunamisSourceFilter').value, 10)
-	if(causeValue == -1){
+	if(causeValue === -1){
 		var causeMapFilter = ['>=', ['number', ['get', 'cause']], 0];
 	} else {
 		var causeMapFilter = ['==', ['number', ['get', 'cause']], causeValue];
@@ -186,14 +191,8 @@ function filterMap() {
 	var validityMapFilter = ['>=', ['number', ['get', 'validity']], validityValue];
 
 
+	//filter the map by those values	
 	map.setFilter("tsunamis", ["all", minDeathsFilter,damageFilter,filterDateMin, filterDateMax,causeMapFilter,validityMapFilter])
-	
-
-
-	
-
-	///filter the map by those values
-	
 	map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
 	map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
 	}

@@ -23,7 +23,7 @@ $(document).ready(function(){
       values: [ -2000, 2021 ],
       slide: function( event, ui ) {
         $( "#amount" ).text( "" + ui.values[ 0 ] + " ➞ " + ui.values[ 1 ] );
-        filterMap(  );
+        filterMap(ui.values[0], ui.values[1]);
         
       }
     });
