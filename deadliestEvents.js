@@ -1,11 +1,12 @@
 function change(btn , col) {
     document.getElementById(btn).style.backgroundColor=col;
 }
-	
+
+selectTop3("volcano");
     
 d3.select("#volcanos_top") // je fais le script click avec la fct selectop3
     .on("click", function(){ 
-        //selecttop3("volcano");
+        selectTop3("volcano");
         change("volcanos_top" , "firebrick");
         change("tsunamis_top" , "rgb(50, 63, 73)");
         change("earthquakes_top" , "rgb(50, 63, 73)")
@@ -13,7 +14,7 @@ d3.select("#volcanos_top") // je fais le script click avec la fct selectop3
 
 d3.select("#tsunamis_top")
     .on("click", function(){
-        //selecttop3("tsunamis_top");
+        selectTop3("tsunamis");
         change("tsunamis_top" , "dodgerblue");
         change("volcanos_top" , "rgb(50, 63, 73)");
         change("earthquakes_top" , "rgb(50, 63, 73)")
@@ -21,7 +22,7 @@ d3.select("#tsunamis_top")
 
 d3.select("#earthquakes_top")
     .on("click" , function(){
-        //selecttop3("earthquakes");
+        selectTop3("earthquakes");
         change("earthquakes_top" , "seagreen");
         change("tsunamis_top" , "rgb(50, 63, 73)");
         change("volcanos_top" , "rgb(50, 63, 73)")
@@ -62,12 +63,19 @@ function selectTop3(typeEvent){ //je cree la fct selectop3 mais apres je bug
             } 
         }
 
-        let deadliestThree = [
-            {goldLocation : locationFirst, goldDeaths : FirstElement},
-            {silverLocation : locationSecond, silverDeaths : SecondElement},
-            {bronzeLocation : locationThird, bronzeDeaths : ThirdElement}
-        ];
+        let locationGold = JSON.stringify(locationFirst);
+        let locationSilver = JSON.stringify(locationSecond);
+        let locationBronze = JSON.stringify(locationThird);
 
-        return(deadliestThree)   
+        let deathsGold = JSON.stringify(FirstElement);
+        let deathsSilver = JSON.stringify(SecondElement);
+        let deathsBronze = JSON.stringify(ThirdElement);
+
+        console.log(locationGold)
+
+        document.getElementById("firstDeadly").innerHTML = locationGold + " - " + deathsGold;
+        document.getElementById("secondDeadly").innerHTML = locationSilver + " - " + deathsSilver;
+        document.getElementById("thirdDeadly").innerHTML = locationBronze + " - " + deathsBronze;
+
     })
 }
