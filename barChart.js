@@ -3,6 +3,9 @@
 function change(btn , col) {
     document.getElementById(btn).style.backgroundColor=col;
 }
+function changeBars(bar, col){
+    document.getElementsByClassName(bar).style.fill=col;
+}
 
 drawBarChart("volcano");
 
@@ -52,10 +55,10 @@ function drawBarChart(typeEvent){
         }
 
         let deathRepartition = [
-            {category : "Between 1 and 50 deaths", evenementCount : deathCat1}, 
-            {category : "Between 51 and 100 deaths", evenementCount : deathCat2}, 
-            {category : "Between 101 and 1000 deaths", evenementCount : deathCat3}, 
-            {category : "More than 1000 deaths", evenementCount : deathCat4} 
+            {category : "[1,50] deaths", evenementCount : deathCat1}, 
+            {category : "[51,100] deaths", evenementCount : deathCat2}, 
+            {category : "[101,1000] deaths", evenementCount : deathCat3}, 
+            {category : "> 1000 deaths", evenementCount : deathCat4} 
         ];
 
         // The inside of the element that has the id barchart is removed. Basically, if their was any element inside the barchart svg, they are scrapped off

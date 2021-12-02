@@ -28,7 +28,7 @@ d3.select("#earthquakes_top")
 });
 
        
-function selecttop3(typeEvent){ //je cree la fct selectop3 mais apres je bug 
+function selectTop3(typeEvent){ //je cree la fct selectop3 mais apres je bug 
     d3.json("Datasets_formatted/"+typeEvent+"_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
         FirstElement = -9999;
 	    locationFirst = -9999;
@@ -62,6 +62,12 @@ function selecttop3(typeEvent){ //je cree la fct selectop3 mais apres je bug
             } 
         }
 
-        return(locationFirst, locationSecond, locationThird)   
+        let deadliestThree = [
+            {goldLocation : locationFirst, goldDeaths : FirstElement},
+            {silverLocation : locationSecond, silverDeaths : SecondElement},
+            {bronzeLocation : locationThird, bronzeDeaths : ThirdElement}
+        ];
+
+        return(deadliestThree)   
     })
 }

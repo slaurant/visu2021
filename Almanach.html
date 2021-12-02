@@ -5,12 +5,12 @@
 		<title>Almanach</title>   <!-- Set the title of the page here -->
 		<link rel='stylesheet' href='Almanach.css'> <!-- Link to stylesheet-->
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet'></link>   <!-- Import of the styles from Mapbox -->
-
+		<script src="https://kit.fontawesome.com/e7e20ad61a.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
 		<!--Title-->
-		<h1>Almanach</h1>
+		<h1>Almanach des catastrophes</h1>
 		<!-- Box with Map & Legend -->
 		<div id="mapbox" class="Element" > <!-- Note: "Element" classes = boxes-->
 			<div id="map"></div>
@@ -27,19 +27,16 @@
 		</div>
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
-			<center><h1>Top deadly events</h1></center>  <!--je centre le titre -->
+			<h1>Deadliest Events</h1>
+            <div id="Gold" class="top"><i class="fas fa-medal"></i> :</div>  <!-- je crée les classes top -->
+            <div id="Silver" class="top"><i class="fas fa-medal"></i> :</div>
+            <div id="Bronze" class="top"><i class="fas fa-medal"></i> :</div>
 
-        <div id = "Top">
-            <div id="Gold" class="top" >Gold :</div>  <!-- je crée les classes top -->
-            <div id="Silver" class="top">Silver :</div>
-            <div id="Bronze" class="top">Bronze :</div>
-        </div>
-
-		<div id="top_buttons_container">
-			<button style="width: 33.3%" id="volcanos_top" class="button">Volcanos</button> <!-- je fais les boutons -->
-			<button style="width: 33.3%" id="tsunamis_top" class="button">Tsunamis</button>
-			<button style="width: 33.3%" id="earthquakes_top" class="button">Earthquakes</button>
-		</div>
+			<div class="btn-group">
+				<button style="background-color: firebrick;" id="volcanos_top" class="button"><i class="fas fa-fire-alt"></i> Volcanos </button>
+				<button id="tsunamis_top" class="button"><i class="fas fa-water"></i> Tsunamis </button>
+				<button id="earthquakes_top" class="button"><i class="fas fa-meteor"></i> Earthquakes </button>
+			</div>
 
 		</div>
 		<div id='Histogram' class="Element"> 
@@ -47,10 +44,10 @@
 
 			<svg id="barchart"></svg>
 
-			<div id="buttons_container">
-				<button style="width: 33.3%" id="volcanos_chart" class="button">Volcanos</button>
-				<button style="width: 33.3%" id="tsunamis_chart" class="button">Tsunamis</button>
-				<button style="width: 33.3%" id="earthquakes_chart" class="button">Earthquake</button>
+			<div class="btn-group">
+				<button style="background-color: firebrick;" id="volcanos_chart" class="button"><i class="fas fa-fire-alt"></i> Volcanos </button>
+				<button id="tsunamis_chart" class="button"><i class="fas fa-water"></i> Tsunamis </button>
+				<button id="earthquakes_chart" class="button"><i class="fas fa-meteor"></i> Earthquakes </button>
 			</div>
 		</div>
 		
