@@ -1,31 +1,53 @@
 // The call to drawBarChart displays the bar chart representing the dataset sales on the page
 // By default, the data for the eruptions is displayed
+function change(btn , col) {
+    document.getElementById(btn).style.backgroundColor=col;
+}
 
-drawBarChart("volcano");
+function changeBars(col) {
+    var x = document.getElementsByClassName("bar");
+    for (var i = 0; i < x.length; i++) {
+        x.transition()
+            x[i].style("fill", col);
+    }
+  }
 
-d3.select("#volcano")   // Selection of the button that has the id eruption
+drawBarChart("volcano", "firebrick");
+
+d3.select("#volcanos_chart")   // Selection of the button that has the id volcano_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("volcano");   // When the button is clicked, draw bar chart for eruptions
+        drawBarChart("volcano", "firebrick");   // When the button is clicked, draw bar chart for eruptions
+        change("volcanos_chart" , "firebrick");
+        change("tsunamis_chart" , "rgb(50, 63, 73)");
+        change("earthquakes_chart" , "rgb(50, 63, 73)");
     });
 
-d3.select("#tsunamis")   // Selection of the button that has the id tsunami
+d3.select("#tsunamis_chart")   // Selection of the button that has the id tsunamis_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("tsunamis");   // When the button is clicked, draw bar chart for tsunamies
+        drawBarChart("tsunamis", "royalblue");   // When the button is clicked, draw bar chart for tsunamies
+        change("tsunamis_chart" , "royalblue");
+        change("volcanos_chart" , "rgb(50, 63, 73)");
+        change("earthquakes_chart" , "rgb(50, 63, 73)");
+        changeBars("dodgerblue")
     });
 
-d3.select("#earthquakes")   // Selection of the button that has the id earthquake
+d3.select("#earthquakes_chart")   // Selection of the button that has the id earthquakes_chart
     .on("click", function(){   // Behavior when the button is clicked
-        drawBarChart("earthquakes");   // When the button is clicked, draw bar chart for earthquakes
+        drawBarChart("earthquakes", "seagreen");   // When the button is clicked, draw bar chart for earthquakes
+        change("earthquakes_chart" , "seagreen");
+        change("tsunamis_chart" , "rgb(50, 63, 73)");
+        change("volcanos_chart" , "rgb(50, 63, 73)")
+        changeBars("seagreen")
     });
 
-function drawBarChart(typeEvent){
+function drawBarChart(typeEvent, col){
 
     d3.json("Datasets_formatted/"+typeEvent+"_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
         
-        let deathCat1 = 0;
-        let deathCat2 = 0;
-        let deathCat3 = 0;
-        let deathCat4 = 0;
+        let deathCat1 = 0; // Initialize the counter for the events which made [1,50] deaths
+        let deathCat2 = 0; // Initialize the counter for the events which made [51,100] deaths
+        let deathCat3 = 0; // Initialize the counter for the events which made [51,100] deaths
+        let deathCat4 = 0; // Initialize the counter for the events which made [51,100] deaths
 
         for (var i=0; i < data.length; i++){
             if (data[i].deathsAmountOrder == 1){
@@ -40,10 +62,10 @@ function drawBarChart(typeEvent){
         }
 
         let deathRepartition = [
-            {category : "Between 1 and 50 deaths", evenementCount : deathCat1}, 
-            {category : "Between 51 and 100 deaths", evenementCount : deathCat2}, 
-            {category : "Between 101 and 1000 deaths", evenementCount : deathCat3}, 
-            {category : "More than 1000 deaths", evenementCount : deathCat4} 
+            {category : "[1,50] deaths", evenementCount : deathCat1}, 
+            {category : "[51,100] deaths", evenementCount : deathCat2}, 
+            {category : "[101,1000] deaths", evenementCount : deathCat3}, 
+            {category : "> 1000 deaths", evenementCount : deathCat4} 
         ];
 
         // The inside of the element that has the id barchart is removed. Basically, if their was any element inside the barchart svg, they are scrapped off
@@ -141,6 +163,7 @@ function drawBarChart(typeEvent){
             .data(deathRepartition)   // The dataset data is assigned. Elements with the class bar will be created accordingly
             .enter().append("rect")   // .enter() defines new data elements for which a visual element counterpart (in the present case, a rectangle) needs to be created. The code after .enter() will be executed on each of these visual elements (hence, once per entry in the dataset)
                 .attr("class", "bar")   // The rectangles have the class bar
+                .attr("fill", col)
                 .attr("x", function(d){   // The x position of the rectangle is determined by the agent to which the rectangle corresponds
                     return x(d.category);
                 })
@@ -150,8 +173,8 @@ function drawBarChart(typeEvent){
                 .attr("height", function(d){   // The height of each rectangle is computed accordingly to the sales
                     return height - y(d.evenementCount);
                 })
-                .attr("width", x.rangeBand())   // The width of a bar depends on the space allocated to the bars on the x axis
-                ;
+                .attr("width", x.rangeBand());   // The width of a bar depends on the space allocated to the bars on the x axis
+        
 
         // A text element is appended to the chart. It contains the label of the x axis
 

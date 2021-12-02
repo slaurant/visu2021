@@ -4,7 +4,8 @@ h1 {
 }
 
 .Element {
-    height: 600px;
+    position: relative;
+    height: 500px;
     margin: 5px;
     float: left;
     border: 2px solid darkgray;
@@ -66,6 +67,7 @@ h1 {
 
 .checkBox {
     background-color:darkgray;
+    cursor: pointer;
 }
 /* CSS code for the elements that have the class dot */
 
@@ -75,10 +77,6 @@ h1 {
     fill-opacity: 0.6;   /* Transparency, from 0 (invisible) to 1 (opaque) */
     stroke: #004d60;   /* Border color */
     stroke-width: 1;   /* Border width in pixels */
-}
-
-.bar {
-    fill: royalblue;   /* Colors the bars of the bar chart in steelblue */
 }
 
 /* CSS code for the text elements inside an element that has the axis class */
@@ -97,23 +95,46 @@ h1 {
 /* CSS code for the element that has the id barchart */
 
 #barchart {
-    width: 750px;   /* Dimensions of the barchart element */
-    height: 450px;   /* Note : barchart is an svg, thus it is important to set its size, otherwise the elements inside it won't appear */
-}
-.button {
-    background-color: royalblue;   /* The buttons are colored in steelblue */
-    border: none;   /* The buttons have no border */
-    color: white;   /* The text inside the buttons is white */
-    padding: 15px 32px;   /* Defines the space in pixels between the text inside the buttons and their edges */
-    text-align: center;   /* The text inside the buttons is centered */
-    font-size: 16px;   /* Font size of the text inside the buttons */
+    height:75%;
+    width: 75%;
 }
 
-#buttons_container{
-    width: 1000px;   /* Dimensions of the buttons_container element */
-    text-align: center;   /* Centers the contents of the buttons_container element */
+.btn-group button {
+    background-color: rgb(50, 63, 73); /* Green background */
+    border: 1px solid darkslategray; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 33%; /* Set a width if needed */
+    /*display: block; /* Make the buttons appear below each other */
+    text-align: center;
+  }
+  
+.btn-group button:not(:last-child) {
+   border-bottom: none; /* Prevent double borders */
 }
 
+.top{
+    top:500px;
+    left:30px;
+    font-size: xx-large;
+}
+
+#Gold{
+    color:gold;
+}
+
+#Silver{
+    top:550px;
+    left:30px;
+    color: silver;
+}
+
+#Bronze{
+    top:600px;
+    left:30px;
+    color:brown
+}
 
 li {
     text-align: center;
