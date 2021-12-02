@@ -6,6 +6,10 @@
 		<link rel='stylesheet' href='Almanach.css'> <!-- Link to stylesheet-->
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet'></link>   <!-- Import of the styles from Mapbox -->
 		<script src="https://kit.fontawesome.com/e7e20ad61a.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
 	</head>
 
 	<body>
@@ -15,15 +19,87 @@
 		<div id="mapbox" class="Element" > <!-- Note: "Element" classes = boxes-->
 			<div id="map"></div>
 			<div id="legend">
-				<h1>legend</h1>
+				<h1>Legend</h1>
+			
+				
+				  
 			</div>
 		</div> 
 		<!-- filter box-->
 		<div id="filters" class="Element">
 			<h1>Filters</h1>
-			<ul><input type="checkbox" class="checkBox" name="tsunamisBox" checked> Tsunamis</ul>
-			<ul><input type="checkbox" class="checkBox" name="earthquakesBox" checked> Earthquakes</ul>
-			<ul><input type="checkbox" class="checkBox" name="EruptionsBox" checked> Eruptions</ul>
+
+			<ul>
+				<li>
+					<label for="tsunamisCheck">Tsunami</label>
+					<input id="tsunamisCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+				<li>
+					<label for="earthquakesCheck">Earthquakes</label>
+					<input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+				<li>
+					<label for="eruptionsCheck">Eruptions</label>
+					<input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+				</li>
+
+			</ul>
+	
+			<div class="filter">minimum # deaths : <input id="minDeathsFilter" type="number" value=1 min=1 max =4 step=1>
+			</div>
+			
+			<div class="filter">Minimum amount of damage ($): <br>
+				<select id = "damageFilter">  
+					<option value='0'>None</option>
+					<option value='1'>Limited (<$1 million)</option> 
+					<option value='2'>Moderate (~$1 to $5 million)</option>						
+					<option value='3'>Severe (~>$5 to $24 million)</option>
+					<option value='4'> Extreme (~$25 million or more)</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiValidityDiv'>Tsunami minimum validity : <br>
+				<select id = "tsunamisValidityFilter">  
+					<option value='0'>Any</option>
+					<option value='1'>Very Doubtful Tsunami</option> 
+					<option value='2'> Questionable Tsunami</option>
+					<option value='3'>Probable Tsunami</option>						
+					<option value='4'> Definite Tsunami</option>
+				</select>
+			</div>
+			<div class="filter" id='tsunamiCauseDiv'>Cause of Tsunami : <br>
+				<select id = "tsunamisSourceFilter">  
+					<option value='-1'>All</option>  
+					<option value="0"> Unkown</option>  
+					<option value="1">Earthquake</option>
+					<option value="2"> Questionable Earthquake </option>  
+					<option value="3"> Earthquake and Landslide </option>  
+					<option value="4"> Volcano and Earthquake </option>  
+					<option value="6">Volcano</option> 
+					<option value="7">Volcano and Landslide</option>
+					<option value="8">Landslide</option>
+					<option value="9">Meteorological</option>
+					<option value="10">Explosion</option>
+					<option value="11">Astronomical Tide</option>
+				</select>  
+			</div>
+		</div>
+
+		<div id="timeline" class='Element'>
+			<p>
+				<label for="amount">Years range:</label>
+				<strong id = "amount"></strong>
+			  </p>
+				<div>
+					<button id="antiquity">Antiquity</button>
+					<button id="middleAge">Middle Age</button>
+					<button id="modernTimes">Modern Time</button>
+					<button id="contemporaryEra">Contemporary Era</button>
+					<button id="all">All</button>
+				</div>
+				<div id="slider-range" class="Element">
+		</div>
+		
+			
 		</div>
 		<!--Top deadly Events box-->
 		<div id='Tops'class="Element">
@@ -58,6 +134,9 @@
 		<script src="barChart.js"></script> <!--Adapted from the file given by Jérôme Maquoi-->
 		<script src="deadliestEvents.js"></script>
 		<!--<script src="eventCard.js"></script>-->
+
+		<script src="timeLine.js"></script><!-- script to display the map (FROM VISU TEACHER)-->
+
 
 	</body>
 </html>
