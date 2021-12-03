@@ -23,7 +23,11 @@ h1 {
 }
 
 #Tops {
-    width: 30%;
+    width: 50%;
+}
+
+#Histogram {
+    width: 40%;
 }
 
 #timeline {
@@ -96,7 +100,7 @@ h1 {
 
 #barchart {
     height:75%;
-    width: 75%;
+    width: 100%;
 }
 
 .btn-group button {
@@ -105,7 +109,7 @@ h1 {
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 33%; /* Set a width if needed */
+    width: 31%; /* Set a width if needed */
     /*display: block; /* Make the buttons appear below each other */
     text-align: center;
   }
@@ -118,22 +122,6 @@ h1 {
     top:500px;
     left:30px;
     font-size: xx-large;
-}
-
-#Gold{
-    color:gold;
-}
-
-#Silver{
-    top:550px;
-    left:30px;
-    color: silver;
-}
-
-#Bronze{
-    top:600px;
-    left:30px;
-    color:brown
 }
 
 li {
