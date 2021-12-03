@@ -10,7 +10,11 @@ function setTimelinePeriod(min, max) {
   // update text
   $( "#amount" ).text(min + " ➞ " + max );
   // update map
-  filterMap();
+  filterMap(min, max);
+  drawBarChart("volcano", "firebrick", min, max);   // When the button is clicked, draw bar chart for eruptions
+  change("volcanos_chart" , "firebrick");
+  change("tsunamis_chart" , "rgb(50, 63, 73)");
+  change("earthquakes_chart" , "rgb(50, 63, 73)");
 }
 
 
@@ -24,7 +28,10 @@ $(document).ready(function(){
       slide: function( event, ui ) {
         $( "#amount" ).text( "" + ui.values[ 0 ] + " ➞ " + ui.values[ 1 ] );
         filterMap(ui.values[0], ui.values[1]);
-        
+        drawBarChart("volcano", "firebrick", ui.values[0], ui.values[1]);   // When the button is clicked, draw bar chart for eruptions
+        change("volcanos_chart" , "firebrick");
+        change("tsunamis_chart" , "rgb(50, 63, 73)");
+        change("earthquakes_chart" , "rgb(50, 63, 73)");
       }
     });
     $( "#amount" ).text("-2000 ➞ 2021");

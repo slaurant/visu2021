@@ -4,15 +4,9 @@ function change(btn , col) {
     document.getElementById(btn).style.backgroundColor=col;
 }
 
-function changeBars(col) {
-    var x = document.getElementsByClassName("bar");
-    for (var i = 0; i < x.length; i++) {
-        x.transition()
-            x[i].style("fill", col);
-    }
-  }
 
-drawBarChart("volcano", "firebrick");
+
+drawBarChart("volcano", "firebrick", -2000, 2021);
 
 d3.select("#volcanos_chart")   // Selection of the button that has the id volcano_chart
     .on("click", function(){   // Behavior when the button is clicked
@@ -28,7 +22,6 @@ d3.select("#tsunamis_chart")   // Selection of the button that has the id tsunam
         change("tsunamis_chart" , "royalblue");
         change("volcanos_chart" , "rgb(50, 63, 73)");
         change("earthquakes_chart" , "rgb(50, 63, 73)");
-        changeBars("dodgerblue")
     });
 
 d3.select("#earthquakes_chart")   // Selection of the button that has the id earthquakes_chart
@@ -37,10 +30,15 @@ d3.select("#earthquakes_chart")   // Selection of the button that has the id ear
         change("earthquakes_chart" , "seagreen");
         change("tsunamis_chart" , "rgb(50, 63, 73)");
         change("volcanos_chart" , "rgb(50, 63, 73)")
-        changeBars("seagreen")
     });
 
-function drawBarChart(typeEvent, col){
+function drawBarChart(typeEvent, col, min, max){
+    if (min === undefined || max === undefined) {
+		const sliderElement = $( "#slider-range" )
+		const datesSelected = sliderElement.slider( "option", "values")
+		min = datesSelected[0]
+		max = datesSelected[1]
+	}
 
     d3.json("Datasets_formatted/"+typeEvent+"_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
         
@@ -50,14 +48,16 @@ function drawBarChart(typeEvent, col){
         let deathCat4 = 0; // Initialize the counter for the events which made [51,100] deaths
 
         for (var i=0; i < data.length; i++){
-            if (data[i].deathsAmountOrder === 1){
-                deathCat1 += 1;
-            } else if (data[i].deathsAmountOrder === 2){
-                deathCat2 += 1
-            } else if (data[i].deathsAmountOrder === 3){
-                deathCat3 += 1
-            } else if (data[i].deathsAmountOrder === 4){
-                deathCat4 += 1 
+            if (data[i].year>=min && data[i].year<=max){
+                if (data[i].deathsAmountOrder === 1){
+                    deathCat1 += 1;
+                } else if (data[i].deathsAmountOrder === 2){
+                    deathCat2 += 1
+                } else if (data[i].deathsAmountOrder === 3){
+                    deathCat3 += 1
+                } else if (data[i].deathsAmountOrder === 4){
+                    deathCat4 += 1 
+                }
             }
         }
 
