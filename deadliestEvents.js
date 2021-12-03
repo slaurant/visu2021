@@ -63,19 +63,9 @@ function selectTop3(typeEvent){ //je cree la fct selectop3 mais apres je bug
             } 
         }
 
-        let locationGold = JSON.stringify(locationFirst);
-        let locationSilver = JSON.stringify(locationSecond);
-        let locationBronze = JSON.stringify(locationThird);
-
-        let deathsGold = JSON.stringify(FirstElement);
-        let deathsSilver = JSON.stringify(SecondElement);
-        let deathsBronze = JSON.stringify(ThirdElement);
-
-        console.log(locationGold)
-
-        document.getElementById("firstDeadly").innerHTML = locationGold + " - " + deathsGold;
-        document.getElementById("secondDeadly").innerHTML = locationSilver + " - " + deathsSilver;
-        document.getElementById("thirdDeadly").innerHTML = locationBronze + " - " + deathsBronze;
+        document.getElementById("firstDeadly").innerHTML = locationFirst + " - " + FirstElement;
+        document.getElementById("secondDeadly").innerHTML = locationSecond + " - " + SecondElement;
+        document.getElementById("thirdDeadly").innerHTML = locationThird + " - " + ThirdElement;
 
     })
 }
