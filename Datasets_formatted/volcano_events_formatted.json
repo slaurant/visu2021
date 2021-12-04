@@ -18,7 +18,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 5605,
@@ -35,7 +36,8 @@
         "latitude": -4.523,
         "longitude": 129.881,
         "name": "Banda Api",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "deaths": 101
     },
     {
         "id": 3664,
@@ -201,7 +203,8 @@
         "latitude": 1.693,
         "longitude": 127.894,
         "name": "Dukono",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 1
     },
     {
         "id": 4944,
@@ -471,7 +474,8 @@
         "latitude": 14.95,
         "longitude": -24.35,
         "name": "Fogo",
-        "locationName": "Cape Verde Is"
+        "locationName": "Cape Verde Is",
+        "deaths": 1
     },
     {
         "id": 11,
@@ -488,7 +492,8 @@
         "latitude": 12.888,
         "longitude": 40.573,
         "name": "Alayta",
-        "locationName": "Africa-NE"
+        "locationName": "Africa-NE",
+        "deaths": 1
     },
     {
         "id": 580,
@@ -702,7 +707,8 @@
         "latitude": -6.102,
         "longitude": 105.423,
         "name": "Krakatau",
-        "locationName": "Indonesia"
+        "locationName": "Indonesia",
+        "deaths": 1
     },
     {
         "id": 2697,
@@ -792,7 +798,8 @@
         "latitude": 52.7,
         "longitude": 158.28,
         "name": "Vilyuchik",
-        "locationName": "Kamchatka"
+        "locationName": "Kamchatka",
+        "deaths": 1
     },
     {
         "id": 20,
@@ -994,7 +1001,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 2686,
@@ -1027,7 +1035,8 @@
         "latitude": 55.12,
         "longitude": -128.9,
         "name": "Tseax River Cone",
-        "locationName": "Canada"
+        "locationName": "Canada",
+        "deaths": 1
     },
     {
         "id": 4469,
@@ -1044,7 +1053,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 101
     },
     {
         "id": 1355,
@@ -1060,7 +1070,8 @@
         "latitude": -9.229,
         "longitude": 33.792,
         "name": "Kyejo",
-        "locationName": "Africa-E"
+        "locationName": "Africa-E",
+        "deaths": 101
     },
     {
         "id": 4275,
@@ -1145,7 +1156,8 @@
         "latitude": 25.23,
         "longitude": 98.5,
         "name": "Tengchong",
-        "locationName": "China-S"
+        "locationName": "China-S",
+        "deaths": 1
     },
     {
         "id": 4448,
@@ -1160,7 +1172,8 @@
         "latitude": -15.389,
         "longitude": 167.835,
         "name": "Ambae",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "deaths": 101
     },
     {
         "id": 4484,
@@ -1213,7 +1226,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 1581,
@@ -1321,7 +1335,8 @@
         "latitude": 9.203,
         "longitude": 124.673,
         "name": "Camiguin",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "deaths": 1
     },
     {
         "id": 5064,
@@ -1338,7 +1353,8 @@
         "latitude": -16.68,
         "longitude": 168.37,
         "name": "Epi",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "deaths": 1
     },
     {
         "id": 3407,
@@ -1537,7 +1553,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 7,
@@ -1555,7 +1572,8 @@
         "latitude": -1.52,
         "longitude": 29.25,
         "name": "Nyiragongo",
-        "locationName": "Africa-C"
+        "locationName": "Africa-C",
+        "deaths": 51
     },
     {
         "id": 2251,
@@ -1587,7 +1605,8 @@
         "latitude": -9.2,
         "longitude": 149.07,
         "name": "Victory",
-        "locationName": "New Guinea"
+        "locationName": "New Guinea",
+        "deaths": 101
     },
     {
         "id": 42,
@@ -1622,7 +1641,8 @@
         "latitude": 19.514,
         "longitude": -103.62,
         "name": "Colima",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "deaths": 101
     },
     {
         "id": 1650,
@@ -1728,7 +1748,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 6365,
@@ -1759,7 +1780,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 4377,
@@ -1776,7 +1798,8 @@
         "latitude": 29.03,
         "longitude": -13.63,
         "name": "Lanzarote",
-        "locationName": "Canary Is"
+        "locationName": "Canary Is",
+        "deaths": 1
     },
     {
         "id": 4139,
@@ -1864,7 +1887,8 @@
         "latitude": 42.688,
         "longitude": 141.38,
         "name": "Shikotsu",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "deaths": 101
     },
     {
         "id": 599,
@@ -1883,7 +1907,8 @@
         "latitude": 1.38,
         "longitude": 127.53,
         "name": "Gamkonora",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 101
     },
     {
         "id": 37,
@@ -2008,7 +2033,8 @@
         "latitude": -4.271,
         "longitude": 152.203,
         "name": "Rabaul",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "deaths": 101
     },
     {
         "id": 4326,
@@ -2057,7 +2083,8 @@
         "latitude": 46.2,
         "longitude": -122.18,
         "name": "St. Helens",
-        "locationName": "US-Washington"
+        "locationName": "US-Washington",
+        "deaths": 101
     },
     {
         "id": 4475,
@@ -2090,7 +2117,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 51
     },
     {
         "id": 2069,
@@ -2102,7 +2130,8 @@
         "latitude": -2.38,
         "longitude": 147.35,
         "name": "St. Andrew Strait",
-        "locationName": "Admiralty Is-SW Paci"
+        "locationName": "Admiralty Is-SW Paci",
+        "deaths": 101
     },
     {
         "id": 3050,
@@ -2151,7 +2180,8 @@
         "latitude": 2.3,
         "longitude": 125.37,
         "name": "Ruang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "deaths": 1
     },
     {
         "id": 202,
@@ -2291,7 +2321,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 777,
@@ -2325,7 +2356,8 @@
         "latitude": 27.881,
         "longitude": 128.223,
         "name": "Io-Torishima",
-        "locationName": "Ryukyu Is"
+        "locationName": "Ryukyu Is",
+        "deaths": 1
     },
     {
         "id": 6370,
@@ -2416,7 +2448,8 @@
         "latitude": -19.532,
         "longitude": 169.447,
         "name": "Yasur",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "deaths": 101
     },
     {
         "id": 844,
@@ -2434,7 +2467,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 101
     },
     {
         "id": 7504,
@@ -2470,7 +2504,8 @@
         "latitude": 0.32,
         "longitude": 127.4,
         "name": "Makian",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 101
     },
     {
         "id": 960,
@@ -2552,7 +2587,8 @@
         "latitude": -6.895,
         "longitude": 108.408,
         "name": "Cereme",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 2372,
@@ -3008,7 +3044,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 51
     },
     {
         "id": 2505,
@@ -3021,7 +3058,8 @@
         "latitude": -7.143,
         "longitude": 107.84,
         "name": "Guntur",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 4175,
@@ -3055,7 +3093,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 1
     },
     {
         "id": 3651,
@@ -3072,7 +3111,8 @@
         "latitude": 13.813,
         "longitude": -89.633,
         "name": "Izalco",
-        "locationName": "El Salvador"
+        "locationName": "El Salvador",
+        "deaths": 1
     },
     {
         "id": 1211,
@@ -3224,7 +3264,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 51
     },
     {
         "id": 6567,
@@ -3356,7 +3397,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 1
     },
     {
         "id": 28,
@@ -3408,7 +3450,8 @@
         "latitude": 19.692,
         "longitude": -155.87,
         "name": "Hualalai",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "deaths": 1
     },
     {
         "id": 6504,
@@ -3475,7 +3518,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 1
     },
     {
         "id": 4486,
@@ -3488,7 +3532,8 @@
         "latitude": 34.724,
         "longitude": 139.394,
         "name": "Izu-Oshima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "deaths": 1
     },
     {
         "id": 6024,
@@ -3585,7 +3630,8 @@
         "latitude": -8.119,
         "longitude": 114.056,
         "name": "Raung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 101
     },
     {
         "id": 4483,
@@ -3656,7 +3702,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 4052,
@@ -3856,7 +3903,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 51
     },
     {
         "id": 4474,
@@ -4001,7 +4049,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 4506,
@@ -4018,7 +4067,8 @@
         "latitude": -39.42,
         "longitude": -71.93,
         "name": "Villarrica",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "deaths": 1
     },
     {
         "id": 6644,
@@ -4034,7 +4084,8 @@
         "latitude": 63.983,
         "longitude": -19.666,
         "name": "Hekla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "deaths": 101
     },
     {
         "id": 71,
@@ -4127,7 +4178,8 @@
         "latitude": -8.058,
         "longitude": 114.242,
         "name": "Ijen",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 51
     },
     {
         "id": 4225,
@@ -4140,7 +4192,8 @@
         "latitude": 63.633,
         "longitude": -19.083,
         "name": "Katla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "deaths": 1
     },
     {
         "id": 2250,
@@ -4226,7 +4279,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 4504,
@@ -4332,7 +4386,8 @@
         "latitude": -8.119,
         "longitude": 114.056,
         "name": "Raung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 51
     },
     {
         "id": 140,
@@ -4367,7 +4422,8 @@
         "latitude": -6.312,
         "longitude": 130.017,
         "name": "Serua",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "deaths": 51
     },
     {
         "id": 4464,
@@ -4467,7 +4523,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 1
     },
     {
         "id": 5525,
@@ -4536,7 +4593,8 @@
         "latitude": -5.094,
         "longitude": 150.094,
         "name": "Dakataua",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "deaths": 1
     },
     {
         "id": 3959,
@@ -4624,7 +4682,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 5526,
@@ -4704,7 +4763,8 @@
         "latitude": 14.473,
         "longitude": -90.88,
         "name": "Fuego",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "deaths": 1
     },
     {
         "id": 4141,
@@ -4825,7 +4885,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 4493,
@@ -4913,7 +4974,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 25,
@@ -4951,7 +5013,8 @@
         "latitude": -9.13,
         "longitude": 159.82,
         "name": "Savo",
-        "locationName": "Solomon Is-SW Pacifi"
+        "locationName": "Solomon Is-SW Pacifi",
+        "deaths": 101
     },
     {
         "id": 859,
@@ -4986,7 +5049,8 @@
         "latitude": -6.137,
         "longitude": 155.196,
         "name": "Bagana",
-        "locationName": "Bougainville-SW Paci"
+        "locationName": "Bougainville-SW Paci",
+        "deaths": 51
     },
     {
         "id": 39,
@@ -5100,7 +5164,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 101
     },
     {
         "id": 753,
@@ -5121,7 +5186,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 754,
@@ -5223,7 +5289,8 @@
         "latitude": 36.404,
         "longitude": 25.396,
         "name": "Santorini",
-        "locationName": "Greece"
+        "locationName": "Greece",
+        "deaths": 101
     },
     {
         "id": 761,
@@ -5264,7 +5331,8 @@
         "latitude": 36.571,
         "longitude": 137.59,
         "name": "Midagahara",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 101
     },
     {
         "id": 1213,
@@ -5335,7 +5403,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 51
     },
     {
         "id": 5305,
@@ -5472,7 +5541,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "deaths": 1
     },
     {
         "id": 627,
@@ -5506,7 +5576,8 @@
         "latitude": 63.633,
         "longitude": -19.083,
         "name": "Katla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "deaths": 51
     },
     {
         "id": 736,
@@ -5537,7 +5608,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 1
     },
     {
         "id": 874,
@@ -5586,7 +5658,8 @@
         "latitude": 36.571,
         "longitude": 137.59,
         "name": "Midagahara",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 101
     },
     {
         "id": 6445,
@@ -5671,7 +5744,8 @@
         "latitude": -4.523,
         "longitude": 129.881,
         "name": "Banda Api",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "deaths": 1
     },
     {
         "id": 4496,
@@ -5780,7 +5854,8 @@
         "latitude": 13.734,
         "longitude": -89.294,
         "name": "San Salvador",
-        "locationName": "El Salvador"
+        "locationName": "El Salvador",
+        "deaths": 1
     },
     {
         "id": 1176,
@@ -5815,7 +5890,8 @@
         "latitude": 12.98,
         "longitude": -87.57,
         "name": "Cosiguina",
-        "locationName": "Nicaragua"
+        "locationName": "Nicaragua",
+        "deaths": 1
     },
     {
         "id": 6184,
@@ -5848,7 +5924,8 @@
         "latitude": -8.119,
         "longitude": 114.056,
         "name": "Raung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 6585,
@@ -5862,7 +5939,8 @@
         "latitude": 17.36,
         "longitude": -93.228,
         "name": "Chichon, El",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "deaths": 51
     },
     {
         "id": 994,
@@ -5931,7 +6009,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 1
     },
     {
         "id": 141,
@@ -5987,7 +6066,8 @@
         "latitude": 1.38,
         "longitude": 127.53,
         "name": "Gamkonora",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "deaths": 1
     },
     {
         "id": 933,
@@ -6088,7 +6168,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 101
     },
     {
         "id": 5404,
@@ -6154,7 +6235,8 @@
         "latitude": 56.056,
         "longitude": 160.642,
         "name": "Klyuchevskoy",
-        "locationName": "Kamchatka"
+        "locationName": "Kamchatka",
+        "deaths": 1
     },
     {
         "id": 3927,
@@ -6171,7 +6253,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 101
     },
     {
         "id": 6447,
@@ -6301,7 +6384,8 @@
         "latitude": -7.143,
         "longitude": 107.84,
         "name": "Guntur",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 101
     },
     {
         "id": 4482,
@@ -6318,7 +6402,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 101
     },
     {
         "id": 6264,
@@ -6427,7 +6512,8 @@
         "latitude": -0.077,
         "longitude": -77.656,
         "name": "Reventador",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 1
     },
     {
         "id": 4199,
@@ -6486,7 +6572,8 @@
         "latitude": -11.75,
         "longitude": 43.38,
         "name": "Karthala",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "deaths": 101
     },
     {
         "id": 3970,
@@ -6880,7 +6967,8 @@
         "latitude": 35.361,
         "longitude": 138.728,
         "name": "Fujisan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 1
     },
     {
         "id": 489,
@@ -6961,7 +7049,8 @@
         "latitude": -5.589,
         "longitude": 147.875,
         "name": "Umboi",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "deaths": 51
     },
     {
         "id": 16,
@@ -7090,7 +7179,8 @@
         "latitude": 30.793,
         "longitude": 130.305,
         "name": "Kikai",
-        "locationName": "Ryukyu Is"
+        "locationName": "Ryukyu Is",
+        "deaths": 101
     },
     {
         "id": 4487,
@@ -7106,7 +7196,8 @@
         "latitude": 41.805,
         "longitude": 141.166,
         "name": "Esan",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "deaths": 101
     },
     {
         "id": 4248,
@@ -7187,7 +7278,8 @@
         "latitude": -11.75,
         "longitude": 43.38,
         "name": "Karthala",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "deaths": 1
     },
     {
         "id": 4480,
@@ -7276,7 +7368,8 @@
         "latitude": 19.514,
         "longitude": -103.62,
         "name": "Colima",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "deaths": 1
     },
     {
         "id": 2699,
@@ -7375,7 +7468,8 @@
         "latitude": -16.829,
         "longitude": 168.536,
         "name": "Kuwae",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "deaths": 101
     },
     {
         "id": 41,
@@ -7591,7 +7685,8 @@
         "latitude": -5.519,
         "longitude": 148.115,
         "name": "Ritter Island",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "deaths": 1001
     },
     {
         "id": 4327,
@@ -7622,7 +7717,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 4472,
@@ -7675,7 +7771,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 101
     },
     {
         "id": 4371,
@@ -7693,7 +7790,8 @@
         "latitude": 28.57,
         "longitude": -17.83,
         "name": "La Palma",
-        "locationName": "Canary Is"
+        "locationName": "Canary Is",
+        "deaths": 1
     },
     {
         "id": 5004,
@@ -7707,7 +7805,8 @@
         "latitude": -11.75,
         "longitude": 43.38,
         "name": "Karthala",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "deaths": 1
     },
     {
         "id": 6884,
@@ -7812,7 +7911,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "deaths": 1
     },
     {
         "id": 4446,
@@ -7825,7 +7925,8 @@
         "latitude": -10.386,
         "longitude": 165.804,
         "name": "Tinakula",
-        "locationName": "Santa Cruz Is-SW Pac"
+        "locationName": "Santa Cruz Is-SW Pac",
+        "deaths": 101
     },
     {
         "id": 730,
@@ -7915,7 +8016,8 @@
         "latitude": -5.576,
         "longitude": 150.516,
         "name": "Witori",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "deaths": 1
     },
     {
         "id": 4643,
@@ -7978,7 +8080,8 @@
         "latitude": 2.32,
         "longitude": -76.4,
         "name": "Purace",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "deaths": 51
     },
     {
         "id": 5104,
@@ -8016,7 +8119,8 @@
         "latitude": 19.023,
         "longitude": -98.622,
         "name": "Popocatepetl",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "deaths": 51
     },
     {
         "id": 846,
@@ -8033,7 +8137,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 101
     },
     {
         "id": 4367,
@@ -8152,7 +8257,8 @@
         "latitude": -15.389,
         "longitude": 167.835,
         "name": "Ambae",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "deaths": 101
     },
     {
         "id": 198,
@@ -8364,7 +8470,8 @@
         "latitude": -4.523,
         "longitude": 129.881,
         "name": "Banda Api",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "deaths": 1
     },
     {
         "id": 6465,
@@ -8509,7 +8616,8 @@
         "latitude": -4.523,
         "longitude": 129.881,
         "name": "Banda Api",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "deaths": 51
     },
     {
         "id": 878,
@@ -8525,7 +8633,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 1
     },
     {
         "id": 3562,
@@ -8540,7 +8649,8 @@
         "latitude": 14.473,
         "longitude": -90.88,
         "name": "Fuego",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "deaths": 1
     },
     {
         "id": 6525,
@@ -8619,7 +8729,8 @@
         "latitude": 40.73,
         "longitude": 13.897,
         "name": "Ischia",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 1
     },
     {
         "id": 680,
@@ -8669,7 +8780,8 @@
         "latitude": -8.119,
         "longitude": 114.056,
         "name": "Raung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 2496,
@@ -8685,7 +8797,8 @@
         "latitude": -6.77,
         "longitude": 107.6,
         "name": "Tangkuban Parahu",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 1352,
@@ -8698,7 +8811,8 @@
         "latitude": 27.08,
         "longitude": 37.25,
         "name": "Uwayrid, Harrat",
-        "locationName": "Arabia-W"
+        "locationName": "Arabia-W",
+        "deaths": 1
     },
     {
         "id": 3830,
@@ -8843,7 +8957,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 101
     },
     {
         "id": 4197,
@@ -9102,7 +9217,8 @@
         "latitude": 1.358,
         "longitude": 124.792,
         "name": "Lokon-Empung",
-        "locationName": "Sulawesi-Indonesia"
+        "locationName": "Sulawesi-Indonesia",
+        "deaths": 1
     },
     {
         "id": 6329,
@@ -9115,7 +9231,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 4455,
@@ -9128,7 +9245,8 @@
         "latitude": -7.143,
         "longitude": 107.84,
         "name": "Guntur",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 101
     },
     {
         "id": 643,
@@ -9510,7 +9628,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 101
     },
     {
         "id": 7164,
@@ -9629,7 +9748,8 @@
         "latitude": 48.873,
         "longitude": 154.182,
         "name": "Sinarka",
-        "locationName": "Kuril Is"
+        "locationName": "Kuril Is",
+        "deaths": 101
     },
     {
         "id": 5745,
@@ -9676,7 +9796,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "deaths": 101
     },
     {
         "id": 6348,
@@ -9767,7 +9888,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 101
     },
     {
         "id": 2822,
@@ -9880,7 +10002,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 1
     },
     {
         "id": 2308,
@@ -10018,7 +10141,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "deaths": 51
     },
     {
         "id": 3608,
@@ -10089,7 +10213,8 @@
         "latitude": 7.691,
         "longitude": 124.507,
         "name": "Ragang",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "deaths": 1
     },
     {
         "id": 87,
@@ -10127,7 +10252,8 @@
         "latitude": 19.514,
         "longitude": -103.62,
         "name": "Colima",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "deaths": 1
     },
     {
         "id": 6305,
@@ -10161,7 +10287,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "deaths": 101
     },
     {
         "id": 439,
@@ -10174,7 +10301,8 @@
         "latitude": -8.53,
         "longitude": 123.57,
         "name": "Iliwerung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "deaths": 1
     },
     {
         "id": 9,
@@ -10191,7 +10319,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "deaths": 1
     },
     {
         "id": 4509,
@@ -10227,7 +10356,8 @@
         "latitude": -15.6,
         "longitude": -175.63,
         "name": "Niuafo'ou",
-        "locationName": "Tonga-SW Pacific"
+        "locationName": "Tonga-SW Pacific",
+        "deaths": 1
     },
     {
         "id": 6569,
@@ -10259,7 +10389,8 @@
         "latitude": -5.576,
         "longitude": 150.516,
         "name": "Witori",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "deaths": 1
     },
     {
         "id": 533,
@@ -10346,7 +10477,8 @@
         "latitude": -5.92,
         "longitude": 154.98,
         "name": "Balbi",
-        "locationName": "Bougainville-SW Paci"
+        "locationName": "Bougainville-SW Paci",
+        "deaths": 101
     },
     {
         "id": 4150,
@@ -10380,7 +10512,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "deaths": 1
     },
     {
         "id": 100,

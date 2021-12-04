@@ -192,5 +192,6 @@ function drawBarChart(typeEvent, col, min, max){
             .attr("dy", "1em")   
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
             .text("Occurences");   // Label
+        debugger
     })
 }
