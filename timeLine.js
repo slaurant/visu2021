@@ -17,10 +17,7 @@ function setTimelinePeriod(min, max) {
   change("tsunamis_chart" , "rgb(50, 63, 73)");
   change("earthquakes_chart" , "rgb(50, 63, 73)");
   // update top 
-  selectTop3("volcano", min, max);
-  change("volcanos_top" , "firebrick");
-  change("tsunamis_top" , "rgb(50, 63, 73)");
-  change("earthquakes_top" , "rgb(50, 63, 73)")
+
 }
 
 
@@ -40,10 +37,7 @@ $(document).ready(function(){
         change("tsunamis_chart" , "rgb(50, 63, 73)");
         change("earthquakes_chart" , "rgb(50, 63, 73)");
           // update top 
-        selectTop3("volcano",ui.values[0], ui.values[1]);
-        change("volcanos_top" , "firebrick");
-        change("tsunamis_top" , "rgb(50, 63, 73)");
-        change("earthquakes_top" , "rgb(50, 63, 73)")
+
       }
     });
     $( "#amount" ).text("-2000 ➞ 2021");

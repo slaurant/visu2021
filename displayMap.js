@@ -47,7 +47,6 @@ map.on("load", function(){
 	
 	d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
 		addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
-		console.log(data)
 	});
 });
 /// LOAD DATA AND ADD LAYERS TO THE MAP
