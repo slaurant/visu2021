@@ -193,7 +193,7 @@ function filterMap(min, max) {
 
 	//filter the map by those values	
 	map.setFilter("tsunamis", ["all", minDeathsFilter,damageFilter,filterDateMin, filterDateMax, validityMapFilter ,causeMapFilter])
-	//map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
-	//map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
+	map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
+	map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
 	}
 
