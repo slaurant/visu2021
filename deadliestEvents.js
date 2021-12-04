@@ -18,22 +18,22 @@ function selectTop3(min, max){
         dataYears.sort(function (a, b) {
             return b.deaths - a.deaths;
             });
-
-        let locationGold = dataYears[1].locationName;
-        let locationSilver = dataYears[2].locationName;
-        let locationBronze = dataYears[3].locationName;
+        console.log(dataYears)
+        let locationGold = dataYears[0].locationName;
+        let locationSilver = dataYears[1].locationName;
+        let locationBronze = dataYears[2].locationName;
         
-        let deathsGold = dataYears[1].deaths;
-        let deathsSilver = dataYears[2].deaths;
-        let deathsBronze = dataYears[3].deaths;
+        let deathsGold = dataYears[0].deaths;
+        let deathsSilver = dataYears[1].deaths;
+        let deathsBronze = dataYears[2].deaths;
 
-        let typeGold = dataYears[1].typeEvent;
-        let typeSilver = dataYears[2].typeEvent;
-        let typeBronze = dataYears[3].typeEvent;
+        let typeGold = dataYears[0].typeEvent;
+        let typeSilver = dataYears[1].typeEvent;
+        let typeBronze = dataYears[2].typeEvent;
 
-        let yearGold = dataYears[1].year;
-        let yearSilver = dataYears[2].year;
-        let yearBronze = dataYears[3].year;
+        let yearGold = dataYears[0].year;
+        let yearSilver = dataYears[1].year;
+        let yearBronze = dataYears[2].year;
 
         document.getElementById("firstDeadly").innerHTML ="[Year : " + yearGold + "] " + locationGold + " : " + deathsGold + " deaths (" + typeGold + ")";
         document.getElementById("secondDeadly").innerHTML ="[" + yearSilver + "] " +  locationSilver + " : " + deathsSilver + " deaths (" + typeSilver + ")";
