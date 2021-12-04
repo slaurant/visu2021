@@ -87,9 +87,9 @@ function getGeoJSON(points){
 							country : points[i]["country"],
 								// In this case, I have specified the name but you can add any property you wish
 							deathOrder : points[i]["deathsAmountOrder"],
-							cause: points[i]["causeCode"],
+							cause: points[i]["causeCode"] || 0,
 							damageAmount: points[i]["damageAmountOrder"] || 0, 
-							validity: points[i]["eventValidity"], 
+							validity: points[i]["eventValidity"] || 0, 
 							year: points[i]["year"]
 						}
 					}
@@ -192,7 +192,8 @@ function filterMap(min, max) {
 
 
 	//filter the map by those values	
-	map.setFilter("tsunamis", ["all", minDeathsFilter,damageFilter,filterDateMin, filterDateMax,causeMapFilter,validityMapFilter])
-	map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
-	map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
+	map.setFilter("tsunamis", ["all", minDeathsFilter,damageFilter,filterDateMin, filterDateMax, validityMapFilter ,causeMapFilter])
+	//map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
+	//map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
 	}
+
