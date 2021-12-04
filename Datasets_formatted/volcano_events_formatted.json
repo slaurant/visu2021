@@ -19,7 +19,8 @@
         "longitude": 120.993,
         "name": "Taal",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 5605,
@@ -37,7 +38,8 @@
         "longitude": 129.881,
         "name": "Banda Api",
         "locationName": "Banda Sea",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 3664,
@@ -56,7 +58,8 @@
         "latitude": 13.734,
         "longitude": -89.294,
         "name": "San Salvador",
-        "locationName": "El Salvador"
+        "locationName": "El Salvador",
+        "typeEvent": "eruption"
     },
     {
         "id": 3518,
@@ -79,7 +82,8 @@
         "latitude": 17.36,
         "longitude": -93.228,
         "name": "Chichon, El",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 7484,
@@ -100,7 +104,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6346,
@@ -118,7 +123,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 1133,
@@ -135,7 +141,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4495,
@@ -152,7 +159,8 @@
         "latitude": 14.757,
         "longitude": -91.552,
         "name": "Santa Maria",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 3105,
@@ -170,7 +178,8 @@
         "latitude": 52.825,
         "longitude": -169.944,
         "name": "Cleveland",
-        "locationName": "Aleutian Is"
+        "locationName": "Aleutian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6626,
@@ -188,7 +197,8 @@
         "latitude": -0.171,
         "longitude": -78.598,
         "name": "Guagua Pichincha",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 594,
@@ -204,7 +214,8 @@
         "longitude": 127.894,
         "name": "Dukono",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4944,
@@ -223,7 +234,8 @@
         "latitude": 2.93,
         "longitude": -76.03,
         "name": "Huila, Nevado del",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6265,
@@ -240,7 +252,8 @@
         "latitude": 39.7,
         "longitude": 44.3,
         "name": "Ararat",
-        "locationName": "Turkey"
+        "locationName": "Turkey",
+        "typeEvent": "eruption"
     },
     {
         "id": 40,
@@ -255,7 +268,8 @@
         "latitude": 6.25,
         "longitude": 10.5,
         "name": "Oku Volcanic Field",
-        "locationName": "Africa-W"
+        "locationName": "Africa-W",
+        "typeEvent": "eruption"
     },
     {
         "id": 6267,
@@ -268,7 +282,8 @@
         "latitude": -11.75,
         "longitude": 43.38,
         "name": "Karthala",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "typeEvent": "eruption"
     },
     {
         "id": 15,
@@ -287,7 +302,8 @@
         "latitude": -11.75,
         "longitude": 43.38,
         "name": "Karthala",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "typeEvent": "eruption"
     },
     {
         "id": 104,
@@ -310,7 +326,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 707,
@@ -330,7 +347,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 4505,
@@ -349,7 +367,8 @@
         "latitude": -38.692,
         "longitude": -71.729,
         "name": "Llaima",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 617,
@@ -368,7 +387,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6328,
@@ -387,7 +407,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6325,
@@ -401,7 +422,8 @@
         "latitude": -6.77,
         "longitude": 107.6,
         "name": "Tangkuban Parahu",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 450,
@@ -420,7 +442,8 @@
         "latitude": -8.508,
         "longitude": 124.13,
         "name": "Sirung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 3944,
@@ -438,7 +461,8 @@
         "latitude": -0.677,
         "longitude": -78.436,
         "name": "Cotopaxi",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 44,
@@ -457,7 +481,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4383,
@@ -475,7 +500,8 @@
         "longitude": -24.35,
         "name": "Fogo",
         "locationName": "Cape Verde Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 11,
@@ -493,7 +519,8 @@
         "longitude": 40.573,
         "name": "Alayta",
         "locationName": "Africa-NE",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 580,
@@ -511,7 +538,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6428,
@@ -529,7 +557,8 @@
         "latitude": 15.13,
         "longitude": 120.35,
         "name": "Pinatubo",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 4452,
@@ -550,7 +579,8 @@
         "latitude": -6.102,
         "longitude": 105.423,
         "name": "Krakatau",
-        "locationName": "Indonesia"
+        "locationName": "Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4462,
@@ -568,7 +598,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6304,
@@ -581,7 +612,8 @@
         "latitude": -15.389,
         "longitude": 167.835,
         "name": "Ambae",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 6845,
@@ -596,7 +628,8 @@
         "latitude": -38.12,
         "longitude": 176.5,
         "name": "Okataina",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 30,
@@ -617,7 +650,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4477,
@@ -636,7 +670,8 @@
         "latitude": 32.761,
         "longitude": 130.299,
         "name": "Unzendake",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1332,
@@ -654,7 +689,8 @@
         "latitude": 34.724,
         "longitude": 139.394,
         "name": "Izu-Oshima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 5527,
@@ -672,7 +708,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 584,
@@ -693,7 +730,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4562,
@@ -708,7 +746,8 @@
         "longitude": 105.423,
         "name": "Krakatau",
         "locationName": "Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2697,
@@ -726,7 +765,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3521,
@@ -746,7 +786,8 @@
         "latitude": 14.757,
         "longitude": -91.552,
         "name": "Santa Maria",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 5164,
@@ -768,7 +809,8 @@
         "latitude": 14.382,
         "longitude": -90.601,
         "name": "Pacaya",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 739,
@@ -786,7 +828,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6565,
@@ -799,7 +842,8 @@
         "longitude": 158.28,
         "name": "Vilyuchik",
         "locationName": "Kamchatka",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 20,
@@ -817,7 +861,8 @@
         "latitude": -4.649,
         "longitude": 145.964,
         "name": "Karkar",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 4465,
@@ -831,7 +876,8 @@
         "latitude": 17.32,
         "longitude": 121.1,
         "name": "Ambalatungan Group",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 1232,
@@ -848,7 +894,8 @@
         "latitude": 38.144,
         "longitude": 140.44,
         "name": "Zaozan [Zaosan]",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3821,
@@ -870,7 +917,8 @@
         "latitude": 9.979,
         "longitude": -83.852,
         "name": "Irazu",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 6364,
@@ -885,7 +933,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6324,
@@ -900,7 +949,8 @@
         "latitude": -6.72,
         "longitude": 106.73,
         "name": "Salak",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 1166,
@@ -918,7 +968,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2608,
@@ -936,7 +987,8 @@
         "latitude": 30.484,
         "longitude": 140.303,
         "name": "Izu-Torishima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1719,
@@ -957,7 +1009,8 @@
         "latitude": 6.25,
         "longitude": 10.5,
         "name": "Oku Volcanic Field",
-        "locationName": "Africa-W"
+        "locationName": "Africa-W",
+        "typeEvent": "eruption"
     },
     {
         "id": 367,
@@ -979,7 +1032,8 @@
         "latitude": -8.25,
         "longitude": 118,
         "name": "Tambora",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 132,
@@ -1002,7 +1056,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2686,
@@ -1023,7 +1078,8 @@
         "latitude": 42.063,
         "longitude": 140.677,
         "name": "Hokkaido-Komagatake",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4490,
@@ -1036,7 +1092,8 @@
         "longitude": -128.9,
         "name": "Tseax River Cone",
         "locationName": "Canada",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4469,
@@ -1054,7 +1111,8 @@
         "longitude": 130.657,
         "name": "Aira",
         "locationName": "Kyushu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 1355,
@@ -1071,7 +1129,8 @@
         "longitude": 33.792,
         "name": "Kyejo",
         "locationName": "Africa-E",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4275,
@@ -1088,7 +1147,8 @@
         "latitude": 64.416,
         "longitude": -17.316,
         "name": "Grimsvotn",
-        "locationName": "Iceland-NE"
+        "locationName": "Iceland-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 6268,
@@ -1103,7 +1163,8 @@
         "latitude": -38.82,
         "longitude": 176,
         "name": "Taupo",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 4507,
@@ -1121,7 +1182,8 @@
         "latitude": -45.9,
         "longitude": -72.97,
         "name": "Hudson, Cerro",
-        "locationName": "Chile-S"
+        "locationName": "Chile-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 562,
@@ -1144,7 +1206,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4466,
@@ -1157,7 +1220,8 @@
         "longitude": 98.5,
         "name": "Tengchong",
         "locationName": "China-S",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4448,
@@ -1173,7 +1237,8 @@
         "longitude": 167.835,
         "name": "Ambae",
         "locationName": "Vanuatu-SW Pacific",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4484,
@@ -1191,7 +1256,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2673,
@@ -1213,7 +1279,8 @@
         "latitude": 41.51,
         "longitude": 139.367,
         "name": "Oshima-Oshima",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 61,
@@ -1227,7 +1294,8 @@
         "longitude": 110.446,
         "name": "Merapi",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 1581,
@@ -1243,7 +1311,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 1012,
@@ -1261,7 +1330,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6549,
@@ -1276,7 +1346,8 @@
         "latitude": 43.664,
         "longitude": 142.854,
         "name": "Taisetsuzan",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6645,
@@ -1289,7 +1360,8 @@
         "latitude": 64.416,
         "longitude": -17.316,
         "name": "Grimsvotn",
-        "locationName": "Iceland-NE"
+        "locationName": "Iceland-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 932,
@@ -1314,7 +1386,8 @@
         "latitude": 32.761,
         "longitude": 130.299,
         "name": "Unzendake",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 679,
@@ -1336,7 +1409,8 @@
         "longitude": 124.673,
         "name": "Camiguin",
         "locationName": "Mindanao-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 5064,
@@ -1354,7 +1428,8 @@
         "longitude": 168.37,
         "name": "Epi",
         "locationName": "Vanuatu-SW Pacific",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3407,
@@ -1377,7 +1452,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4428,
@@ -1400,7 +1476,8 @@
         "latitude": 15.13,
         "longitude": 120.35,
         "name": "Pinatubo",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6624,
@@ -1420,7 +1497,8 @@
         "latitude": 2.93,
         "longitude": -76.03,
         "name": "Huila, Nevado del",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 823,
@@ -1441,7 +1519,8 @@
         "latitude": 30.443,
         "longitude": 130.217,
         "name": "Kuchinoerabujima",
-        "locationName": "Ryukyu Is"
+        "locationName": "Ryukyu Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 411,
@@ -1460,7 +1539,8 @@
         "latitude": -8.542,
         "longitude": 122.775,
         "name": "Lewotobi",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6424,
@@ -1478,7 +1558,8 @@
         "latitude": 6.113,
         "longitude": 124.892,
         "name": "Parker",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 23,
@@ -1496,7 +1577,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 3294,
@@ -1516,7 +1598,8 @@
         "latitude": 61.299,
         "longitude": -152.251,
         "name": "Spurr",
-        "locationName": "Alaska-SW"
+        "locationName": "Alaska-SW",
+        "typeEvent": "eruption"
     },
     {
         "id": 3573,
@@ -1534,7 +1617,8 @@
         "latitude": 14.473,
         "longitude": -90.88,
         "name": "Fuego",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 136,
@@ -1554,7 +1638,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 7,
@@ -1573,7 +1658,8 @@
         "longitude": 29.25,
         "name": "Nyiragongo",
         "locationName": "Africa-C",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 2251,
@@ -1592,7 +1678,8 @@
         "latitude": -16.25,
         "longitude": 168.12,
         "name": "Ambrym",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 4443,
@@ -1606,7 +1693,8 @@
         "longitude": 149.07,
         "name": "Victory",
         "locationName": "New Guinea",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 42,
@@ -1624,7 +1712,8 @@
         "latitude": 36.404,
         "longitude": 25.396,
         "name": "Santorini",
-        "locationName": "Greece"
+        "locationName": "Greece",
+        "typeEvent": "eruption"
     },
     {
         "id": 6584,
@@ -1642,7 +1731,8 @@
         "longitude": -103.62,
         "name": "Colima",
         "locationName": "Mexico",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 1650,
@@ -1661,7 +1751,8 @@
         "latitude": 36.404,
         "longitude": 25.396,
         "name": "Santorini",
-        "locationName": "Greece"
+        "locationName": "Greece",
+        "typeEvent": "eruption"
     },
     {
         "id": 1356,
@@ -1681,7 +1772,8 @@
         "latitude": 36.404,
         "longitude": 25.396,
         "name": "Santorini",
-        "locationName": "Greece"
+        "locationName": "Greece",
+        "typeEvent": "eruption"
     },
     {
         "id": 2679,
@@ -1699,7 +1791,8 @@
         "latitude": 42.063,
         "longitude": 140.677,
         "name": "Hokkaido-Komagatake",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4478,
@@ -1717,7 +1810,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6471,
@@ -1732,7 +1826,8 @@
         "latitude": 35.233,
         "longitude": 139.021,
         "name": "Hakoneyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 714,
@@ -1749,7 +1844,8 @@
         "longitude": 123.685,
         "name": "Mayon",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6365,
@@ -1763,7 +1859,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 735,
@@ -1781,7 +1878,8 @@
         "longitude": 123.685,
         "name": "Mayon",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4377,
@@ -1799,7 +1897,8 @@
         "longitude": -13.63,
         "name": "Lanzarote",
         "locationName": "Canary Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4139,
@@ -1818,7 +1917,8 @@
         "latitude": -39.42,
         "longitude": -71.93,
         "name": "Villarrica",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 191,
@@ -1836,7 +1936,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6269,
@@ -1851,7 +1952,8 @@
         "latitude": -38.82,
         "longitude": 176,
         "name": "Taupo",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 552,
@@ -1872,7 +1974,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4488,
@@ -1888,7 +1991,8 @@
         "longitude": 141.38,
         "name": "Shikotsu",
         "locationName": "Hokkaido-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 599,
@@ -1908,7 +2012,8 @@
         "longitude": 127.53,
         "name": "Gamkonora",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 37,
@@ -1926,7 +2031,8 @@
         "latitude": -15.6,
         "longitude": -175.63,
         "name": "Niuafo'ou",
-        "locationName": "Tonga-SW Pacific"
+        "locationName": "Tonga-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 21,
@@ -1943,7 +2049,8 @@
         "latitude": 40.827,
         "longitude": 14.139,
         "name": "Campi Flegrei",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 6347,
@@ -1962,7 +2069,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4339,
@@ -1980,7 +2088,8 @@
         "latitude": 38.6,
         "longitude": -28.73,
         "name": "Fayal",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 2609,
@@ -1998,7 +2107,8 @@
         "latitude": 30.484,
         "longitude": 140.303,
         "name": "Izu-Torishima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 7364,
@@ -2018,7 +2128,8 @@
         "latitude": 38.789,
         "longitude": 15.213,
         "name": "Stromboli",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 5,
@@ -2034,7 +2145,8 @@
         "longitude": 152.203,
         "name": "Rabaul",
         "locationName": "New Britain-SW Pac",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4326,
@@ -2051,7 +2163,8 @@
         "latitude": 64.05,
         "longitude": -16.633,
         "name": "Oraefajokull",
-        "locationName": "Iceland-SE"
+        "locationName": "Iceland-SE",
+        "typeEvent": "eruption"
     },
     {
         "id": 5944,
@@ -2069,7 +2182,8 @@
         "latitude": -8.32,
         "longitude": 121.708,
         "name": "Paluweh",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 3304,
@@ -2084,7 +2198,8 @@
         "longitude": -122.18,
         "name": "St. Helens",
         "locationName": "US-Washington",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4475,
@@ -2100,7 +2215,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 618,
@@ -2118,7 +2234,8 @@
         "longitude": 127.33,
         "name": "Gamalama",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 2069,
@@ -2131,7 +2248,8 @@
         "longitude": 147.35,
         "name": "St. Andrew Strait",
         "locationName": "Admiralty Is-SW Paci",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 3050,
@@ -2149,7 +2267,8 @@
         "latitude": 56.056,
         "longitude": 160.642,
         "name": "Klyuchevskoy",
-        "locationName": "Kamchatka"
+        "locationName": "Kamchatka",
+        "typeEvent": "eruption"
     },
     {
         "id": 6545,
@@ -2162,7 +2281,8 @@
         "latitude": 39.964,
         "longitude": 140.757,
         "name": "Akita-Yakeyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 530,
@@ -2181,7 +2301,8 @@
         "longitude": 125.37,
         "name": "Ruang",
         "locationName": "Sangihe Is-Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 202,
@@ -2199,7 +2320,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6509,
@@ -2214,7 +2336,8 @@
         "latitude": 37.125,
         "longitude": 139.963,
         "name": "Nasudake",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2582,
@@ -2232,7 +2355,8 @@
         "latitude": 34.094,
         "longitude": 139.526,
         "name": "Miyakejima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 5424,
@@ -2253,7 +2377,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 92,
@@ -2271,7 +2396,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 32,
@@ -2287,7 +2413,8 @@
         "latitude": -37.52,
         "longitude": 177.18,
         "name": "Whakaari/White Island",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 94,
@@ -2308,7 +2435,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 117,
@@ -2322,7 +2450,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 777,
@@ -2341,7 +2470,8 @@
         "latitude": 19.077,
         "longitude": 122.202,
         "name": "Didicas",
-        "locationName": "Luzon-N of"
+        "locationName": "Luzon-N of",
+        "typeEvent": "eruption"
     },
     {
         "id": 4467,
@@ -2357,7 +2487,8 @@
         "longitude": 128.223,
         "name": "Io-Torishima",
         "locationName": "Ryukyu Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6370,
@@ -2375,7 +2506,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 205,
@@ -2392,7 +2524,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 1,
@@ -2411,7 +2544,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4663,
@@ -2432,7 +2566,8 @@
         "latitude": -8.508,
         "longitude": 124.13,
         "name": "Sirung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 5624,
@@ -2449,7 +2584,8 @@
         "longitude": 169.447,
         "name": "Yasur",
         "locationName": "Vanuatu-SW Pacific",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 844,
@@ -2468,7 +2604,8 @@
         "longitude": 130.657,
         "name": "Aira",
         "locationName": "Kyushu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 7504,
@@ -2485,7 +2622,8 @@
         "latitude": -8.058,
         "longitude": 114.242,
         "name": "Ijen",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 664,
@@ -2505,7 +2643,8 @@
         "longitude": 127.4,
         "name": "Makian",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 960,
@@ -2521,7 +2660,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6804,
@@ -2536,7 +2676,8 @@
         "latitude": 40.827,
         "longitude": 14.139,
         "name": "Campi Flegrei",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4459,
@@ -2557,7 +2698,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4707,
@@ -2573,7 +2715,8 @@
         "latitude": 14.809,
         "longitude": -61.165,
         "name": "Pelee",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 2527,
@@ -2588,7 +2731,8 @@
         "longitude": 108.408,
         "name": "Cereme",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2372,
@@ -2609,7 +2753,8 @@
         "latitude": -0.38,
         "longitude": 100.474,
         "name": "Marapi",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 6506,
@@ -2624,7 +2769,8 @@
         "latitude": 36.618,
         "longitude": 138.528,
         "name": "Kusatsu-Shiranesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6568,
@@ -2637,7 +2783,8 @@
         "latitude": 45.374,
         "longitude": -121.695,
         "name": "Hood",
-        "locationName": "US-Oregon"
+        "locationName": "US-Oregon",
+        "typeEvent": "eruption"
     },
     {
         "id": 4492,
@@ -2653,7 +2800,8 @@
         "latitude": 19.692,
         "longitude": -155.87,
         "name": "Hualalai",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 5445,
@@ -2671,7 +2819,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 105,
@@ -2689,7 +2838,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 395,
@@ -2710,7 +2860,8 @@
         "latitude": -8.32,
         "longitude": 121.708,
         "name": "Paluweh",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6349,
@@ -2728,7 +2879,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2180,
@@ -2750,7 +2902,8 @@
         "latitude": -4.271,
         "longitude": 152.203,
         "name": "Rabaul",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "typeEvent": "eruption"
     },
     {
         "id": 6369,
@@ -2768,7 +2921,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2429,
@@ -2790,7 +2944,8 @@
         "latitude": -6.102,
         "longitude": 105.423,
         "name": "Krakatau",
-        "locationName": "Indonesia"
+        "locationName": "Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 2583,
@@ -2811,7 +2966,8 @@
         "latitude": 34.094,
         "longitude": 139.526,
         "name": "Miyakejima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4744,
@@ -2829,7 +2985,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6924,
@@ -2849,7 +3006,8 @@
         "latitude": 36.618,
         "longitude": 138.528,
         "name": "Kusatsu-Shiranesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6004,
@@ -2870,7 +3028,8 @@
         "latitude": 3.17,
         "longitude": 98.392,
         "name": "Sinabung",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 7264,
@@ -2897,7 +3056,8 @@
         "latitude": -6.102,
         "longitude": 105.423,
         "name": "Krakatau",
-        "locationName": "Indonesia"
+        "locationName": "Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 3851,
@@ -2915,7 +3075,8 @@
         "latitude": 2.32,
         "longitude": -76.4,
         "name": "Purace",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 1203,
@@ -2932,7 +3093,8 @@
         "latitude": 37.125,
         "longitude": 139.963,
         "name": "Nasudake",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2746,
@@ -2953,7 +3115,8 @@
         "latitude": 43.418,
         "longitude": 142.686,
         "name": "Tokachidake",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 82,
@@ -2973,7 +3136,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 345,
@@ -2992,7 +3156,8 @@
         "latitude": -8.242,
         "longitude": 115.375,
         "name": "Batur",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6544,
@@ -3007,7 +3172,8 @@
         "latitude": 39.964,
         "longitude": 140.757,
         "name": "Akita-Yakeyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3835,
@@ -3028,7 +3194,8 @@
         "latitude": 4.892,
         "longitude": -75.324,
         "name": "Ruiz, Nevado del",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 2572,
@@ -3045,7 +3212,8 @@
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
         "locationName": "Java",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 2505,
@@ -3059,7 +3227,8 @@
         "longitude": 107.84,
         "name": "Guntur",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4175,
@@ -3077,7 +3246,8 @@
         "latitude": 16.72,
         "longitude": -62.18,
         "name": "Soufriere Hills",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 8,
@@ -3094,7 +3264,8 @@
         "longitude": 14.426,
         "name": "Vesuvius",
         "locationName": "Italy",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3651,
@@ -3112,7 +3283,8 @@
         "longitude": -89.633,
         "name": "Izalco",
         "locationName": "El Salvador",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 1211,
@@ -3135,7 +3307,8 @@
         "latitude": 37.601,
         "longitude": 140.072,
         "name": "Bandaisan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4476,
@@ -3152,7 +3325,8 @@
         "latitude": 32.761,
         "longitude": 130.299,
         "name": "Unzendake",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6784,
@@ -3171,7 +3345,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4458,
@@ -3189,7 +3364,8 @@
         "latitude": 1.358,
         "longitude": 124.792,
         "name": "Lokon-Empung",
-        "locationName": "Sulawesi-Indonesia"
+        "locationName": "Sulawesi-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 18,
@@ -3210,7 +3386,8 @@
         "latitude": -38.12,
         "longitude": 176.5,
         "name": "Okataina",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 697,
@@ -3228,7 +3405,8 @@
         "latitude": 12.769,
         "longitude": 124.056,
         "name": "Bulusan",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 389,
@@ -3251,7 +3429,8 @@
         "latitude": -8.891,
         "longitude": 121.641,
         "name": "Iya",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4503,
@@ -3265,7 +3444,8 @@
         "longitude": -78.436,
         "name": "Cotopaxi",
         "locationName": "Ecuador",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 6567,
@@ -3286,7 +3466,8 @@
         "latitude": 3.17,
         "longitude": 98.392,
         "name": "Sinabung",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 49,
@@ -3304,7 +3485,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2740,
@@ -3327,7 +3509,8 @@
         "latitude": 43.418,
         "longitude": 142.686,
         "name": "Tokachidake",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4501,
@@ -3344,7 +3527,8 @@
         "latitude": 10.463,
         "longitude": -84.703,
         "name": "Arenal",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 4511,
@@ -3358,7 +3542,8 @@
         "latitude": 64.416,
         "longitude": -17.316,
         "name": "Grimsvotn",
-        "locationName": "Iceland-NE"
+        "locationName": "Iceland-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 26,
@@ -3381,7 +3566,8 @@
         "latitude": 38.789,
         "longitude": 15.213,
         "name": "Stromboli",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 1146,
@@ -3398,7 +3584,8 @@
         "longitude": 138.523,
         "name": "Asamayama",
         "locationName": "Honshu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 28,
@@ -3416,7 +3603,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4473,
@@ -3437,7 +3625,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6570,
@@ -3451,7 +3640,8 @@
         "longitude": -155.87,
         "name": "Hualalai",
         "locationName": "Hawaiian Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6504,
@@ -3469,7 +3659,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6464,
@@ -3487,7 +3678,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 5545,
@@ -3502,7 +3694,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 949,
@@ -3519,7 +3712,8 @@
         "longitude": 131.104,
         "name": "Asosan",
         "locationName": "Kyushu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4486,
@@ -3533,7 +3727,8 @@
         "longitude": 139.394,
         "name": "Izu-Oshima",
         "locationName": "Izu Is-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6024,
@@ -3552,7 +3747,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 138,
@@ -3572,7 +3768,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6844,
@@ -3586,7 +3783,8 @@
         "latitude": -38.12,
         "longitude": 176.5,
         "name": "Okataina",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 843,
@@ -3600,7 +3798,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2573,
@@ -3617,7 +3816,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 294,
@@ -3631,7 +3831,8 @@
         "longitude": 114.056,
         "name": "Raung",
         "locationName": "Java",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4483,
@@ -3649,7 +3850,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2574,
@@ -3668,7 +3870,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 3372,
@@ -3686,7 +3889,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 733,
@@ -3703,7 +3907,8 @@
         "longitude": 123.685,
         "name": "Mayon",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4052,
@@ -3722,7 +3927,8 @@
         "latitude": -16.608,
         "longitude": -70.85,
         "name": "Huaynaputina",
-        "locationName": "Peru"
+        "locationName": "Peru",
+        "typeEvent": "eruption"
     },
     {
         "id": 4512,
@@ -3743,7 +3949,8 @@
         "latitude": 38.65,
         "longitude": -28.08,
         "name": "San Jorge",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 3314,
@@ -3765,7 +3972,8 @@
         "latitude": 46.2,
         "longitude": -122.18,
         "name": "St. Helens",
-        "locationName": "US-Washington"
+        "locationName": "US-Washington",
+        "typeEvent": "eruption"
     },
     {
         "id": 1349,
@@ -3787,7 +3995,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 7536,
@@ -3808,7 +4017,8 @@
         "latitude": -1.52,
         "longitude": 29.25,
         "name": "Nyiragongo",
-        "locationName": "Africa-C"
+        "locationName": "Africa-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 762,
@@ -3829,7 +4039,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 2591,
@@ -3848,7 +4059,8 @@
         "latitude": 32.458,
         "longitude": 139.759,
         "name": "Aogashima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6606,
@@ -3869,7 +4081,8 @@
         "latitude": 10.463,
         "longitude": -84.703,
         "name": "Arenal",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 6425,
@@ -3886,7 +4099,8 @@
         "latitude": 9.203,
         "longitude": 124.673,
         "name": "Camiguin",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6,
@@ -3904,7 +4118,8 @@
         "longitude": 14.999,
         "name": "Etna",
         "locationName": "Italy",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 4474,
@@ -3925,7 +4140,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3046,
@@ -3943,7 +4159,8 @@
         "latitude": 56.056,
         "longitude": 160.642,
         "name": "Klyuchevskoy",
-        "locationName": "Kamchatka"
+        "locationName": "Kamchatka",
+        "typeEvent": "eruption"
     },
     {
         "id": 4456,
@@ -3958,7 +4175,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2521,
@@ -3978,7 +4196,8 @@
         "latitude": -7.25,
         "longitude": 108.058,
         "name": "Galunggung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4764,
@@ -3997,7 +4216,8 @@
         "latitude": 15.55,
         "longitude": 41.83,
         "name": "Tair, Jebel at",
-        "locationName": "Red Sea"
+        "locationName": "Red Sea",
+        "typeEvent": "eruption"
     },
     {
         "id": 64,
@@ -4014,7 +4234,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2696,
@@ -4032,7 +4253,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 706,
@@ -4050,7 +4272,8 @@
         "longitude": 123.685,
         "name": "Mayon",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4506,
@@ -4068,7 +4291,8 @@
         "longitude": -71.93,
         "name": "Villarrica",
         "locationName": "Chile-C",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6644,
@@ -4085,7 +4309,8 @@
         "longitude": -19.666,
         "name": "Hekla",
         "locationName": "Iceland-S",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 71,
@@ -4104,7 +4329,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 693,
@@ -4125,7 +4351,8 @@
         "latitude": 10.412,
         "longitude": 123.132,
         "name": "Kanlaon",
-        "locationName": "Philippines-C"
+        "locationName": "Philippines-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 5565,
@@ -4141,7 +4368,8 @@
         "latitude": 64.25,
         "longitude": -16.583,
         "name": "Esjufjoll",
-        "locationName": "Iceland-SE"
+        "locationName": "Iceland-SE",
+        "typeEvent": "eruption"
     },
     {
         "id": 206,
@@ -4159,7 +4387,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 333,
@@ -4179,7 +4408,8 @@
         "longitude": 114.242,
         "name": "Ijen",
         "locationName": "Java",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 4225,
@@ -4193,7 +4423,8 @@
         "longitude": -19.083,
         "name": "Katla",
         "locationName": "Iceland-S",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2250,
@@ -4210,7 +4441,8 @@
         "latitude": -16.25,
         "longitude": 168.12,
         "name": "Ambrym",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 203,
@@ -4228,7 +4460,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6409,
@@ -4246,7 +4479,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4499,
@@ -4263,7 +4497,8 @@
         "latitude": 10.463,
         "longitude": -84.703,
         "name": "Arenal",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 732,
@@ -4280,7 +4515,8 @@
         "longitude": 123.685,
         "name": "Mayon",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4504,
@@ -4301,7 +4537,8 @@
         "latitude": -2.005,
         "longitude": -78.341,
         "name": "Sangay",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 1315,
@@ -4319,7 +4556,8 @@
         "latitude": 34.724,
         "longitude": 139.394,
         "name": "Izu-Oshima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 34,
@@ -4337,7 +4575,8 @@
         "latitude": -1.408,
         "longitude": 29.2,
         "name": "Nyamuragira",
-        "locationName": "Africa-C"
+        "locationName": "Africa-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 6384,
@@ -4355,7 +4594,8 @@
         "latitude": -8.42,
         "longitude": 116.47,
         "name": "Rinjani",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6607,
@@ -4373,7 +4613,8 @@
         "latitude": 9.979,
         "longitude": -83.852,
         "name": "Irazu",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 297,
@@ -4387,7 +4628,8 @@
         "longitude": 114.056,
         "name": "Raung",
         "locationName": "Java",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 140,
@@ -4405,7 +4647,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 466,
@@ -4423,7 +4666,8 @@
         "longitude": 130.017,
         "name": "Serua",
         "locationName": "Banda Sea",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 4464,
@@ -4441,7 +4685,8 @@
         "latitude": 15.13,
         "longitude": 120.35,
         "name": "Pinatubo",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6468,
@@ -4456,7 +4701,8 @@
         "latitude": 35.233,
         "longitude": 139.021,
         "name": "Hakoneyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4470,
@@ -4473,7 +4719,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1215,
@@ -4491,7 +4738,8 @@
         "latitude": 37.735,
         "longitude": 140.244,
         "name": "Azumayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6550,
@@ -4506,7 +4754,8 @@
         "latitude": 43.664,
         "longitude": 142.854,
         "name": "Taisetsuzan",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6505,
@@ -4524,7 +4773,8 @@
         "longitude": 138.523,
         "name": "Asamayama",
         "locationName": "Honshu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 5525,
@@ -4543,7 +4793,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6245,
@@ -4560,7 +4811,8 @@
         "latitude": 38.789,
         "longitude": 15.213,
         "name": "Stromboli",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 3523,
@@ -4577,7 +4829,8 @@
         "latitude": 14.757,
         "longitude": -91.552,
         "name": "Santa Maria",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 1353,
@@ -4594,7 +4847,8 @@
         "longitude": 150.094,
         "name": "Dakataua",
         "locationName": "New Britain-SW Pac",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3959,
@@ -4611,7 +4865,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 35,
@@ -4629,7 +4884,8 @@
         "latitude": -4.649,
         "longitude": 145.964,
         "name": "Karkar",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 6547,
@@ -4647,7 +4903,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 22,
@@ -4665,7 +4922,8 @@
         "latitude": -21.244,
         "longitude": 55.708,
         "name": "Fournaise, Piton de la",
-        "locationName": "Indian O-W"
+        "locationName": "Indian O-W",
+        "typeEvent": "eruption"
     },
     {
         "id": 128,
@@ -4683,7 +4941,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 5526,
@@ -4707,7 +4966,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 1100,
@@ -4725,7 +4985,8 @@
         "latitude": 36.921,
         "longitude": 138.036,
         "name": "Niigata-Yakeyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6604,
@@ -4744,7 +5005,8 @@
         "latitude": 13.853,
         "longitude": -89.63,
         "name": "Santa Ana",
-        "locationName": "El Salvador"
+        "locationName": "El Salvador",
+        "typeEvent": "eruption"
     },
     {
         "id": 3574,
@@ -4764,7 +5026,8 @@
         "longitude": -90.88,
         "name": "Fuego",
         "locationName": "Guatemala",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4141,
@@ -4782,7 +5045,8 @@
         "latitude": -39.42,
         "longitude": -71.93,
         "name": "Villarrica",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 3906,
@@ -4800,7 +5064,8 @@
         "latitude": -0.171,
         "longitude": -78.598,
         "name": "Guagua Pichincha",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 3479,
@@ -4818,7 +5083,8 @@
         "latitude": 19.514,
         "longitude": -103.62,
         "name": "Colima",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 13,
@@ -4836,7 +5102,8 @@
         "latitude": 38.789,
         "longitude": 15.213,
         "name": "Stromboli",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 1145,
@@ -4854,7 +5121,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 167,
@@ -4872,7 +5140,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 119,
@@ -4886,7 +5155,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4493,
@@ -4904,7 +5174,8 @@
         "latitude": 19.85,
         "longitude": -101.75,
         "name": "Michoacan-Guanajuato",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 2227,
@@ -4918,7 +5189,8 @@
         "latitude": -9.13,
         "longitude": 159.82,
         "name": "Savo",
-        "locationName": "Solomon Is-SW Pacifi"
+        "locationName": "Solomon Is-SW Pacifi",
+        "typeEvent": "eruption"
     },
     {
         "id": 69,
@@ -4939,7 +5211,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 38,
@@ -4958,7 +5231,8 @@
         "latitude": -3.613,
         "longitude": 144.818,
         "name": "Bam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 176,
@@ -4975,7 +5249,8 @@
         "longitude": 112.922,
         "name": "Semeru",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 25,
@@ -4998,7 +5273,8 @@
         "latitude": 38.789,
         "longitude": 15.213,
         "name": "Stromboli",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4445,
@@ -5014,7 +5290,8 @@
         "longitude": 159.82,
         "name": "Savo",
         "locationName": "Solomon Is-SW Pacifi",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 859,
@@ -5034,7 +5311,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2190,
@@ -5050,7 +5328,8 @@
         "longitude": 155.196,
         "name": "Bagana",
         "locationName": "Bougainville-SW Paci",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 39,
@@ -5068,7 +5347,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 296,
@@ -5082,7 +5362,8 @@
         "latitude": -8.119,
         "longitude": 114.056,
         "name": "Raung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6366,
@@ -5105,7 +5386,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 43,
@@ -5123,7 +5405,8 @@
         "latitude": 11.28,
         "longitude": 41.63,
         "name": "Dama Ali",
-        "locationName": "Africa-NE"
+        "locationName": "Africa-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 2676,
@@ -5146,7 +5429,8 @@
         "latitude": 42.063,
         "longitude": 140.677,
         "name": "Hokkaido-Komagatake",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1350,
@@ -5165,7 +5449,8 @@
         "longitude": 14.999,
         "name": "Etna",
         "locationName": "Italy",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 753,
@@ -5187,7 +5472,8 @@
         "longitude": 120.993,
         "name": "Taal",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 754,
@@ -5209,7 +5495,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 3833,
@@ -5227,7 +5514,8 @@
         "latitude": 4.892,
         "longitude": -75.324,
         "name": "Ruiz, Nevado del",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 581,
@@ -5250,7 +5538,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 585,
@@ -5273,7 +5562,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 1351,
@@ -5290,7 +5580,8 @@
         "longitude": 25.396,
         "name": "Santorini",
         "locationName": "Greece",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 761,
@@ -5316,7 +5607,8 @@
         "latitude": 14.002,
         "longitude": 120.993,
         "name": "Taal",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6484,
@@ -5332,7 +5624,8 @@
         "longitude": 137.59,
         "name": "Midagahara",
         "locationName": "Honshu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 1213,
@@ -5353,7 +5646,8 @@
         "latitude": 37.647,
         "longitude": 140.281,
         "name": "Adatarayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6367,
@@ -5371,7 +5665,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 5464,
@@ -5386,7 +5681,8 @@
         "latitude": 1.358,
         "longitude": 124.792,
         "name": "Lokon-Empung",
-        "locationName": "Sulawesi-Indonesia"
+        "locationName": "Sulawesi-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 2571,
@@ -5404,7 +5700,8 @@
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
         "locationName": "Java",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 5305,
@@ -5422,7 +5719,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2188,
@@ -5441,7 +5739,8 @@
         "latitude": -8.95,
         "longitude": 148.15,
         "name": "Lamington",
-        "locationName": "New Guinea"
+        "locationName": "New Guinea",
+        "typeEvent": "eruption"
     },
     {
         "id": 14,
@@ -5459,7 +5758,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 351,
@@ -5482,7 +5782,8 @@
         "latitude": -8.343,
         "longitude": 115.508,
         "name": "Agung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 2695,
@@ -5504,7 +5805,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4479,
@@ -5525,7 +5827,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 756,
@@ -5542,7 +5845,8 @@
         "longitude": 120.993,
         "name": "Taal",
         "locationName": "Luzon-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 627,
@@ -5560,7 +5864,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4226,
@@ -5577,7 +5882,8 @@
         "longitude": -19.083,
         "name": "Katla",
         "locationName": "Iceland-S",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 736,
@@ -5595,7 +5901,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6627,
@@ -5609,7 +5916,8 @@
         "longitude": -78.436,
         "name": "Cotopaxi",
         "locationName": "Ecuador",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 874,
@@ -5626,7 +5934,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4234,
@@ -5644,7 +5953,8 @@
         "latitude": 63.633,
         "longitude": -19.083,
         "name": "Katla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 6485,
@@ -5659,7 +5969,8 @@
         "longitude": 137.59,
         "name": "Midagahara",
         "locationName": "Honshu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 6445,
@@ -5673,7 +5984,8 @@
         "latitude": 32.761,
         "longitude": 130.299,
         "name": "Unzendake",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 525,
@@ -5694,7 +6006,8 @@
         "latitude": 1.352,
         "longitude": 124.865,
         "name": "Mahawu",
-        "locationName": "Sulawesi-Indonesia"
+        "locationName": "Sulawesi-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6224,
@@ -5711,7 +6024,8 @@
         "latitude": -45.9,
         "longitude": -72.97,
         "name": "Hudson, Cerro",
-        "locationName": "Chile-S"
+        "locationName": "Chile-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 6327,
@@ -5729,7 +6043,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 472,
@@ -5745,7 +6060,8 @@
         "longitude": 129.881,
         "name": "Banda Api",
         "locationName": "Banda Sea",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4496,
@@ -5762,7 +6078,8 @@
         "latitude": 14.757,
         "longitude": -91.552,
         "name": "Santa Maria",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 7004,
@@ -5782,7 +6099,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6474,
@@ -5800,7 +6118,8 @@
         "latitude": 36.227,
         "longitude": 137.587,
         "name": "Yakedake",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1344,
@@ -5822,7 +6141,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 6345,
@@ -5842,7 +6162,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4497,
@@ -5855,7 +6176,8 @@
         "longitude": -89.294,
         "name": "San Salvador",
         "locationName": "El Salvador",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 1176,
@@ -5873,7 +6195,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3688,
@@ -5891,7 +6214,8 @@
         "longitude": -87.57,
         "name": "Cosiguina",
         "locationName": "Nicaragua",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6184,
@@ -5909,7 +6233,8 @@
         "latitude": -4.08,
         "longitude": 145.037,
         "name": "Manam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 298,
@@ -5925,7 +6250,8 @@
         "longitude": 114.056,
         "name": "Raung",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6585,
@@ -5940,7 +6266,8 @@
         "longitude": -93.228,
         "name": "Chichon, El",
         "locationName": "Mexico",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 994,
@@ -5956,7 +6283,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 204,
@@ -5974,7 +6302,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 5244,
@@ -5990,7 +6319,8 @@
         "latitude": 3.17,
         "longitude": 98.392,
         "name": "Sinabung",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 607,
@@ -6010,7 +6340,8 @@
         "longitude": 127.33,
         "name": "Gamalama",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 141,
@@ -6033,7 +6364,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 3248,
@@ -6051,7 +6383,8 @@
         "latitude": 58.27,
         "longitude": -155.157,
         "name": "Novarupta",
-        "locationName": "Alaska Peninsula"
+        "locationName": "Alaska Peninsula",
+        "typeEvent": "eruption"
     },
     {
         "id": 4460,
@@ -6067,7 +6400,8 @@
         "longitude": 127.53,
         "name": "Gamkonora",
         "locationName": "Halmahera-Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 933,
@@ -6085,7 +6419,8 @@
         "latitude": 32.761,
         "longitude": 130.299,
         "name": "Unzendake",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6564,
@@ -6099,7 +6434,8 @@
         "latitude": 52.449,
         "longitude": 158.196,
         "name": "Mutnovsky",
-        "locationName": "Kamchatka"
+        "locationName": "Kamchatka",
+        "typeEvent": "eruption"
     },
     {
         "id": 4491,
@@ -6118,7 +6454,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4508,
@@ -6137,7 +6474,8 @@
         "latitude": 14.809,
         "longitude": -61.165,
         "name": "Pelee",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 6487,
@@ -6152,7 +6490,8 @@
         "latitude": 36.571,
         "longitude": 137.59,
         "name": "Midagahara",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2,
@@ -6169,7 +6508,8 @@
         "longitude": 14.999,
         "name": "Etna",
         "locationName": "Italy",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 5404,
@@ -6186,7 +6526,8 @@
         "latitude": 12.769,
         "longitude": 124.056,
         "name": "Bulusan",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 704,
@@ -6204,7 +6545,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 4457,
@@ -6222,7 +6564,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4489,
@@ -6236,7 +6579,8 @@
         "longitude": 160.642,
         "name": "Klyuchevskoy",
         "locationName": "Kamchatka",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3927,
@@ -6254,7 +6598,8 @@
         "longitude": -78.436,
         "name": "Cotopaxi",
         "locationName": "Ecuador",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 6447,
@@ -6272,7 +6617,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 269,
@@ -6288,7 +6634,8 @@
         "latitude": -7.981,
         "longitude": 113.341,
         "name": "Lamongan",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6444,
@@ -6303,7 +6650,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 5384,
@@ -6321,7 +6669,8 @@
         "latitude": 12.769,
         "longitude": 124.056,
         "name": "Bulusan",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 7144,
@@ -6340,7 +6689,8 @@
         "latitude": -15.389,
         "longitude": 167.835,
         "name": "Ambae",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 5744,
@@ -6355,7 +6705,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6524,
@@ -6370,7 +6721,8 @@
         "latitude": 37.647,
         "longitude": 140.281,
         "name": "Adatarayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4454,
@@ -6385,7 +6737,8 @@
         "longitude": 107.84,
         "name": "Guntur",
         "locationName": "Java",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4482,
@@ -6403,7 +6756,8 @@
         "longitude": 138.523,
         "name": "Asamayama",
         "locationName": "Honshu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 6264,
@@ -6421,7 +6775,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4502,
@@ -6439,7 +6794,8 @@
         "latitude": 1.22,
         "longitude": -77.37,
         "name": "Galeras",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 619,
@@ -6455,7 +6811,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4033,
@@ -6473,7 +6830,8 @@
         "latitude": -0.92,
         "longitude": -91.408,
         "name": "Azul, Cerro",
-        "locationName": "Galapagos"
+        "locationName": "Galapagos",
+        "typeEvent": "eruption"
     },
     {
         "id": 5546,
@@ -6492,7 +6850,8 @@
         "latitude": 16.72,
         "longitude": -62.18,
         "name": "Soufriere Hills",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 6625,
@@ -6513,7 +6872,8 @@
         "longitude": -77.656,
         "name": "Reventador",
         "locationName": "Ecuador",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4199,
@@ -6534,7 +6894,8 @@
         "latitude": 13.33,
         "longitude": -61.18,
         "name": "Soufriere St. Vincent",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 7464,
@@ -6555,7 +6916,8 @@
         "latitude": -37.52,
         "longitude": 177.18,
         "name": "Whakaari/White Island",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 3,
@@ -6573,7 +6935,8 @@
         "longitude": 43.38,
         "name": "Karthala",
         "locationName": "Indian O-W",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 3970,
@@ -6594,7 +6957,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 6165,
@@ -6614,7 +6978,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 3502,
@@ -6633,7 +6998,8 @@
         "latitude": 19.023,
         "longitude": -98.622,
         "name": "Popocatepetl",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 4202,
@@ -6651,7 +7017,8 @@
         "latitude": 13.33,
         "longitude": -61.18,
         "name": "Soufriere St. Vincent",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 4140,
@@ -6669,7 +7036,8 @@
         "latitude": -39.42,
         "longitude": -71.93,
         "name": "Villarrica",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 2367,
@@ -6688,7 +7056,8 @@
         "latitude": -0.38,
         "longitude": 100.474,
         "name": "Marapi",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 1628,
@@ -6706,7 +7075,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 6486,
@@ -6721,7 +7091,8 @@
         "latitude": 36.571,
         "longitude": 137.59,
         "name": "Midagahara",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6372,
@@ -6737,7 +7108,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 144,
@@ -6755,7 +7127,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6204,
@@ -6772,7 +7145,8 @@
         "latitude": 3.17,
         "longitude": 98.392,
         "name": "Sinabung",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 19,
@@ -6788,7 +7162,8 @@
         "latitude": -4.08,
         "longitude": 145.037,
         "name": "Manam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 1163,
@@ -6805,7 +7180,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1168,
@@ -6827,7 +7203,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6266,
@@ -6842,7 +7219,8 @@
         "latitude": -1.52,
         "longitude": 29.25,
         "name": "Nyiragongo",
-        "locationName": "Africa-C"
+        "locationName": "Africa-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 24,
@@ -6860,7 +7238,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 6429,
@@ -6875,7 +7254,8 @@
         "latitude": 15.13,
         "longitude": 120.35,
         "name": "Pinatubo",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6511,
@@ -6890,7 +7270,8 @@
         "latitude": 37.601,
         "longitude": 140.072,
         "name": "Bandaisan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 915,
@@ -6911,7 +7292,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6344,
@@ -6925,7 +7307,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 2125,
@@ -6946,7 +7329,8 @@
         "latitude": -4.08,
         "longitude": 145.037,
         "name": "Manam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 1065,
@@ -6968,7 +7352,8 @@
         "longitude": 138.728,
         "name": "Fujisan",
         "locationName": "Honshu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 489,
@@ -6989,7 +7374,8 @@
         "latitude": 1.112,
         "longitude": 124.737,
         "name": "Soputan",
-        "locationName": "Sulawesi-Indonesia"
+        "locationName": "Sulawesi-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 3423,
@@ -7012,7 +7398,8 @@
         "latitude": 19.475,
         "longitude": -155.608,
         "name": "Mauna Loa",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 353,
@@ -7029,7 +7416,8 @@
         "latitude": -8.343,
         "longitude": 115.508,
         "name": "Agung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4906,
@@ -7050,7 +7438,8 @@
         "longitude": 147.875,
         "name": "Umboi",
         "locationName": "New Guinea-NE of",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 16,
@@ -7069,7 +7458,8 @@
         "latitude": -4.271,
         "longitude": 152.203,
         "name": "Rabaul",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "typeEvent": "eruption"
     },
     {
         "id": 3569,
@@ -7087,7 +7477,8 @@
         "latitude": 14.473,
         "longitude": -90.88,
         "name": "Fuego",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 4964,
@@ -7109,7 +7500,8 @@
         "latitude": -1.52,
         "longitude": 29.25,
         "name": "Nyiragongo",
-        "locationName": "Africa-C"
+        "locationName": "Africa-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 1019,
@@ -7126,7 +7518,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4451,
@@ -7144,7 +7537,8 @@
         "latitude": -3.522,
         "longitude": 102.615,
         "name": "Kaba",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 5547,
@@ -7164,7 +7558,8 @@
         "latitude": -7.942,
         "longitude": 112.95,
         "name": "Tengger Caldera",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4468,
@@ -7180,7 +7575,8 @@
         "longitude": 130.305,
         "name": "Kikai",
         "locationName": "Ryukyu Is",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4487,
@@ -7197,7 +7593,8 @@
         "longitude": 141.166,
         "name": "Esan",
         "locationName": "Hokkaido-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4248,
@@ -7214,7 +7611,8 @@
         "latitude": 63.983,
         "longitude": -19.666,
         "name": "Hekla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 561,
@@ -7232,7 +7630,8 @@
         "latitude": 2.781,
         "longitude": 125.407,
         "name": "Karangetang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4461,
@@ -7245,7 +7644,8 @@
         "latitude": 9.203,
         "longitude": 124.673,
         "name": "Camiguin",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6466,
@@ -7263,7 +7663,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1731,
@@ -7279,7 +7680,8 @@
         "longitude": 43.38,
         "name": "Karthala",
         "locationName": "Indian O-W",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4480,
@@ -7296,7 +7698,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 666,
@@ -7318,7 +7721,8 @@
         "latitude": 0.32,
         "longitude": 127.4,
         "name": "Makian",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 31,
@@ -7339,7 +7743,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 665,
@@ -7355,7 +7760,8 @@
         "latitude": 0.32,
         "longitude": 127.4,
         "name": "Makian",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 3473,
@@ -7369,7 +7775,8 @@
         "longitude": -103.62,
         "name": "Colima",
         "locationName": "Mexico",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2699,
@@ -7390,7 +7797,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6427,
@@ -7403,7 +7811,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 261,
@@ -7420,7 +7829,8 @@
         "latitude": -7.981,
         "longitude": 113.341,
         "name": "Lamongan",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 486,
@@ -7438,7 +7848,8 @@
         "latitude": -4.523,
         "longitude": 129.881,
         "name": "Banda Api",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "typeEvent": "eruption"
     },
     {
         "id": 2504,
@@ -7456,7 +7867,8 @@
         "latitude": -7.32,
         "longitude": 107.73,
         "name": "Papandayan",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4449,
@@ -7469,7 +7881,8 @@
         "longitude": 168.536,
         "name": "Kuwae",
         "locationName": "Vanuatu-SW Pacific",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 41,
@@ -7483,7 +7896,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4345,
@@ -7501,7 +7915,8 @@
         "latitude": 38.65,
         "longitude": -28.08,
         "name": "San Jorge",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 6426,
@@ -7521,7 +7936,8 @@
         "latitude": 9.203,
         "longitude": 124.673,
         "name": "Camiguin",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6405,
@@ -7539,7 +7955,8 @@
         "latitude": -8.676,
         "longitude": 122.455,
         "name": "Egon",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 17,
@@ -7558,7 +7975,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4118,
@@ -7576,7 +7994,8 @@
         "latitude": -38.379,
         "longitude": -71.586,
         "name": "Lonquimay",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 3268,
@@ -7595,7 +8014,8 @@
         "latitude": 59.363,
         "longitude": -153.43,
         "name": "Augustine",
-        "locationName": "Alaska-SW"
+        "locationName": "Alaska-SW",
+        "typeEvent": "eruption"
     },
     {
         "id": 7526,
@@ -7611,7 +8031,8 @@
         "latitude": 1.5,
         "longitude": -76.936,
         "name": "Dona Juana",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 716,
@@ -7629,7 +8050,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 6507,
@@ -7644,7 +8066,8 @@
         "latitude": 36.618,
         "longitude": 138.528,
         "name": "Kusatsu-Shiranesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 81,
@@ -7665,7 +8088,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4,
@@ -7686,7 +8110,8 @@
         "longitude": 148.115,
         "name": "Ritter Island",
         "locationName": "New Guinea-NE of",
-        "deaths": 1001
+        "deaths": 1001,
+        "typeEvent": "eruption"
     },
     {
         "id": 4327,
@@ -7704,7 +8129,8 @@
         "latitude": 64.05,
         "longitude": -16.633,
         "name": "Oraefajokull",
-        "locationName": "Iceland-SE"
+        "locationName": "Iceland-SE",
+        "typeEvent": "eruption"
     },
     {
         "id": 116,
@@ -7718,7 +8144,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4472,
@@ -7736,7 +8163,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3855,
@@ -7754,7 +8182,8 @@
         "latitude": 1.5,
         "longitude": -76.936,
         "name": "Dona Juana",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 3919,
@@ -7772,7 +8201,8 @@
         "longitude": -78.436,
         "name": "Cotopaxi",
         "locationName": "Ecuador",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4371,
@@ -7791,7 +8221,8 @@
         "longitude": -17.83,
         "name": "La Palma",
         "locationName": "Canary Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 5004,
@@ -7806,7 +8237,8 @@
         "longitude": 43.38,
         "name": "Karthala",
         "locationName": "Indian O-W",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6884,
@@ -7824,7 +8256,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6566,
@@ -7846,7 +8279,8 @@
         "latitude": 3.17,
         "longitude": 98.392,
         "name": "Sinabung",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 6470,
@@ -7861,7 +8295,8 @@
         "latitude": 35.233,
         "longitude": 139.021,
         "name": "Hakoneyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6326,
@@ -7874,7 +8309,8 @@
         "latitude": -6.77,
         "longitude": 107.6,
         "name": "Tangkuban Parahu",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 29,
@@ -7895,7 +8331,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 3344,
@@ -7912,7 +8349,8 @@
         "longitude": -155.287,
         "name": "Kilauea",
         "locationName": "Hawaiian Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4446,
@@ -7926,7 +8364,8 @@
         "longitude": 165.804,
         "name": "Tinakula",
         "locationName": "Santa Cruz Is-SW Pac",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 730,
@@ -7944,7 +8383,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 1318,
@@ -7964,7 +8404,8 @@
         "latitude": 34.724,
         "longitude": 139.394,
         "name": "Izu-Oshima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4193,
@@ -7983,7 +8424,8 @@
         "latitude": 14.809,
         "longitude": -61.165,
         "name": "Pelee",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 1357,
@@ -8002,7 +8444,8 @@
         "latitude": -5.358,
         "longitude": 147.12,
         "name": "Long Island",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 5230,
@@ -8017,7 +8460,8 @@
         "longitude": 150.516,
         "name": "Witori",
         "locationName": "New Britain-SW Pac",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4643,
@@ -8040,7 +8484,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 916,
@@ -8061,7 +8506,8 @@
         "latitude": 31.934,
         "longitude": 130.862,
         "name": "Kirishimayama",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3846,
@@ -8081,7 +8527,8 @@
         "longitude": -76.4,
         "name": "Purace",
         "locationName": "Colombia",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 5104,
@@ -8103,7 +8550,8 @@
         "latitude": 34.094,
         "longitude": 139.526,
         "name": "Miyakejima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 5544,
@@ -8120,7 +8568,8 @@
         "longitude": -98.622,
         "name": "Popocatepetl",
         "locationName": "Mexico",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 846,
@@ -8138,7 +8587,8 @@
         "longitude": 130.657,
         "name": "Aira",
         "locationName": "Kyushu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4367,
@@ -8156,7 +8606,8 @@
         "latitude": 28.57,
         "longitude": -17.83,
         "name": "La Palma",
-        "locationName": "Canary Is"
+        "locationName": "Canary Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4346,
@@ -8174,7 +8625,8 @@
         "latitude": 38.65,
         "longitude": -28.08,
         "name": "San Jorge",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 578,
@@ -8192,7 +8644,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6467,
@@ -8207,7 +8660,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 410,
@@ -8225,7 +8679,8 @@
         "latitude": -8.542,
         "longitude": 122.775,
         "name": "Lewotobi",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 5485,
@@ -8244,7 +8699,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 4447,
@@ -8258,7 +8714,8 @@
         "longitude": 167.835,
         "name": "Ambae",
         "locationName": "Vanuatu-SW Pacific",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 198,
@@ -8278,7 +8735,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 589,
@@ -8300,7 +8758,8 @@
         "latitude": 3.689,
         "longitude": 125.447,
         "name": "Awu",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6472,
@@ -8315,7 +8774,8 @@
         "latitude": 35.233,
         "longitude": 139.021,
         "name": "Hakoneyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 36,
@@ -8333,7 +8793,8 @@
         "latitude": 40.827,
         "longitude": 14.139,
         "name": "Campi Flegrei",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 712,
@@ -8352,7 +8813,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 4498,
@@ -8365,7 +8827,8 @@
         "latitude": 11.826,
         "longitude": -85.968,
         "name": "Mombacho",
-        "locationName": "Nicaragua"
+        "locationName": "Nicaragua",
+        "typeEvent": "eruption"
     },
     {
         "id": 5084,
@@ -8384,7 +8847,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 3665,
@@ -8398,7 +8862,8 @@
         "latitude": 13.672,
         "longitude": -89.053,
         "name": "Ilopango",
-        "locationName": "El Salvador"
+        "locationName": "El Salvador",
+        "typeEvent": "eruption"
     },
     {
         "id": 200,
@@ -8415,7 +8880,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 3965,
@@ -8433,7 +8899,8 @@
         "latitude": -1.467,
         "longitude": -78.442,
         "name": "Tungurahua",
-        "locationName": "Ecuador"
+        "locationName": "Ecuador",
+        "typeEvent": "eruption"
     },
     {
         "id": 45,
@@ -8453,7 +8920,8 @@
         "latitude": -7.2,
         "longitude": 109.879,
         "name": "Dieng Volcanic Complex",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 482,
@@ -8471,7 +8939,8 @@
         "longitude": 129.881,
         "name": "Banda Api",
         "locationName": "Banda Sea",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6465,
@@ -8489,7 +8958,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4485,
@@ -8510,7 +8980,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6469,
@@ -8525,7 +8996,8 @@
         "latitude": 35.233,
         "longitude": 139.021,
         "name": "Hakoneyama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6446,
@@ -8540,7 +9012,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4450,
@@ -8557,7 +9030,8 @@
         "latitude": 0.686,
         "longitude": 99.539,
         "name": "Sorikmarapi",
-        "locationName": "Sumatra"
+        "locationName": "Sumatra",
+        "typeEvent": "eruption"
     },
     {
         "id": 657,
@@ -8578,7 +9052,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 12,
@@ -8599,7 +9074,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 477,
@@ -8617,7 +9093,8 @@
         "longitude": 129.881,
         "name": "Banda Api",
         "locationName": "Banda Sea",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 878,
@@ -8634,7 +9111,8 @@
         "longitude": 130.657,
         "name": "Aira",
         "locationName": "Kyushu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3562,
@@ -8650,7 +9128,8 @@
         "longitude": -90.88,
         "name": "Fuego",
         "locationName": "Guatemala",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6525,
@@ -8665,7 +9144,8 @@
         "latitude": 38.729,
         "longitude": 140.734,
         "name": "Naruko",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6404,
@@ -8680,7 +9160,8 @@
         "latitude": -8.77,
         "longitude": 121.82,
         "name": "Kelimutu",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 995,
@@ -8697,7 +9178,8 @@
         "latitude": 32.884,
         "longitude": 131.104,
         "name": "Asosan",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4362,
@@ -8715,7 +9197,8 @@
         "latitude": 37.77,
         "longitude": -25.32,
         "name": "Furnas",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 10,
@@ -8730,7 +9213,8 @@
         "longitude": 13.897,
         "name": "Ischia",
         "locationName": "Italy",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 680,
@@ -8748,7 +9232,8 @@
         "latitude": 9.203,
         "longitude": 124.673,
         "name": "Camiguin",
-        "locationName": "Mindanao-Philippines"
+        "locationName": "Mindanao-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 1246,
@@ -8765,7 +9250,8 @@
         "latitude": 39.099,
         "longitude": 140.049,
         "name": "Chokaisan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 295,
@@ -8781,7 +9267,8 @@
         "longitude": 114.056,
         "name": "Raung",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2496,
@@ -8798,7 +9285,8 @@
         "longitude": 107.6,
         "name": "Tangkuban Parahu",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 1352,
@@ -8812,7 +9300,8 @@
         "longitude": 37.25,
         "name": "Uwayrid, Harrat",
         "locationName": "Arabia-W",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 3830,
@@ -8829,7 +9318,8 @@
         "latitude": 4.892,
         "longitude": -75.324,
         "name": "Ruiz, Nevado del",
-        "locationName": "Colombia"
+        "locationName": "Colombia",
+        "typeEvent": "eruption"
     },
     {
         "id": 6185,
@@ -8850,7 +9340,8 @@
         "latitude": -4.08,
         "longitude": 145.037,
         "name": "Manam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 112,
@@ -8866,7 +9357,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4453,
@@ -8885,7 +9377,8 @@
         "latitude": -7.32,
         "longitude": 107.73,
         "name": "Papandayan",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 5304,
@@ -8908,7 +9401,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4494,
@@ -8926,7 +9420,8 @@
         "latitude": 17.36,
         "longitude": -93.228,
         "name": "Chichon, El",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 126,
@@ -8940,7 +9435,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 1106,
@@ -8958,7 +9454,8 @@
         "longitude": 138.523,
         "name": "Asamayama",
         "locationName": "Honshu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4197,
@@ -8978,7 +9475,8 @@
         "latitude": 13.33,
         "longitude": -61.18,
         "name": "Soufriere St. Vincent",
-        "locationName": "W Indies"
+        "locationName": "W Indies",
+        "typeEvent": "eruption"
     },
     {
         "id": 111,
@@ -8996,7 +9494,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4481,
@@ -9016,7 +9515,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6244,
@@ -9029,7 +9529,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 6548,
@@ -9047,7 +9548,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6473,
@@ -9062,7 +9564,8 @@
         "latitude": 35.893,
         "longitude": 137.48,
         "name": "Ontakesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 458,
@@ -9078,7 +9581,8 @@
         "latitude": -6.976,
         "longitude": 129.144,
         "name": "Teon",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "typeEvent": "eruption"
     },
     {
         "id": 4521,
@@ -9093,7 +9597,8 @@
         "latitude": -29.27,
         "longitude": -177.92,
         "name": "Raoul Island",
-        "locationName": "Kermadec Is"
+        "locationName": "Kermadec Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6284,
@@ -9108,7 +9613,8 @@
         "latitude": -4.271,
         "longitude": 152.203,
         "name": "Rabaul",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "typeEvent": "eruption"
     },
     {
         "id": 6270,
@@ -9123,7 +9629,8 @@
         "latitude": -39.28,
         "longitude": 175.57,
         "name": "Ruapehu",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 6064,
@@ -9143,7 +9650,8 @@
         "latitude": 35.893,
         "longitude": 137.48,
         "name": "Ontakesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2524,
@@ -9163,7 +9671,8 @@
         "latitude": -7.25,
         "longitude": 108.058,
         "name": "Galunggung",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6246,
@@ -9184,7 +9693,8 @@
         "latitude": 37.748,
         "longitude": 14.999,
         "name": "Etna",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 133,
@@ -9204,7 +9714,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4520,
@@ -9218,7 +9729,8 @@
         "longitude": 124.792,
         "name": "Lokon-Empung",
         "locationName": "Sulawesi-Indonesia",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6329,
@@ -9232,7 +9744,8 @@
         "longitude": 110.446,
         "name": "Merapi",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4455,
@@ -9246,7 +9759,8 @@
         "longitude": 107.84,
         "name": "Guntur",
         "locationName": "Java",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 643,
@@ -9267,7 +9781,8 @@
         "latitude": 0.8,
         "longitude": 127.33,
         "name": "Gamalama",
-        "locationName": "Halmahera-Indonesia"
+        "locationName": "Halmahera-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 4244,
@@ -9285,7 +9800,8 @@
         "latitude": 63.983,
         "longitude": -19.666,
         "name": "Hekla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 5124,
@@ -9302,7 +9818,8 @@
         "latitude": 63.633,
         "longitude": -19.633,
         "name": "Eyjafjallajokull",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 6408,
@@ -9320,7 +9837,8 @@
         "latitude": -7.125,
         "longitude": 128.675,
         "name": "Wurlali",
-        "locationName": "Banda Sea"
+        "locationName": "Banda Sea",
+        "typeEvent": "eruption"
     },
     {
         "id": 445,
@@ -9338,7 +9856,8 @@
         "latitude": -8.53,
         "longitude": 123.57,
         "name": "Iliwerung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4280,
@@ -9355,7 +9874,8 @@
         "latitude": 64.416,
         "longitude": -17.316,
         "name": "Grimsvotn",
-        "locationName": "Iceland-NE"
+        "locationName": "Iceland-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 4471,
@@ -9372,7 +9892,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1348,
@@ -9392,7 +9913,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 1342,
@@ -9413,7 +9935,8 @@
         "latitude": 13.579,
         "longitude": 41.809,
         "name": "Dubbi",
-        "locationName": "Africa-NE"
+        "locationName": "Africa-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 867,
@@ -9439,7 +9962,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1346,
@@ -9461,7 +9985,8 @@
         "latitude": -4.271,
         "longitude": 152.203,
         "name": "Rabaul",
-        "locationName": "New Britain-SW Pac"
+        "locationName": "New Britain-SW Pac",
+        "typeEvent": "eruption"
     },
     {
         "id": 4852,
@@ -9481,7 +10006,8 @@
         "latitude": 32.1,
         "longitude": 139.85,
         "name": "Kita-Bayonnaise",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 3519,
@@ -9499,7 +10025,8 @@
         "latitude": 17.36,
         "longitude": -93.228,
         "name": "Chichon, El",
-        "locationName": "Mexico"
+        "locationName": "Mexico",
+        "typeEvent": "eruption"
     },
     {
         "id": 4500,
@@ -9517,7 +10044,8 @@
         "latitude": 10.463,
         "longitude": -84.703,
         "name": "Arenal",
-        "locationName": "Costa Rica"
+        "locationName": "Costa Rica",
+        "typeEvent": "eruption"
     },
     {
         "id": 6371,
@@ -9535,7 +10063,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 5524,
@@ -9553,7 +10082,8 @@
         "latitude": 13.37,
         "longitude": 41.7,
         "name": "Nabro",
-        "locationName": "Africa-NE"
+        "locationName": "Africa-NE",
+        "typeEvent": "eruption"
     },
     {
         "id": 5864,
@@ -9571,7 +10101,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 135,
@@ -9590,7 +10121,8 @@
         "latitude": -7.93,
         "longitude": 112.308,
         "name": "Kelut",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 4603,
@@ -9610,7 +10142,8 @@
         "latitude": -8.53,
         "longitude": 123.57,
         "name": "Iliwerung",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 3918,
@@ -9629,7 +10162,8 @@
         "longitude": -78.436,
         "name": "Cotopaxi",
         "locationName": "Ecuador",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 7164,
@@ -9655,7 +10189,8 @@
         "latitude": 14.473,
         "longitude": -90.88,
         "name": "Fuego",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 2592,
@@ -9673,7 +10208,8 @@
         "latitude": 32.458,
         "longitude": 139.759,
         "name": "Aogashima",
-        "locationName": "Izu Is-Japan"
+        "locationName": "Izu Is-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2813,
@@ -9687,7 +10223,8 @@
         "latitude": 48.292,
         "longitude": 153.25,
         "name": "Raikoke",
-        "locationName": "Kuril Is"
+        "locationName": "Kuril Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 6508,
@@ -9702,7 +10239,8 @@
         "latitude": 36.56,
         "longitude": 139.193,
         "name": "Akagisan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 27,
@@ -9720,7 +10258,8 @@
         "latitude": -38.12,
         "longitude": 176.5,
         "name": "Okataina",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 6724,
@@ -9735,7 +10274,8 @@
         "latitude": 44.43,
         "longitude": -110.67,
         "name": "Yellowstone",
-        "locationName": "US-Wyoming"
+        "locationName": "US-Wyoming",
+        "typeEvent": "eruption"
     },
     {
         "id": 2818,
@@ -9749,7 +10289,8 @@
         "longitude": 154.182,
         "name": "Sinarka",
         "locationName": "Kuril Is",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 5745,
@@ -9765,7 +10306,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 1158,
@@ -9783,7 +10325,8 @@
         "latitude": 36.406,
         "longitude": 138.523,
         "name": "Asamayama",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 6628,
@@ -9797,7 +10340,8 @@
         "longitude": -78.442,
         "name": "Tungurahua",
         "locationName": "Ecuador",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 6348,
@@ -9814,7 +10358,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 5784,
@@ -9833,7 +10378,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 1343,
@@ -9852,7 +10398,8 @@
         "latitude": -38.12,
         "longitude": 176.5,
         "name": "Okataina",
-        "locationName": "New Zealand"
+        "locationName": "New Zealand",
+        "typeEvent": "eruption"
     },
     {
         "id": 724,
@@ -9872,7 +10419,8 @@
         "latitude": 13.257,
         "longitude": 123.685,
         "name": "Mayon",
-        "locationName": "Luzon-Philippines"
+        "locationName": "Luzon-Philippines",
+        "typeEvent": "eruption"
     },
     {
         "id": 990,
@@ -9889,7 +10437,8 @@
         "longitude": 131.104,
         "name": "Asosan",
         "locationName": "Kyushu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 2822,
@@ -9908,7 +10457,8 @@
         "latitude": 49.12,
         "longitude": 154.508,
         "name": "Kharimkotan",
-        "locationName": "Kuril Is"
+        "locationName": "Kuril Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 394,
@@ -9931,7 +10481,8 @@
         "latitude": -8.32,
         "longitude": 121.708,
         "name": "Paluweh",
-        "locationName": "Lesser Sunda Is"
+        "locationName": "Lesser Sunda Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 1190,
@@ -9952,7 +10503,8 @@
         "latitude": 36.618,
         "longitude": 138.528,
         "name": "Kusatsu-Shiranesan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 2693,
@@ -9970,7 +10522,8 @@
         "latitude": 42.544,
         "longitude": 140.839,
         "name": "Toya",
-        "locationName": "Hokkaido-Japan"
+        "locationName": "Hokkaido-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 1345,
@@ -9989,7 +10542,8 @@
         "latitude": 40.821,
         "longitude": 14.426,
         "name": "Vesuvius",
-        "locationName": "Italy"
+        "locationName": "Italy",
+        "typeEvent": "eruption"
     },
     {
         "id": 118,
@@ -10003,7 +10557,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 2308,
@@ -10021,7 +10576,8 @@
         "latitude": -19.532,
         "longitude": 169.447,
         "name": "Yasur",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 6368,
@@ -10037,7 +10593,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 3726,
@@ -10061,7 +10618,8 @@
         "latitude": 12.506,
         "longitude": -86.702,
         "name": "Negro, Cerro",
-        "locationName": "Nicaragua"
+        "locationName": "Nicaragua",
+        "typeEvent": "eruption"
     },
     {
         "id": 6605,
@@ -10076,7 +10634,8 @@
         "latitude": 12.702,
         "longitude": -87.004,
         "name": "San Cristobal",
-        "locationName": "Nicaragua"
+        "locationName": "Nicaragua",
+        "typeEvent": "eruption"
     },
     {
         "id": 6546,
@@ -10091,7 +10650,8 @@
         "latitude": 40.659,
         "longitude": 140.877,
         "name": "Hakkodasan",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4510,
@@ -10109,7 +10669,8 @@
         "latitude": 63.983,
         "longitude": -19.666,
         "name": "Hekla",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 6510,
@@ -10124,7 +10685,8 @@
         "latitude": 37.125,
         "longitude": 139.963,
         "name": "Nasudake",
-        "locationName": "Honshu-Japan"
+        "locationName": "Honshu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 137,
@@ -10142,7 +10704,8 @@
         "longitude": 112.308,
         "name": "Kelut",
         "locationName": "Java",
-        "deaths": 51
+        "deaths": 51,
+        "typeEvent": "eruption"
     },
     {
         "id": 3608,
@@ -10163,7 +10726,8 @@
         "latitude": 14.382,
         "longitude": -90.601,
         "name": "Pacaya",
-        "locationName": "Guatemala"
+        "locationName": "Guatemala",
+        "typeEvent": "eruption"
     },
     {
         "id": 3343,
@@ -10178,7 +10742,8 @@
         "latitude": 19.421,
         "longitude": -155.287,
         "name": "Kilauea",
-        "locationName": "Hawaiian Is"
+        "locationName": "Hawaiian Is",
+        "typeEvent": "eruption"
     },
     {
         "id": 4342,
@@ -10196,7 +10761,8 @@
         "latitude": 38.47,
         "longitude": -28.4,
         "name": "Pico",
-        "locationName": "Azores"
+        "locationName": "Azores",
+        "typeEvent": "eruption"
     },
     {
         "id": 677,
@@ -10214,7 +10780,8 @@
         "longitude": 124.507,
         "name": "Ragang",
         "locationName": "Mindanao-Philippines",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 87,
@@ -10235,7 +10802,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 3477,
@@ -10253,7 +10821,8 @@
         "longitude": -103.62,
         "name": "Colima",
         "locationName": "Mexico",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6305,
@@ -10271,7 +10840,8 @@
         "latitude": -19.532,
         "longitude": 169.447,
         "name": "Yasur",
-        "locationName": "Vanuatu-SW Pacific"
+        "locationName": "Vanuatu-SW Pacific",
+        "typeEvent": "eruption"
     },
     {
         "id": 904,
@@ -10288,7 +10858,8 @@
         "longitude": 130.862,
         "name": "Kirishimayama",
         "locationName": "Kyushu-Japan",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 439,
@@ -10302,7 +10873,8 @@
         "longitude": 123.57,
         "name": "Iliwerung",
         "locationName": "Lesser Sunda Is",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 9,
@@ -10320,7 +10892,8 @@
         "longitude": 14.426,
         "name": "Vesuvius",
         "locationName": "Italy",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 4509,
@@ -10338,7 +10911,8 @@
         "latitude": 63.416,
         "longitude": -20.266,
         "name": "Vestmannaeyjar",
-        "locationName": "Iceland-S"
+        "locationName": "Iceland-S",
+        "typeEvent": "eruption"
     },
     {
         "id": 33,
@@ -10357,7 +10931,8 @@
         "longitude": -175.63,
         "name": "Niuafo'ou",
         "locationName": "Tonga-SW Pacific",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 6569,
@@ -10372,7 +10947,8 @@
         "latitude": 45.374,
         "longitude": -121.695,
         "name": "Hood",
-        "locationName": "US-Oregon"
+        "locationName": "US-Oregon",
+        "typeEvent": "eruption"
     },
     {
         "id": 1354,
@@ -10390,7 +10966,8 @@
         "longitude": 150.516,
         "name": "Witori",
         "locationName": "New Britain-SW Pac",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 533,
@@ -10412,7 +10989,8 @@
         "latitude": 2.3,
         "longitude": 125.37,
         "name": "Ruang",
-        "locationName": "Sangihe Is-Indonesia"
+        "locationName": "Sangihe Is-Indonesia",
+        "typeEvent": "eruption"
     },
     {
         "id": 201,
@@ -10429,7 +11007,8 @@
         "latitude": -8.108,
         "longitude": 112.922,
         "name": "Semeru",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 6186,
@@ -10449,7 +11028,8 @@
         "latitude": -4.08,
         "longitude": 145.037,
         "name": "Manam",
-        "locationName": "New Guinea-NE of"
+        "locationName": "New Guinea-NE of",
+        "typeEvent": "eruption"
     },
     {
         "id": 3763,
@@ -10465,7 +11045,8 @@
         "latitude": 11.446,
         "longitude": -85.515,
         "name": "Maderas",
-        "locationName": "Nicaragua"
+        "locationName": "Nicaragua",
+        "typeEvent": "eruption"
     },
     {
         "id": 4444,
@@ -10478,7 +11059,8 @@
         "longitude": 154.98,
         "name": "Balbi",
         "locationName": "Bougainville-SW Paci",
-        "deaths": 101
+        "deaths": 101,
+        "typeEvent": "eruption"
     },
     {
         "id": 4150,
@@ -10496,7 +11078,8 @@
         "latitude": -40.35,
         "longitude": -72.07,
         "name": "Carran-Los Venados",
-        "locationName": "Chile-C"
+        "locationName": "Chile-C",
+        "typeEvent": "eruption"
     },
     {
         "id": 1147,
@@ -10513,7 +11096,8 @@
         "longitude": 138.523,
         "name": "Asamayama",
         "locationName": "Honshu-Japan",
-        "deaths": 1
+        "deaths": 1,
+        "typeEvent": "eruption"
     },
     {
         "id": 100,
@@ -10537,7 +11121,8 @@
         "latitude": -7.54,
         "longitude": 110.446,
         "name": "Merapi",
-        "locationName": "Java"
+        "locationName": "Java",
+        "typeEvent": "eruption"
     },
     {
         "id": 858,
@@ -10555,7 +11140,8 @@
         "latitude": 31.593,
         "longitude": 130.657,
         "name": "Aira",
-        "locationName": "Kyushu-Japan"
+        "locationName": "Kyushu-Japan",
+        "typeEvent": "eruption"
     },
     {
         "id": 4884,
@@ -10571,6 +11157,7 @@
         "latitude": -42.833,
         "longitude": -72.646,
         "name": "Chaiten",
-        "locationName": "Chile-S"
+        "locationName": "Chile-S",
+        "typeEvent": "eruption"
     }
 ]
