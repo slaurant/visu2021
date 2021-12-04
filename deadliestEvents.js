@@ -35,7 +35,7 @@ function selectTop3(min, max){
         let yearSilver = dataYears[2].year;
         let yearBronze = dataYears[3].year;
 
-        document.getElementById("firstDeadly").innerHTML ="[" + yearGold + "] " + locationGold + " : " + deathsGold + " deaths (" + typeGold + ")";
+        document.getElementById("firstDeadly").innerHTML ="[Year : " + yearGold + "] " + locationGold + " : " + deathsGold + " deaths (" + typeGold + ")";
         document.getElementById("secondDeadly").innerHTML ="[" + yearSilver + "] " +  locationSilver + " : " + deathsSilver + " deaths (" + typeSilver + ")";
         document.getElementById("thirdDeadly").innerHTML ="[" + yearBronze + "] " +  locationBronze + " : " + deathsBronze + " deaths (" + typeBronze + ")";
     
