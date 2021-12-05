@@ -91,7 +91,7 @@ h3{
 
 .axis text {
     font: 12px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */
-    stroke: whitesmoke;
+    fill: whitesmoke;
 }
 
 
@@ -99,7 +99,7 @@ h3{
 
 .axis path {
     fill: none;   /* Otherwise, the axis would look like a thick line */
-    stroke: whitesmoke;
+    stroke : whitesmoke;
 }
 
 /* CSS code for the element that has the id barchart */

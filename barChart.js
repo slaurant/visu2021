@@ -181,7 +181,8 @@ function drawBarChart(typeEvent, col, min, max){
         chart.append("text")						 
             .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 30) + ")")   // The label is translated rightwards by half the width of the chart (thus, it will appear at the middle)
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
-            .text("Death Count");   // Label
+            .text("Death Count")   // Label
+            .attr("fill", "whitesmoke")
 
         // A text element is appended to the chart. It contains the label of the y axis
 
@@ -191,6 +192,7 @@ function drawBarChart(typeEvent, col, min, max){
             .attr("x", 0 - (height / 2))
             .attr("dy", "1em")   
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
-            .text("Occurences");   // Label
+            .text("Occurences")   // Label
+            .attr("fill", "whitesmoke")
     })
 }
