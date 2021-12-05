@@ -5,7 +5,9 @@ h1 {
 h2{
     text-align: center;
 }
-
+h3{
+    padding-left: 30px;
+}
 
 .Element {
     position: relative;
