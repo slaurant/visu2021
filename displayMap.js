@@ -56,9 +56,11 @@ document.getElementById('tsunamisSourceFilter').addEventListener('change', (e) =
 	filterMap();
 });
 
-document.getElementById('minDeathsFilter').addEventListener('change', (e) => {
+document.getElementById("deathFilter").addEventListener('change', (e) => {
 	filterMap();
-	});
+});
+
+
 
 document.getElementById('damageFilter').addEventListener('change', (e) =>{
 	filterMap();
@@ -182,8 +184,17 @@ function filterMap(min, max) {
 
 
 	/// minimum deaths
-	const minDeathsValue = parseInt(document.getElementById('minDeathsFilter').value, 10)
-	const minDeathsFilter = ['>=', ['number', ['get', 'deathOrder']], minDeathsValue];
+	var deathChecked
+	var deathCheckBox1 =document.getElementById("deathAmountOrder1")
+	var deathCheckBox2 =document.getElementById("deathAmountOrder2")
+	var deathCheckBox3 =document.getElementById("deathAmountOrder3")
+	var deathCheckBox4 =document.getElementById("deathAmountOrder4")
+	var deathCheckBoxes = [deathCheckBox1.checked,deathCheckBox2.checked,deathCheckBox3.checked,deathCheckBox4.checked]
+	var whichChecked = []
+	for(let i = 0;i<4;i++){
+		if(deathCheckBoxes[i]){whichChecked.push(i+1)}
+	}
+	const minDeathsFilter = ["match", ["get", "deathOrder"], whichChecked, true, false];
 
 	/// minimum damage
 	const damageValue = parseInt(document.getElementById("damageFilter").value, 10)

@@ -137,6 +137,11 @@ li {
     padding: 10px;
 }
 
+#deathFilter.li{
+    display: block;
+}
+
+
 /* Modal window*/
 
 
