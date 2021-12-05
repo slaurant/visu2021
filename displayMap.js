@@ -127,7 +127,7 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 			paint: {   // Style of the visual elements (circles)
 				"circle-radius": {
 					property: "deathOrder",
-					stops: [[1,1],[2,4],[3,10],[4,15]]
+					stops: [[1,2],[2,4],[3,6],[4,10]]
 				},   // Radius
 				"circle-color": dotColor,   // Fill color
 				"circle-opacity": 0.6,   // Opacity (0 is transparent, 1 is opaque)
