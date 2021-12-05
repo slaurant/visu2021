@@ -47,4 +47,3 @@ cardContent.className = "Element"
 
 
 
-console.log(infos)
