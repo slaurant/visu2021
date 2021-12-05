@@ -38,15 +38,15 @@ const svg = d3.select(container)
 
 map.on("load", function(){
 	d3.json("Datasets_formatted/tsunamis_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "tsunamis", dotColor = "#2E86C1", "tsunamisCheck")
+		addLayers(data, "tsunamis", dotColor = "royalblue", "tsunamisCheck")
 	});
 	
 	d3.json("Datasets_formatted/earthquakes_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "earthquakes", dotColor = "#229954", "earthquakesCheck")
+		addLayers(data, "earthquakes", dotColor = "seagreen", "earthquakesCheck")
 	});
 	
 	d3.json("Datasets_formatted/volcano_events_formatted.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
-		addLayers(data, "eruptions", dotColor = "#A93226", "eruptionsCheck")
+		addLayers(data, "eruptions", dotColor = "firebrick", "eruptionsCheck")
 	});
 });
 /// LOAD DATA AND ADD LAYERS TO THE MAP
@@ -89,7 +89,8 @@ function getGeoJSON(points){
 							cause: points[i]["causeCode"] || 0,
 							damageAmount: points[i]["damageAmountOrder"] || 0, 
 							validity: points[i]["eventValidity"] || 0, 
-							year: points[i]["year"]
+							year: points[i]["year"],
+							id: points[i]["id"]
 						}
 					}
 
@@ -148,7 +149,20 @@ function addLayers(data, eventType, dotColor, checkBoxId){
 			e.target.checked ? 'visible' : 'none'
 			);
 			});
-
+		
+		map.on('mouseenter', eventType, (z) => {
+			map.getCanvas().style.cursor = 'pointer';
+			});	
+		
+		// Change it back to a pointer when it leaves.
+		map.on('mouseleave', eventType, () => {
+		map.getCanvas().style.cursor = '';
+		});
+		
+		// Click on event: print id
+		map.on("click", eventType, (e) => {
+			eventModal(e.features[0].properties['id'], eventType)
+		});
 };
 
 
