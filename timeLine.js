@@ -6,7 +6,6 @@ function setTimelinePeriod(min, max) {
   sliderElement.slider( "option", "min", min );
   sliderElement.slider( "option", "max", max );
   sliderElement.slider( "option", "values", [min, max] );
-  console.log(sliderElement.slider( "option", "values"))
   // update text
   $( "#amount" ).text(min + " ➞ " + max );
   // update map
@@ -33,7 +32,7 @@ $(document).ready(function(){
         $( "#amount" ).text( "" + ui.values[ 0 ] + " ➞ " + ui.values[ 1 ] );
         filterMap(ui.values[0], ui.values[1]);
         //update chart
-        drawBarChart("volcano", "firebrick", ui.values[0], ui.values[1]);   // When the button is clicked, draw bar chart for eruptions
+        drawBarChart("volcano", "firebrick", ui.values[0], ui.values[1]);  
         change("volcanos_chart" , "firebrick");
         change("tsunamis_chart" , "rgb(50, 63, 73)");
         change("earthquakes_chart" , "rgb(50, 63, 73)");

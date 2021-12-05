@@ -39,7 +39,7 @@ h3{
 
 #timeline {
     margin: 50px;
-    width:80%;
+    width:90%;
     height:150px;
     padding:5px;
     text-align: center;
@@ -111,15 +111,15 @@ h3{
 }
 
 .btn-group button {
-    background-color: rgb(50, 63, 73); /* Green background */
-    border: 1px solid darkslategray; /* Green border */
+    float:left;
+    background-color: rgb(50, 63, 73);
+    border-bottom: none;
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: 31%; /* Set a width if needed */
-    /*display: block; /* Make the buttons appear below each other */
     text-align: center;
-  }
+}
   
 .btn-group button:not(:last-child) {
    border-bottom: none; /* Prevent double borders */
@@ -135,7 +135,7 @@ li {
     text-align: center;
     display: inline;
     padding: 10px;
-  }
+}
 
 /* Modal window*/
 
@@ -180,3 +180,8 @@ li {
     text-decoration: none;
     cursor: pointer;
   }
+
+.fa-medal{
+    font-size: xx-large
+}
+
