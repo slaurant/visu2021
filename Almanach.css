@@ -113,7 +113,7 @@ h1 {
     cursor: pointer; /* Pointer/hand icon */
     width: 31%; /* Set a width if needed */
     text-align: center;
-  }
+}
   
 .btn-group button:not(:last-child) {
    border-bottom: none; /* Prevent double borders */
@@ -129,5 +129,8 @@ li {
     text-align: center;
     display: inline;
     padding: 10px;
-  }
+}
 
+.fa-medal{
+    font-size: xx-large
+}
