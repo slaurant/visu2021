@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html style="background-color:blanchedalmond">
+<html style="background-color: blanchedalmond">
 	<head>
 		<meta charset="utf-8">
 		<title>Almanach</title>   <!-- Set the title of the page here -->
@@ -27,18 +27,18 @@
 			<ul>
 				<li>
 					<input id="tsunamisCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+					<div class="circle" style="background-color: dodgerblue; display: inline-block;"></div>				
 					<label for="tsunamisCheck">Tsunami</label>
-					
 				</li>
 				<li>
 					<input id="earthquakesCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+					<div class="circle" style="background-color: seagreen; display: inline-block;"></div>				
 					<label for="earthquakesCheck">Earthquakes</label>
-					
 				</li>
 				<li>
 					<input id="eruptionsCheck" type="checkbox" class="checkBox" name="tsunamisBox" value="TsunamiOn" checked >
+					<div class="circle" style="background-color: firebrick; display: inline-block;"></div>				
 					<label for="eruptionsCheck">Eruptions</label>
-					
 				</li>
 
 			</ul>
@@ -47,21 +47,25 @@
 				<ul id="deathFilter">
 					<li>
 						<input id="deathAmountOrder1" type="checkbox" class="deathCheckBox" name="deathAmountOrder1" value="1" checked >
+						<div class="circle" style="display: inline-block; height: 5px; width: 5px;"></div>				
 						<label for="deathAmountOrder1">Few (~1 to 50 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder2" type="checkbox" class="deathCheckBox" name="deathAmountOrder2" value="2" checked >
+						<div class="circle" style="display: inline-block; height: 8px; width: 8px;"></div>				
 						<label for="deathAmountOrder2">Some (~51 to 100 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder3" type="checkbox" class="deathCheckBox" name="deathAmountOrder3" value="3" checked >
+						<div class="circle" style="display: inline-block; height: 11px; width: 11px;"></div>				
 						<label for="deathAmountOrder3">Many (~101 to 1000 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder4" type="checkbox" class="deathCheckBox" name="deathAmountOrder3" value="4" checked >
+						<div class="circle" style="display: inline-block; height: 16px; width: 16px;"></div>				
 						<label for="deathAmountOrder4">Very Many (~1001 or more people)</label>
 					</li>
 			</div>
@@ -109,7 +113,7 @@
 			</p>
 				
 				<div class="btn-group">
-					<button id="all" style="background-color:darkslategray; width:100%">All</button>
+					<button id="all" style="background-color:#545d68; width:100%">All</button>
 				</div>
 
 				<div class="btn-group">

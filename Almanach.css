@@ -90,14 +90,14 @@ h3{
 /* CSS code for the text elements inside an element that has the axis class */
 
 .axis text {
-    font: 10px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */
-}
+    font: 12px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */}
+
 
 /* CSS code for the path elements inside an element that has the axis class */
 
 .axis path {
     fill: none;   /* Otherwise, the axis would look like a thick line */
-    stroke: #000000;   /* Sets the color of the axis to black */
+    stroke: black;
 }
 
 /* CSS code for the element that has the id barchart */
@@ -187,3 +187,22 @@ li {
     font-size: xx-large
 }
 
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+
+input:checked ~ .checkBox:after{
+    background-color: darkslategray;
+}
+input[type="checkbox" i] {
+    background-color: black;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
