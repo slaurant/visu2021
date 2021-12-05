@@ -81,6 +81,9 @@ function selectTop3(min, max){
     
             let yearGold = dataYears[0].year;
             let yearSilver = dataYears[1].year;
+
+            let iconTypeGold = icon[typeGold];
+            let iconTypeSilver =icon[typeSilver];
     
             document.getElementById("dateGold").innerHTML = yearGold;
             document.getElementById("locationGold").innerHTML = locationGold;
@@ -96,17 +99,18 @@ function selectTop3(min, max){
 
             document.getElementById("iconTypeGold").className = iconTypeGold ; 
             document.getElementById("iconTypeSilver").className = iconTypeSilver ; 
-            document.getElementById("iconTypeBronze").className = "fas fa-hand-middle-finger" ; 
+            document.getElementById("iconTypeBronze").className = "fas fa-exclamation-triangle" ; 
 
             document.getElementById("typeGold").innerHTML = typeGold;
             document.getElementById("typeSilver").innerHTML = typeSilver;
-            document.getElementById("typeBronze").innerHTML = typeBronze;
+            document.getElementById("typeBronze").innerHTML = "No other event";
         }
         else if (dataYears.length === 1){
             let locationGold = dataYears[0].locationName;
             let deathsGold = dataYears[0].deaths;
             let typeGold = dataYears[0].typeEvent;
             let yearGold = dataYears[0].year;
+            let iconTypeGold = icon[typeGold];
     
             document.getElementById("dateGold").innerHTML = yearGold;
             document.getElementById("locationGold").innerHTML = locationGold;
@@ -120,8 +124,13 @@ function selectTop3(min, max){
             document.getElementById("locationBronze").innerHTML = "No other event";
             document.getElementById("deathsBronze").innerHTML = "No other event";
 
-            document.getElementById("iconTypeGold").className = iconTypeGold ;  
+            document.getElementById("iconTypeGold").className = iconTypeGold ; 
+            document.getElementById("iconTypeSilver").className = "fas fa-exclamation-triangle" ; 
+            document.getElementById("iconTypeBronze").className = "fas fa-exclamation-triangle" ; 
+
             document.getElementById("typeGold").innerHTML = typeGold;
+            document.getElementById("typeSilver").innerHTML = "No other event";
+            document.getElementById("typeBronze").innerHTML = "No other event";
 
         }
         else {
@@ -136,6 +145,14 @@ function selectTop3(min, max){
             document.getElementById("dateBronze").innerHTML = "No event";
             document.getElementById("locationBronze").innerHTML = "No event";
             document.getElementById("deathsBronze").innerHTML = "No event";
+
+            document.getElementById("iconTypeGold").className = "fas fa-exclamation-triangle" ; 
+            document.getElementById("iconTypeSilver").className = "fas fa-exclamation-triangle" ; 
+            document.getElementById("iconTypeBronze").className = "fas fa-exclamation-triangle" ; 
+
+            document.getElementById("typeGold").innerHTML = "No event";
+            document.getElementById("typeSilver").innerHTML = "No event";
+            document.getElementById("typeBronze").innerHTML = "No event";
         }
    });
 }
