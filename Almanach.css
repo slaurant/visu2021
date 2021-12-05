@@ -24,9 +24,7 @@ h3{
     width: 30%;
 }
 
-.filter {
-    padding: 15px;
-}
+
 
 #Tops {
     width: 50%;
@@ -38,9 +36,8 @@ h3{
 }
 
 #timeline {
-    margin: 50px;
     width:90%;
-    height:150px;
+    height:200px;
     padding:5px;
     text-align: center;
 }

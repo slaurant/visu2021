@@ -14,7 +14,7 @@
 
 	<body>
 		<!--Title-->
-		<h1>Almanach des catastrophes</h1>
+		<h1>Disasters Almanac</h1>
 		<!-- Box with Map & Legend -->
 		<div id="mapbox" class="Element" > <!-- Note: "Element" classes = boxes-->
 			<div id="map"></div>
@@ -22,7 +22,7 @@
 		</div> 
 		<!-- filter box-->
 		<div id="filters" class="Element">
-			<h1>Filters</h1>
+			<h2>Legend</h2>
 
 			<ul>
 				<li>
@@ -42,8 +42,8 @@
 				</li>
 
 			</ul>
-	
 			<div class="filter">Death amount:
+				
 				<ul id="deathFilter">
 					<li>
 						<input id="deathAmountOrder1" type="checkbox" class="deathCheckBox" name="deathAmountOrder1" value="1" checked >
@@ -63,10 +63,9 @@
 					<li>
 						<input id="deathAmountOrder4" type="checkbox" class="deathCheckBox" name="deathAmountOrder3" value="4" checked >
 						<label for="deathAmountOrder4">Very Many (~1001 or more people)</label>
-						<br>
 					</li>
 			</div>
-			
+			<h2>Filters</h2>
 			<div class="filter">Minimum amount of damage ($): <br>
 				<select id = "damageFilter">  
 					<option value='0'>None</option>
@@ -110,7 +109,7 @@
 			</p>
 				
 				<div class="btn-group">
-					<button id="all" style="background-color:salmon; width:100%">All</button>
+					<button id="all" style="background-color:darkslategray; width:100%">All</button>
 				</div>
 
 				<div class="btn-group">
