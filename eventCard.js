@@ -23,15 +23,15 @@ function eventModal(eventId, eventType){
   var modalText = d3.select("#modalText")
   
   //change modal content class for formatting
-  if(eventType  == "eruptions"){
+  if(["eruptions", "eruption"].includes(eventType)){
     var fileName = "Datasets_formatted/volcano_events_formatted.json"
     var eventTypeText = "Eruption"
     d3.select("#modalContent").style("background-color", "firebrick")
-  } else if(eventType == "earthquakes"){
+  } else if(["earthquake", "earthquakes"].includes(eventType)){
     var fileName = "Datasets_formatted/earthquakes_events_formatted.json"
     var eventTypeText = "Earthquake"
     d3.select("#modalContent").style("background-color", "seagreen")
-  } else if(eventType == "tsunamis"){
+  } else if(["tsunamis", "tsunami"].includes(eventType)){
     var fileName = "Datasets_formatted/tsunamis_events_formatted.json"
     var eventTypeText = "Tsunami"
     d3.select("#modalContent").style("background-color", "royalblue")
@@ -128,3 +128,26 @@ window.onclick = function(event) {
   }
 }
 
+// Event listener : when click on tops, display pop up card
+document.getElementById("gold").addEventListener("click", (e) =>{
+  console.log(idGold)
+  console.log(typeGold)
+  eventModal(idGold, typeGold)
+});
+
+document.getElementById("silver").addEventListener("click", (e) =>{
+  console.log(idSilver)
+  console.log(typeSilver)
+  eventModal(idSilver, typeSilver)
+});
+
+document.getElementById("bronze").addEventListener("click", (e) =>{
+  console.log(idBronze)
+  console.log(typeBronze)
+  eventModal(idBronze, typeBronze)
+});
+
+
+document.getElementById("gold").style.cursor = 'pointer'
+document.getElementById("silver").style.cursor = 'pointer'
+document.getElementById("bronze").style.cursor ='pointer'

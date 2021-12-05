@@ -1,6 +1,12 @@
 
 selectTop3(-2000, 2021);
     
+var idGold 
+var typeGold
+var idSilver 
+var typeSilver
+var idBronze
+var typeBronze
 
 
 function selectTop3(min, max){
@@ -154,5 +160,13 @@ function selectTop3(min, max){
             document.getElementById("typeSilver").innerHTML = "No event";
             document.getElementById("typeBronze").innerHTML = "No event";
         }
+        idGold = dataYears[0].id
+        typeGold = dataYears[0].typeEvent
+        idSilver = dataYears[1].id
+        typeSilver = dataYears[1].typeEvent
+        idBronze = dataYears[2].id
+        typeBronze = dataYears[2].typeEvent
+        
    });
 }
+
