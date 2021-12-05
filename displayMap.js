@@ -195,4 +195,3 @@ function filterMap(min, max) {
 	map.setFilter("earthquakes", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])
 	map.setFilter("eruptions", ["all", minDeathsFilter,damageFilter, filterDateMin, filterDateMax])	
 	}
-
