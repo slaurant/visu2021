@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html style="background-color: blanchedalmond">
+<html style="background-color:#22272e; color:whitesmoke">
 	<head>
 		<meta charset="utf-8">
 		<title>Almanach</title>   <!-- Set the title of the page here -->
@@ -47,40 +47,33 @@
 				<ul id="deathFilter">
 					<li>
 						<input id="deathAmountOrder1" type="checkbox" class="deathCheckBox" name="deathAmountOrder1" value="1" checked >
-						<div class="circle" style="display: inline-block; height: 5px; width: 5px;"></div>				
+						<div class="circle" style="display: inline-block; height: 5px; width: 5px; background-color: whitesmoke;"></div>				
 						<label for="deathAmountOrder1">Few (~1 to 50 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder2" type="checkbox" class="deathCheckBox" name="deathAmountOrder2" value="2" checked >
-						<div class="circle" style="display: inline-block; height: 8px; width: 8px;"></div>				
+						<div class="circle" style="display: inline-block; height: 8px; width: 8px; background-color: whitesmoke"></div>				
 						<label for="deathAmountOrder2">Some (~51 to 100 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder3" type="checkbox" class="deathCheckBox" name="deathAmountOrder3" value="3" checked >
-						<div class="circle" style="display: inline-block; height: 11px; width: 11px;"></div>				
+						<div class="circle" style="display: inline-block; height: 11px; width: 11px; background-color: whitesmoke"></div>				
 						<label for="deathAmountOrder3">Many (~101 to 1000 people)</label>
 						<br>
 					</li>
 					<li>
 						<input id="deathAmountOrder4" type="checkbox" class="deathCheckBox" name="deathAmountOrder3" value="4" checked >
-						<div class="circle" style="display: inline-block; height: 16px; width: 16px;"></div>				
+						<div class="circle" style="display: inline-block; height: 16px; width: 16px; background-color: whitesmoke"></div>				
 						<label for="deathAmountOrder4">Very Many (~1001 or more people)</label>
 					</li>
 			</div>
 			<h2>Filters</h2>
-			<div class="filter">Minimum amount of damage ($): <br>
-				<select id = "damageFilter">  
-					<option value='0'>None</option>
-					<option value='1'>Limited (<$1 million)</option> 
-					<option value='2'>Moderate (~$1 to $5 million)</option>						
-					<option value='3'>Severe (~>$5 to $24 million)</option>
-					<option value='4'> Extreme (~$25 million or more)</option>
-				</select>
-			</div>
+			
+			<center>
 			<div class="filter" id='tsunamiValidityDiv'>Tsunami minimum validity : <br>
-				<select id = "tsunamisValidityFilter">  
+				<select id = "tsunamisValidityFilter" style="background-color: #545d68; color: whitesmoke;">  
 					<option value='0'>Any</option>
 					<option value='1'>Very Doubtful Tsunami</option> 
 					<option value='2'> Questionable Tsunami</option>
@@ -89,7 +82,7 @@
 				</select>
 			</div>
 			<div class="filter" id='tsunamiCauseDiv'>Cause of Tsunami : <br>
-				<select id = "tsunamisSourceFilter">  
+				<select id = "tsunamisSourceFilter" style="background-color: #545d68; color: whitesmoke;">  
 					<option value='-1'>All</option>  
 					<option value="0"> Unkown</option>  
 					<option value="1">Earthquake</option>
@@ -104,9 +97,19 @@
 					<option value="11">Astronomical Tide</option>
 				</select>  
 			</div>
-		</div
+			<div class="filter">Minimum amount of damage ($): <br>
+				<select id = "damageFilter" style="background-color: #545d68; color: whitesmoke;">  
+					<option value='0'>None</option>
+					<option value='1'>Limited (<$1 million)</option> 
+					<option value='2'>Moderate (~$1 to $5 million)</option>						
+					<option value='3'>Severe (~>$5 to $24 million)</option>
+					<option value='4'> Extreme (~$25 million or more)</option>
+				</select>
+			</div>
+		</center>
+		</div>
 		
-		><div id="timeline" class='Element'>
+		<div id="timeline" class='Element'>
 			<p>
 				<label for="amount">Years range:</label>
 				<strong id = "amount"></strong>
@@ -119,8 +122,8 @@
 				<div class="btn-group">
 					<button id="antiquity" style="background-color:orange; width:40%"> Antiquity</button>
 					<button id="middleAge" style="background-color:steelblue; width:25%">Middle Age</button>
-					<button id="modernTimes" style="background-color:yellowgreen; width:15%">Modern Time</button>
-					<button id="contemporaryEra" style="background-color:crimson; width:20%">Contemporary Era</button>
+					<button id="modernTimes" style="background-color:yellowgreen; width:17.5%">Modern Time</button>
+					<button id="contemporaryEra" style="background-color:crimson; width:17.5%">Contemporary Era</button>
 				</div>
 				<div id="slider-range" class="Element"></div>
 		

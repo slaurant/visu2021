@@ -90,14 +90,16 @@ h3{
 /* CSS code for the text elements inside an element that has the axis class */
 
 .axis text {
-    font: 12px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */}
+    font: 12px sans-serif;   /* Sets the font family to sans-serif the the font-size to 10px */
+    stroke: whitesmoke;
+}
 
 
 /* CSS code for the path elements inside an element that has the axis class */
 
 .axis path {
     fill: none;   /* Otherwise, the axis would look like a thick line */
-    stroke: black;
+    stroke: whitesmoke;
 }
 
 /* CSS code for the element that has the id barchart */
