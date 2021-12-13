@@ -1,37 +1,41 @@
 
 selectTop3(-2000, 2021);
     
-var idGold 
-var typeGold
-var idSilver 
-var typeSilver
-var idBronze
-var typeBronze
-
+let idGold 
+let typeGold
+let idSilver 
+let typeSilver
+let idBronze
+let typeBronze
 
 function selectTop3(min, max){
     
     d3.json("Datasets_formatted/all_data.json", function(data){   // The code in the function is executed only when the data is loaded. All code requiring that the data is fully loaded shoud come here
         
+        // Array to indicate which icon should be displayed to match the event type
         const icon = {
             "earthquake" : "fas fa-globe-americas", 
             "tsunami" : "fas fa-water", 
             "eruption" : "fas fa-fire-alt", 
         }
 
+        //Create an array which will contain the events happening during the period selected on the timeline
         let dataYears = [];
         
+        //Add the events happening during the period selected on the timeline to the dataYears array
         for (var i=0; i < data.length; i++){
             if (data[i].year>=min && data[i].year<=max){
                 dataYears.push(data[i])
             }
-        } 
+        }
+        
+        //Sort dataYears by number of deaths (decreasing order)
         dataYears.sort(function (a, b) {
             return b.deaths - a.deaths;
             });
 
 
-        if (dataYears.length >= 3 ){
+        if (dataYears.length >= 3 ){ //There is at least 3 events for the period selected on the timeline
             let locationGold = dataYears[0].locationName;
             let locationSilver = dataYears[1].locationName;
             let locationBronze = dataYears[2].locationName;
@@ -75,7 +79,7 @@ function selectTop3(min, max){
 
 
         }
-        else if (dataYears.length === 2 ){
+        else if (dataYears.length === 2 ){ //There is exactly 2 events for the period selected on the timeline
             let locationGold = dataYears[0].locationName;
             let locationSilver = dataYears[1].locationName;
             
@@ -111,7 +115,7 @@ function selectTop3(min, max){
             document.getElementById("typeSilver").innerHTML = typeSilver;
             document.getElementById("typeBronze").innerHTML = "No other event";
         }
-        else if (dataYears.length === 1){
+        else if (dataYears.length === 1){ //There is exactly 1 events for the period selected on the timeline
             let locationGold = dataYears[0].locationName;
             let deathsGold = dataYears[0].deaths;
             let typeGold = dataYears[0].typeEvent;
@@ -139,7 +143,7 @@ function selectTop3(min, max){
             document.getElementById("typeBronze").innerHTML = "No other event";
 
         }
-        else {
+        else { //There is no event for the period selected on the timeline
             document.getElementById("dateGold").innerHTML = "No event";
             document.getElementById("locationGold").innerHTML = "No event";
             document.getElementById("deathsGold").innerHTML = "No event";

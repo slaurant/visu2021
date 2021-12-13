@@ -1,4 +1,4 @@
-
+// This code is greatly inspired by https://jqueryui.com/slider/#range
 
 function setTimelinePeriod(min, max) {
   // update slider
@@ -12,14 +12,13 @@ function setTimelinePeriod(min, max) {
   filterMap(min, max);
   //update chart
   drawBarChart("volcano", "firebrick", min, max);   // When the button is clicked, draw bar chart for eruptions
-  change("volcanos_chart" , "firebrick");
+  change("volcanos_chart" , "firebrick"); 
   change("tsunamis_chart" , "rgb(50, 63, 73)");
   change("earthquakes_chart" , "rgb(50, 63, 73)");
   // update top
   selectTop3(min, max);
 
 }
-
 
 $(document).ready(function(){
   sliderElement = $( "#slider-range" )
@@ -50,7 +49,8 @@ $(document).ready(function(){
       contemporaryEra: [1789, 2021],
       all: [-2000, 2021],
     }
-
+    
+    //If a period button is clicked, set the timeline range to the the corresponding dates
     for (const period of Object.keys(periods)) {
       const periodButton = document.getElementById(period);
       periodButton.addEventListener('click', (e) => {
@@ -61,4 +61,3 @@ $(document).ready(function(){
     }
 });
 
-//https://jqueryui.com/slider/#range

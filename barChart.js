@@ -1,12 +1,14 @@
-// The call to drawBarChart displays the bar chart representing the dataset sales on the page
+/////////////////////////////////////////////////////////////////////
+//THIS CODE IS MASSIVELY TAKEN FROM THE CODE GIVEN BY JEROME MAQUOI//
+/////////////////////////////////////////////////////////////////////
+
 // By default, the data for the eruptions is displayed
+drawBarChart("volcano", "firebrick", -2000, 2021);
+
+
 function change(btn , col) {
     document.getElementById(btn).style.backgroundColor=col;
 }
-
-
-
-drawBarChart("volcano", "firebrick", -2000, 2021);
 
 d3.select("#volcanos_chart")   // Selection of the button that has the id volcano_chart
     .on("click", function(){   // Behavior when the button is clicked
@@ -32,7 +34,11 @@ d3.select("#earthquakes_chart")   // Selection of the button that has the id ear
         change("volcanos_chart" , "rgb(50, 63, 73)")
     });
 
+
+
 function drawBarChart(typeEvent, col, min, max){
+    
+    //Initialize the min and max parameters when they are not specified while calling the function
     if (min === undefined || max === undefined) {
 		const sliderElement = $( "#slider-range" )
 		const datesSelected = sliderElement.slider( "option", "values")
@@ -44,24 +50,24 @@ function drawBarChart(typeEvent, col, min, max){
         
         let deathCat1 = 0; // Initialize the counter for the events which made [1,50] deaths
         let deathCat2 = 0; // Initialize the counter for the events which made [51,100] deaths
-        let deathCat3 = 0; // Initialize the counter for the events which made [51,100] deaths
-        let deathCat4 = 0; // Initialize the counter for the events which made [51,100] deaths
+        let deathCat3 = 0; // Initialize the counter for the events which made [101,1000] deaths
+        let deathCat4 = 0; // Initialize the counter for the events which made strictly more than 1000 deaths
 
         for (var i=0; i < data.length; i++){
-            if (data[i].year>=min && data[i].year<=max){
-                if (data[i].deathsAmountOrder === 1){
-                    deathCat1 += 1;
-                } else if (data[i].deathsAmountOrder === 2){
-                    deathCat2 += 1
-                } else if (data[i].deathsAmountOrder === 3){
-                    deathCat3 += 1
-                } else if (data[i].deathsAmountOrder === 4){
-                    deathCat4 += 1 
+            if (data[i].year>=min && data[i].year<=max){ //Only takes the events happening during the period selected on the timeline
+                if (data[i].deathsAmountOrder === 1){ //If the event made [1,50] deaths
+                    deathCat1 += 1; //Increments the first counter by 1
+                } else if (data[i].deathsAmountOrder === 2){ //If the event made [51,100] deaths
+                    deathCat2 += 1 //Increments the second counter by 1
+                } else if (data[i].deathsAmountOrder === 3){ //If the event made [101,1000] deaths
+                    deathCat3 += 1 //Increments the third counter by 1
+                } else if (data[i].deathsAmountOrder === 4){ //If the event made strictly more than 1000 deaths
+                    deathCat4 += 1 //Increments the fourth counter by 1
                 }
             }
         }
 
-        let deathRepartition = [
+        let deathRepartition = [ //Create the array which will be used to make the bar chart
             {category : "[1,50] deaths", evenementCount : deathCat1}, 
             {category : "[51,100] deaths", evenementCount : deathCat2}, 
             {category : "[101,1000] deaths", evenementCount : deathCat3}, 
@@ -96,10 +102,10 @@ function drawBarChart(typeEvent, col, min, max){
         let x = d3.scale.ordinal()
             .rangeBands([0, width], .1);   // The allocated space for the bars goes from the start to the end of the x axis. The .1 argument defines a padding (e.g. a blank space) between the bars
 
-        // The domain of the x axis is defined. It consists of an array containing the names of the six agents
+        // The domain of the x axis is defined. It consists of an array containing the four categories
 
         x.domain(deathRepartition.map(function(d){   // data.map(function) returns an array with the same number of entries that the dataset has. For each entry (the parameter d refers to one entry) of the dataset, the transformation defined inside function is applied. The result is the corresponding entry in the array resulting from data.map
-            return d.category;   // The transformation consists of returning d.agent, that is, the agent in the entry d. Thus, it consists of scrapping off the sales amount to keep only the agent's name
+            return d.category;   // The transformation consists of returning d.category, that is, the category in the entry d. Thus, it consists of scrapping off the event count to keep only the category name
         }));
 
 
@@ -108,9 +114,9 @@ function drawBarChart(typeEvent, col, min, max){
         let y = d3.scale.linear()
             .range([height, 0]);   // The allocated space for the bars goes from the start to the end of the y axis
 
-        // The domain of the y axis is defined. The difference between the domain of y and the domain of x is that y represents numbers and x represents nominal data. Thus, the domain of x is an array containing the data entries, whereas the domain of y is an interval, going from 0 to the highest sales amount that can be found in the dataset
+        // The domain of the y axis is defined. The difference between the domain of y and the domain of x is that y represents numbers and x represents nominal data. Thus, the domain of x is an array containing the data entries, whereas the domain of y is an interval, going from 0 to the highest death count that can be found in the dataset
 
-        y.domain([0, d3.max(deathRepartition, function(d){   // This returns the maximum (d3.max) number encountered after keeping only the sales from the dataset
+        y.domain([0, d3.max(deathRepartition, function(d){   // This returns the maximum (d3.max) number encountered after keeping only the death counts from the dataset
             return d.evenementCount;
         })]);
 
@@ -163,14 +169,14 @@ function drawBarChart(typeEvent, col, min, max){
             .data(deathRepartition)   // The dataset data is assigned. Elements with the class bar will be created accordingly
             .enter().append("rect")   // .enter() defines new data elements for which a visual element counterpart (in the present case, a rectangle) needs to be created. The code after .enter() will be executed on each of these visual elements (hence, once per entry in the dataset)
                 .attr("class", "bar")   // The rectangles have the class bar
-                .attr("fill", col)
-                .attr("x", function(d){   // The x position of the rectangle is determined by the agent to which the rectangle corresponds
+                .attr("fill", col) // Set the bar color to the given value (firebrick for volcanoes, dodgerblue for tsunamies and seagreen for earthquakes)
+                .attr("x", function(d){   // The x position of the rectangle is determined by the category to which the rectangle corresponds
                     return x(d.category);
                 })
                 .attr("y", function(d){
-                    return y(d.evenementCount);   // By default, the bars are aligned to the top of the chart (remember, the origin of a SVG element is at its top left corner). y(d.sales) is the size of the gap between the bar aligned to the top and the x axis
+                    return y(d.evenementCount);   // By default, the bars are aligned to the top of the chart (remember, the origin of a SVG element is at its top left corner). y(d.evenementCount) is the size of the gap between the bar aligned to the top and the x axis
                 })
-                .attr("height", function(d){   // The height of each rectangle is computed accordingly to the sales
+                .attr("height", function(d){   // The height of each rectangle is computed accordingly to the death count
                     return height - y(d.evenementCount);
                 })
                 .attr("width", x.rangeBand());   // The width of a bar depends on the space allocated to the bars on the x axis
@@ -182,7 +188,7 @@ function drawBarChart(typeEvent, col, min, max){
             .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 30) + ")")   // The label is translated rightwards by half the width of the chart (thus, it will appear at the middle)
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
             .text("Death Count")   // Label
-            .attr("fill", "whitesmoke")
+            .attr("fill", "whitesmoke") //The label is "written" in white
 
         // A text element is appended to the chart. It contains the label of the y axis
 
@@ -193,6 +199,6 @@ function drawBarChart(typeEvent, col, min, max){
             .attr("dy", "1em")   
             .style("text-anchor", "middle")   // The label is at the middle (without this line, it would be the origin of the text element that would be at the middle of the chart. The label would not be exactly centered)
             .text("Occurences")   // Label
-            .attr("fill", "whitesmoke")
+            .attr("fill", "whitesmoke") //The label is "written" in white
     })
 }

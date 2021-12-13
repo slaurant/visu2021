@@ -15,8 +15,6 @@ var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
 
-
-
 function eventModal(eventId, eventType){
 
   // get Modal text
@@ -98,23 +96,8 @@ function eventModal(eventId, eventType){
 
     //display modal window
     modal.style.display = "block";
-  });
-   
-    
-
-  
-
-
-
-  
+  });  
 };
-
-
-
-
-
-
-
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
